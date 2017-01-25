@@ -1,0 +1,16 @@
+#!/usr/bin/evn python
+#-*- coding: utf-8 -*-
+'''
+Created on 2016年9月10日
+
+@author: hstking hstking@hotmail.com
+'''
+
+from selenium import webdriver
+
+class GetCartoon(object):
+    def __init__(self):
+        self.startUrl = 'http://www.1kkk.com/ch1-406302/''
+
+if __name__ == '__main__':
+    pass

@@ -1,0 +1,18 @@
+#!/usr/bin/evn python
+#-*- coding: utf-8 -*-
+'''
+Created on 2016年9月6日
+
+@author: hstking hstking@hotmail.com
+'''
+
+from selenium import webdriver
+
+driver = webdriver.PhantomJS()
+driver.get('http://192.168.2.90:8080')
+data = driver.find_element_by_xpath('//p')
+print type(data)
+print type(data.text())
+
+#if __name__ == '__main__':
+#    pass

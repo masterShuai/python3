@@ -1,0 +1,56 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\save\sync\code\crawler\bs4Project\.metadata\.plugins\org.eclipse.core.resources\.projects\qidianBS4\com.python.pydev.analysis\v2_indexcache
+mylog|1471356661447400000|E:\save\sync\code\crawler\bs4Project\qidianBS4\mylog.py
+completeBook|1471435856639200000|E:\save\sync\code\crawler\bs4Project\qidianBS4\completeBook.py
+save2mysql|1471435913958200000|E:\save\sync\code\crawler\bs4Project\qidianBS4\save2mysql.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+2=mylog
+1=completeBook
+6=SavebooksData
+9=SavebooksData.__init__
+5=GetBookName
+8=GetBookName.__init__
+10=MyLog.__init__
+3=save2mysql
+4=MyLog
+7=BookItem
+-- END DICTIONARY
+-- START TREE 1
+5
+boo|1|BookItem!9@
+gbn|1|GBN!11@
+get|1|GetBookName!9@
+myl|2|mylog!19@MyLog!17@
+sav|1|SavebooksData!25@
+-- END TREE
+-- START TREE 2
+25
+__i|3|__init__!4&18@__init__!5&10@__init__!6&26@
+aut|1|authorName!7&11@
+boo|2|booksList!8&11@bookName!7&11@
+cat|1|categoryName!7&11@
+cri|1|critical!4&18@
+db|1|db!9&27@
+deb|1|debug!4&18@
+err|1|error!4&18@
+for|1|formatter!10&19@
+get|2|getPages!5&10@getResponseContent!5&10@
+hos|1|host!9&27@
+inf|1|info!4&18@
+log|5|log!8&11@logHandSt!10&19@logFile!10&19@logger!10&19@logHand!10&19@
+mid|1|middleUrl!7&11@
+pag|1|pages!8&11@
+pas|1|passwd!9&27@
+pip|1|pipelines!5&10@
+por|1|port!9&27@
+run|1|run!6&26@
+spi|1|spider!5&10@
+upd|1|updateTime!7&11@
+url|1|urlBase!8&11@
+use|2|user!9&27@user!10&19@
+war|1|warn!4&18@
+wor|1|wordsNum!7&11@
+-- END TREE

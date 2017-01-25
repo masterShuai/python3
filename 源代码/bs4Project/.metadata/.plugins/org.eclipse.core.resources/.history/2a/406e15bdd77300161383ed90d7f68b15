@@ -1,0 +1,28 @@
+#!/usr/bin/evn python
+#-*- coding: utf-8 -*-
+'''
+Created on 2016年9月6日
+
+@author: hstking hstking@hotmail.com
+'''
+
+from selenium import webdriver
+
+driver = webdriver.PhantomJS()
+driver.get('http://ac.qq.com/ComicView/chapter/id/530132/cid/3')
+html = driver.page_source
+#print html
+with open('1.html', 'w') as fp:
+    fp.write(html)
+
+#data = driver.find_element_by_xpath('//div[@class="main" and @id="mainView"]/ul')
+#print data.text
+#data.screenshot('1.png')
+#driver.get_screenshot_as_file('2.png')
+
+#xx = data.screenshot_as_png
+
+driver.close()
+
+#if __name__ == '__main__':
+#    pass

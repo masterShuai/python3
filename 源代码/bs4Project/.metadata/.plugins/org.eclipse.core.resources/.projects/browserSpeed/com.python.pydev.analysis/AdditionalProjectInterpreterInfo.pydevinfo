@@ -1,0 +1,26 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\save\sync\code\crawler\bs4Project\.metadata\.plugins\org.eclipse.core.resources\.projects\browserSpeed\com.python.pydev.analysis\v2_indexcache
+testSpeed|1473188101165200000|E:\save\sync\code\crawler\bs4Project\browserSpeed\testSpeed.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+3=TestBrowserSpeed.__init__
+2=TestBrowserSpeed
+1=testSpeed
+-- END DICTIONARY
+-- START TREE 1
+2
+tbs|1|TBS!11@
+tes|1|TestBrowserSpeed!9@
+-- END TREE
+-- START TREE 2
+7
+__i|1|__init__!2&10@
+bro|1|browsers!3&11@
+lin|1|linkUrl!2&10@
+num|1|num!3&11@
+run|5|run_browser_Chrome!2&10@run_browser_Ie!2&10@run_browser_Firefox!2&10@run_browser_PhantomJS!2&10@run_browser_Edge!2&10@
+tes|1|testBrowser!2&10@
+url|1|url!3&11@
+-- END TREE

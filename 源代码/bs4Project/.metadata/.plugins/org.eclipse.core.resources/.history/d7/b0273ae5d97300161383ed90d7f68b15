@@ -1,0 +1,5012 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf8"/>
+  <title>
+   《食戟之灵》第1话 无尽的荒野-在线漫画-腾讯动漫官方网站
+  </title>
+  <meta content="食戟之灵漫画,食戟之灵全集,食戟之灵漫画全集,腾讯动漫食戟之灵,第1话 无尽的荒野,动漫,漫画,在线漫画阅读,腾讯动漫官方网站" name="keywords"/>
+  <meta content="《食戟之灵》《第1话 无尽的荒野》在线阅读，漫画《食戟之灵》简介：作品连载于周刊杂志《周刊少年JUMP》，与日本同步更新，每周周一更新。
+
+家里经营餐馆的中学生．幸平创真，以料理人的父亲为目标，每天持续磨练自己的厨艺。但是某一天，父亲却要他进入厨艺学校“远月学园”就读。来到远月学园的创真，遇见了一个拥有「神之舌」的少女．薙切绘里奈，但是创真在插班考试中做出的料理，却被绘里奈判定为不合格。
+
+下集更新时间：169话，6月6日（每周一更新）" name="description"/>
+  <noscript>
+   &lt;meta http-equiv="refresh" content="0; url=/ComicView/showLowExplorerPage"&gt;
+  </noscript>
+  <meta content="IE=edge; chrome=1" http-equiv="X-UA-Compatible"/>
+  <meta content="webkit" name="renderer"/>
+  <meta content="width=device-width,initial-scale=1,maximum-scale=1" name="viewport"/>
+  <script async="" src="http://jsqmt.qq.com/cdn_djl.js" type="text/javascript">
+  </script>
+  <script>
+   !function() {
+        var ua = navigator.userAgent,
+            img = new Image(),
+            url = "http://ac.tc.qq.com/store_file_download?buid=15017&uin=1422306610&dir_path=/&name=27_05_10_04fbd53f43847f345b93a937994be031_1922.ori";
+        if (ua.indexOf('MSIE 6.0') !== -1) {
+            window.location.href = '/ComicView/showLowExplorerPage';
+        }
+        img.onload = function() {
+            img.onload = null;
+            img = null;
+            window.loadedFirstPic = url;
+        }
+        img.src = url;
+    }();
+  </script>
+  <link href="http://ac.gtimg.com/media/css/ac.page.chapter.view_v2.3.6.css?v=20160826" rel="stylesheet" type="text/css"/>
+ </head>
+ <body class="view theme-dark roast-right roast-dm is-japan no-roast roast-shrink mobile-device">
+  <div class="logo-wrap logo-sub-wrap">
+   <h1>
+    <a class="logo" href="/" id="logo" title="腾讯动漫">
+     腾讯动漫
+    </a>
+   </h1>
+  </div>
+  <!--头部导航部分 begin-->
+  <div class="nav-wrap" id="navWrapTop">
+   <div class="nav" id="navTop">
+    <div class="logo-wrap">
+     <a class="logo" href="/" id="logo">
+      腾讯动漫
+     </a>
+    </div>
+    <!-- 回到旧版按钮 -->
+    <div class="top-btn-wrap">
+     <a id="fullscreenChange">
+      全屏
+     </a>
+     丨
+     <a href="http://support.qq.com/write.shtml?fid=744" target="_blank" title="意见反馈">
+      意见反馈
+     </a>
+    </div>
+    <!--中间 公告显示-->
+    <!--中间 漫画标题-->
+    <h1 class="title" id="comicTitle">
+     <a href="/" id="home" title="首页">
+      首页
+     </a>
+     <span>
+      &gt;
+     </span>
+     <a href="/Comic/comicInfo/id/530132" id="chapter" title="食戟之灵">
+      食戟之灵
+     </a>
+     <span>
+      &gt;
+     </span>
+     <span class="title-comicHeading">
+      第1话 无尽的荒野
+     </span>
+    </h1>
+    <!--右边 用户操作和信息-->
+    <div class="user-container">
+     <div class="user-avatar-wrap" id="userAvatarWr">
+      <a class="user-name" href="javascript:void(0)" id="userName" target="_self">
+       <img alt="用户头像" class="user-avatar" id="userAvatar" src="http://ac.gtimg.com/media/images/ac_chapter_avatar.jpg"/>
+      </a>
+      <div class="user-signOut-wrap" id="userSignOut" style="display:none;">
+       <span class="arrow">
+       </span>
+       <span class="txt">
+        退出
+       </span>
+      </div>
+     </div>
+     <div class="user-bookshelf ui-right">
+      <a class="user-bookshelf-button" id="bookshelf">
+       <span class="user-ft-ml user-ft-mr">
+        书架
+        <span class="user-bookshelf-count" id="bookshelfNum" style="display:none;">
+        </span>
+       </span>
+       <span class="bookshelf-ft">
+        + 1
+       </span>
+       <!-- <span class="user-ico user-ico-top"></span> -->
+      </a>
+      <div class="user-bookshelf-dialog" id="bookshelfContain" style="display:none">
+       <div class="user-bookshelf-signIn" style="display:block">
+        <ul>
+         <li>
+          ^_^
+         </li>
+         <li>
+          亲，登录后查看“书架”
+         </li>
+         <li>
+          <a class="tologin" id="toLogin">
+           点击登录
+          </a>
+         </li>
+        </ul>
+       </div>
+       <span class="ico-top">
+       </span>
+      </div>
+     </div>
+     <a class="user-sendDesktop ui-right" id="sendDesktop" style="display:none;">
+      <i class="user-send-tick">
+      </i>
+      发送至桌面
+     </a>
+     <a class="user-addFavourites ui-right" id="addFavourites">
+      <span id="favState">
+       收藏
+      </span>
+      <span id="favCount">
+       （36.22万）
+      </span>
+     </a>
+     <!-- <a class="user-signOut ui-right" id="userSign"></a> -->
+     <a class="user-notice iconfont hidden ui-right" id="noticeControl">
+      <span class="tool_title">
+       关闭公告
+      </span>
+     </a>
+    </div>
+   </div>
+  </div>
+  <!--头部导航部分 end-->
+  <iframe allowtransparency="true" class="hidden" frameborder="no" id="checkVipFrame" scrolling="no" src="javascript:void(0);" style="position:fixed;width:100%;height:100%;z-index:1000;top:0;left:0;">
+  </iframe>
+  <!-- 提示继续阅读部分 begin -->
+  <div class="prompt-continue-read" id="promptContinueRead">
+   <span>
+    发现阅读历史(￣.￣)+
+    <a href="/ComicView/index/id/530132/cid/3">
+     第1话 无尽的荒野
+    </a>
+    <a href="/ComicView/index/id/530132/cid/3?top=0&amp;jump=1">
+     [继续阅读]
+    </a>
+   </span>
+   <div class="prompt-continue-mask">
+   </div>
+   <a class="prompt-continue-close" href="javascript:void(0);" id="promptContinueClose">
+    ×
+   </a>
+  </div>
+  <!-- 提示继续阅读部分 end -->
+  <!-- 顶部提示部分 begin -->
+  <div class="prompt-top" id="promptTop" style="display:none;">
+   <span class="prompt-top-mask">
+   </span>
+   <span class="prompt-good-txt">
+    你已赞过了哟
+   </span>
+   <span class="prompt-next-txt">
+    你已进入下一话
+   </span>
+   <span class="prompt-last-txt">
+    你已进入书末页
+   </span>
+  </div>
+  <!-- 顶部提示部分 end -->
+  <!--中间主体漫画部分 begin-->
+  <div class="main" id="mainView" style="height: 180px;">
+   <ul class="comic-contain" id="comicContain">
+    <li style="width: 360px; height: 525px;">
+     <img alt="" class="loaded" data-h="1200" data-pid="1922" data-w="822" src="http://ac.tc.qq.com/store_file_download?buid=15017&amp;uin=1422306610&amp;dir_path=/&amp;name=27_05_10_04fbd53f43847f345b93a937994be031_1922.ori"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      1/62
+     </span>
+    </li>
+    <li class="main_ad_top">
+     <a href="http://ac.qq.com/event/collectMagicBall2016/index.shtml?auth=1" style="width:650px;height:110px" target="_blank">
+      <img alt="夏日浴场" id="adTop" src="http://manhua.qpic.cn/manhua_detail/0/02_16_37_67b01b50c8fbba793daacb1459c6a778.jpg/0"/>
+     </a>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       02
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" class="loaded" data-h="1200" data-pid="1923" data-w="822" src="http://ac.tc.qq.com/store_file_download?buid=15017&amp;uin=1422306611&amp;dir_path=/&amp;name=27_05_10_2c9693fa998e9d6db0cd2b94410a3613_1923.ori" style="opacity: 1;"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      2/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       03
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" class="loaded" data-h="1200" data-pid="1924" data-w="822" src="http://ac.tc.qq.com/store_file_download?buid=15017&amp;uin=1422306611&amp;dir_path=/&amp;name=27_05_10_333be4ed60319c72aa4a44420decc87f_1924.ori" style="opacity: 0.86;"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      3/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       04
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1925" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      4/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       05
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1926" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      5/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       06
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1927" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      6/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       07
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1928" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      7/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       08
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1929" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      8/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       09
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1930" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      9/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       10
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1931" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      10/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       11
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1932" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      11/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       12
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1933" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      12/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       13
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1934" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      13/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       14
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1935" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      14/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       15
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1936" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      15/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       16
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1937" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      16/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       17
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1938" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      17/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       18
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1939" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      18/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       19
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1940" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      19/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       20
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1941" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      20/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       21
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1942" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      21/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       22
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1943" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      22/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       23
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1944" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      23/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       24
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1945" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      24/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       25
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1946" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      25/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       26
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1947" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      26/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       27
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1948" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      27/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       28
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1949" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      28/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       29
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1950" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      29/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       30
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1951" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      30/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       31
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1952" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      31/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       32
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1953" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      32/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       33
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1954" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      33/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       34
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1955" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      34/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       35
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1956" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      35/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       36
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1957" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      36/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       37
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1958" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      37/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       38
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1959" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      38/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       39
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1960" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      39/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       40
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1961" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      40/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       41
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1962" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      41/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       42
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1963" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      42/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       43
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1964" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      43/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       44
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1965" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      44/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       45
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1966" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      45/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       46
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1967" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      46/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       47
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1968" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      47/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       48
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1969" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      48/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       49
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1970" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      49/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       50
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1971" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      50/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       51
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1972" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      51/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       52
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1973" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      52/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       53
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1974" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      53/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       54
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1975" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      54/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       55
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1976" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      55/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       56
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1977" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      56/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       57
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1978" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      57/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       58
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1979" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      58/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       59
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1980" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      59/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       60
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1981" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      60/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       61
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="1982" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      61/62
+     </span>
+    </li>
+    <li style="width: 360px; height: 525px;">
+     <div class="comic-text">
+      <em>
+       62
+      </em>
+      <span class="ico-loading">
+      </span>
+     </div>
+     <img alt="" data-h="1200" data-pid="4648" data-w="822" src="http://ac.gtimg.com/media/images/pixel.gif"/>
+     <div class="for-roast">
+     </div>
+     <div class="own-roast">
+     </div>
+     <div class="adv-roast">
+      <div class="">
+       <sup>
+       </sup>
+       <sub>
+       </sub>
+      </div>
+     </div>
+     <span class="comic-ft">
+      62/62
+     </span>
+    </li>
+    <li class="main_ad_bottom">
+     <a href="http://ac.qq.com/Comic/ComicInfo/id/536435" style="width:650px;height:110px" target="_blank">
+      <img alt="地藏齐天" id="adBottom" src="http://manhua.qpic.cn/manhua_detail/0/06_09_46_a467c96d6be94ce425fde21cc36f83d5.jpg/0"/>
+     </a>
+    </li>
+   </ul>
+   <div class="main_control">
+    <ul class="main_control_list clearfix">
+     <li class="main_control_favourite margin-fix">
+      <a class="main_control_button main_control_button_normal">
+       <span class="iconfont icon-favourite" id="iconFavourite">
+       </span>
+       <span id="iconFavouritePro">
+        收藏
+       </span>
+      </a>
+     </li>
+     <li class="main_control_award">
+      <a class="main_control_button main_control_button_normal">
+       <span class="iconfont icon-award" id="iconPrize">
+       </span>
+       <span>
+        打赏TA
+       </span>
+      </a>
+      <dl class="main_control_dialog">
+       <dt>
+        《食戟之灵》
+       </dt>
+       <dd>
+        <dl class="main_control_dialog_count_list">
+         <dd class="main_control_dialog_borderRight">
+          <span class="main_control_dialog_count" id="highPrize">
+           --
+          </span>
+          <span>
+           最高受赏(点券)
+          </span>
+         </dd>
+         <dd class="main_control_dialog_borderRight">
+          <span class="main_control_dialog_count" id="totalPrize">
+           --
+          </span>
+          <span>
+           共被打赏(次)
+          </span>
+         </dd>
+         <dd>
+          <span class="main_control_dialog_count" id="rankPrize">
+           --
+          </span>
+          <span>
+           本站排名
+          </span>
+          <i class="ico-bottom-3c">
+          </i>
+         </dd>
+        </dl>
+       </dd>
+       <dd>
+        <a class="main_control_dialog_button" id="rewardShow">
+         我来打赏
+        </a>
+       </dd>
+      </dl>
+     </li>
+    </ul>
+    <a class="main_control_next" href="/ComicView/index/id/530132/cid/4?fromPrev=1" id="mainControlNext">
+     即将进入下一话
+     <span class="iconfont icon-next">
+     </span>
+    </a>
+    <span class="main_control_point">
+     主人，发现新彩蛋！(↑ ↓)快速翻页，（← →）切换章节，（Ctrl+滚轮操作）缩放漫画，（F11）全屏洁净阅读，和鼠标说拜拜！！
+    </span>
+   </div>
+  </div>
+  <!--中间主体漫画部分 end-->
+  <!--吐槽模版 start-->
+  <script id="roastMod" type="text/html">
+   {{each list}}
+    <p style="left:{{$value.x}}%;top:{{$value.y}}%;"{{if +$value.fc}} class="color-{{$value.fc}}"{{/if}} data-roast-hide="1" data-roast-id="{{$value.roastId}}" data-roast-seq="{{$value.sequence}}"><span></span>{{$value.content}}{{if $value.good > 0}}<i>{{if $value.good >= 10000}}{{($value.good - $value.good % 10000) / 10000}}万{{else}}{{$value.good}}{{/if}}</i>{{/if}}<b style="display:none;"></b></p>
+{{/each}}
+  </script>
+  <script id="roastModForDm" type="text/html">
+   {{each list}}
+    <p style="left:{{width}}px;top:{{random[$index] * 45 + 50}}px;" class="{{if +$value.fc}}color-{{$value.fc}}{{/if}}" data-roast-id="{{$value.roastId}}" data-roast-seq="{{$value.sequence}}">{{$value.content}}{{if $value.good > 0}}<span>{{if $value.good >= 10000}}{{($value.good - $value.good % 10000) / 10000}}万{{else}}{{$value.good}}{{/if}}</span>{{/if}}</p>
+{{/each}}
+  </script>
+  <script id="roastChangeMod" type="text/html">
+   {{each list}}
+    <p style="left:{{$value.x}}%;top:{{$value.y}}%;opacity:1;filter:alpha(opacity=100)"{{if +$value.fc}} class="color-{{$value.fc}}"{{/if}} data-roast-id="{{$value.roastId}}" data-roast-seq="{{$value.sequence}}"><span></span>{{$value.content}}{{if $value.good > 0}}<span>{{if $value.good >= 10000}}{{($value.good - $value.good % 10000) / 10000}}万{{else}}{{$value.good}}{{/if}}</span>{{/if}}<b style="display:none;"></b></p>
+{{/each}}
+  </script>
+  <!--吐槽模版 end-->
+  <!--猜你喜欢 begin-->
+  <!--普通部分 start-->
+  <div class="recommend has-left" data-scroll="scrollRecommand" id="recommend">
+   <a class="recommend_close" id="recommendFadeOut">
+    <span class="ui-left">
+     猜你喜欢
+    </span>
+    <span class="iconfont icon-arrow-top">
+    </span>
+   </a>
+   <div class="scroll-relative">
+    <div class="scroll-warp" id="recommendListWrap" style="width: 0px; height: 0px;">
+     <ul class="recommend_list moved" id="recommendList" style="position: absolute; -webkit-transform: translate(0px, 0px) translateZ(0px);">
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/531070?_via=pc.newview.comleft1" target="_blank">
+        <img alt="PUNK机甲熊猫" data-pvg="0" src="http://manhua.qpic.cn/manhua_cover/0/27_10_22_22aa9aec67658cb2fee3f7a90f22d4b9.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/531070?_via=pc.newview.comleft1" target="_blank" title="PUNK机甲熊猫">
+           PUNK机甲熊猫
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/531070?_via=pc.newview.comleft1" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/3" target="_blank" title="冒险">
+           冒险
+          </a>
+          <a href="/Comic/index/theme/17" target="_blank" title="格斗">
+           格斗
+          </a>
+          <a href="/Comic/index/theme/26" target="_blank" title="机甲">
+           机甲
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           7.8
+          </span>
+          <span>
+           (151人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           故事发生在公元24世纪，经过了几个世纪的努力，地球上的人类从工业革命到...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/532496?_via=pc.newview.comleft2" target="_blank">
+        <img alt="御狐之绊" data-pvg="1" src="http://manhua.qpic.cn/manhua_cover/0/22_14_35_cf471b9369087863c520a5806e76d13f.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/532496?_via=pc.newview.comleft2" target="_blank" title="御狐之绊">
+           御狐之绊
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/532496?_via=pc.newview.comleft2" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/8" target="_blank" title="校园">
+           校园
+          </a>
+          <a href="/Comic/index/theme/3" target="_blank" title="冒险">
+           冒险
+          </a>
+          <a href="/Comic/index/theme/6" target="_blank" title="魔幻">
+           魔幻
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           8.5
+          </span>
+          <span>
+           (825人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           傲娇狐气少女参上！弱气少年，竟然是月入数万的超级黑客？ 为了给败家的父...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/531257?_via=pc.newview.comleft3" target="_blank">
+        <img alt="至黑之夜" data-pvg="2" src="http://manhua.qpic.cn/manhua_cover/0/06_10_32_d7b33cdfc4dc01260a4eabf1c0e62337.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/531257?_via=pc.newview.comleft3" target="_blank" title="至黑之夜">
+           至黑之夜
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/531257?_via=pc.newview.comleft3" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/7" target="_blank" title="玄幻">
+           玄幻
+          </a>
+          <a href="/Comic/index/theme/6" target="_blank" title="魔幻">
+           魔幻
+          </a>
+          <a href="/Comic/index/theme/36" target="_blank" title="唯美">
+           唯美
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           8.4
+          </span>
+          <span>
+           (253人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           一名被夺名的魔法师和一名被通缉的龙族王子，毫无关系的两人，为了夺回属于...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/510337?_via=pc.newview.comleft4" target="_blank">
+        <img alt="花样梁祝" data-pvg="3" src="http://manhua.qpic.cn/manhua_cover/0/13_13_44_7cd3e7e3fa1f54bd92522842bae52de2.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/510337?_via=pc.newview.comleft4" target="_blank" title="花样梁祝">
+           花样梁祝
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/510337?_via=pc.newview.comleft4" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/7" target="_blank" title="玄幻">
+           玄幻
+          </a>
+          <a href="/Comic/index/theme/15" target="_blank" title="恋爱">
+           恋爱
+          </a>
+          <a href="/Comic/index/theme/36" target="_blank" title="唯美">
+           唯美
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           8.3
+          </span>
+          <span>
+           (340人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           现代美少女优等生祝青庭发现自己是传说人物祝英台的转世，只可惜受这份前世...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/519711?_via=pc.newview.comleft5" target="_blank">
+        <img alt="天使图书馆" data-pvg="4" src="http://manhua.qpic.cn/manhua_cover/0/24_15_21_65294c601a42b5fd5a66b49d4698070b.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/519711?_via=pc.newview.comleft5" target="_blank" title="天使图书馆">
+           天使图书馆
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/519711?_via=pc.newview.comleft5" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/40" target="_blank" title="其它">
+           其它
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           8.5
+          </span>
+          <span>
+           (163人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           梓和蕊是一对身世神秘的双胞胎，为避免被“天使”发现，他们从小被分开抚养...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/510342?_via=pc.newview.comleft6" target="_blank">
+        <img alt="洛奇花园" data-pvg="5" src="http://manhua.qpic.cn/manhua_cover/0/08_18_20_379faca417937e63920e79d06f57b9e5.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/510342?_via=pc.newview.comleft6" target="_blank" title="洛奇花园">
+           洛奇花园
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/510342?_via=pc.newview.comleft6" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/7" target="_blank" title="玄幻">
+           玄幻
+          </a>
+          <a href="/Comic/index/theme/15" target="_blank" title="恋爱">
+           恋爱
+          </a>
+          <a href="/Comic/index/theme/36" target="_blank" title="唯美">
+           唯美
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           8.8
+          </span>
+          <span>
+           (194人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           主要讲述在很久很久以前，有一座洛奇花园，花园里充满了神秘，只是据谣传里...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/531080?_via=pc.newview.comleft7" target="_blank">
+        <img alt="魔人" data-pvg="6" src="http://manhua.qpic.cn/manhua_cover/0/27_11_31_05c8ca0a030b9219d096e25dfa292ca1.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/531080?_via=pc.newview.comleft7" target="_blank" title="魔人">
+           魔人
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/531080?_via=pc.newview.comleft7" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/3" target="_blank" title="冒险">
+           冒险
+          </a>
+          <a href="/Comic/index/theme/6" target="_blank" title="魔幻">
+           魔幻
+          </a>
+          <a href="/Comic/index/theme/34" target="_blank" title="动作">
+           动作
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           7.6
+          </span>
+          <span>
+           (399人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           谜一样的少年，心比天高， 随身携带的龙形坠饰有何之谜？ 泰儿带着跟班羽...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/520862?_via=pc.newview.comleft8" target="_blank">
+        <img alt="水浒传" data-pvg="7" src="http://manhua.qpic.cn/manhua_cover/0/23_16_00_8f100439f818aa4e915760b19d56ff17.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/520862?_via=pc.newview.comleft8" target="_blank" title="水浒传">
+           水浒传
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/520862?_via=pc.newview.comleft8" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/7" target="_blank" title="玄幻">
+           玄幻
+          </a>
+          <a href="/Comic/index/theme/18" target="_blank" title="战争">
+           战争
+          </a>
+          <a href="/Comic/index/theme/19" target="_blank" title="历史">
+           历史
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           7.4
+          </span>
+          <span>
+           (124人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           遵照原著改编，北宋末年，朝廷昏庸无能，奸臣当道。各路草寇英雄纷纷揭竿起...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/510286?_via=pc.newview.comleft9" target="_blank">
+        <img alt="一万种恋爱" data-pvg="8" src="http://manhua.qpic.cn/manhua_cover/0/07_14_41_86eeb9a8b3adac28158352a4cf581e97.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/510286?_via=pc.newview.comleft9" target="_blank" title="一万种恋爱">
+           一万种恋爱
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/510286?_via=pc.newview.comleft9" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/40" target="_blank" title="其它">
+           其它
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           8.4
+          </span>
+          <span>
+           (218人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           故事初露端倪，一花从可爱小萝莉长成了美丽冷艳的万人迷，二叶从浑然不觉自...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/520829?_via=pc.newview.comleft10" target="_blank">
+        <img alt="逍遥奇侠" data-pvg="9" src="http://manhua.qpic.cn/manhua_cover/0/05_17_02_98e2e22f4c49b828c3b91b1176f078c6.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/520829?_via=pc.newview.comleft10" target="_blank" title="逍遥奇侠">
+           逍遥奇侠
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/520829?_via=pc.newview.comleft10" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/7" target="_blank" title="玄幻">
+           玄幻
+          </a>
+          <a href="/Comic/index/theme/3" target="_blank" title="冒险">
+           冒险
+          </a>
+          <a href="/Comic/index/theme/16" target="_blank" title="武侠">
+           武侠
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           7.2
+          </span>
+          <span>
+           (255人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           24K纯直男白云飞闯荡江湖攻略冷艳御姐，不料却是魔教大小姐，精怪展家三...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/17428?_via=pc.newview.comleft11" target="_blank">
+        <img alt="甄嬛传Q版" data-pvg="10" src="http://manhua.qpic.cn/manhua_cover/0/26_14_44_656a67bfe2342996a4e300b8a0409055.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/17428?_via=pc.newview.comleft11" target="_blank" title="甄嬛传Q版">
+           甄嬛传Q版
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/17428?_via=pc.newview.comleft11" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/15" target="_blank" title="恋爱">
+           恋爱
+          </a>
+          <a href="/Comic/index/theme/13" target="_blank" title="后宫">
+           后宫
+          </a>
+          <a href="/Comic/index/theme/11" target="_blank" title="萌系">
+           萌系
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           9.0
+          </span>
+          <span>
+           (7121人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           甄嬛从一个不谙世事的单纯少女成长为一个善于谋权的深宫妇人，她无数次跌入...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/529810?_via=pc.newview.comleft12" target="_blank">
+        <img alt="星海镖师" data-pvg="11" src="http://manhua.qpic.cn/manhua_cover/0/10_12_24_8da124eb0d83a1d15d7907d2d66eec3d.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/529810?_via=pc.newview.comleft12" target="_blank" title="星海镖师">
+           星海镖师
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/529810?_via=pc.newview.comleft12" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/7" target="_blank" title="玄幻">
+           玄幻
+          </a>
+          <a href="/Comic/index/theme/1" target="_blank" title="搞笑">
+           搞笑
+          </a>
+          <a href="/Comic/index/theme/3" target="_blank" title="冒险">
+           冒险
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           8.5
+          </span>
+          <span>
+           (877人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           故事是发生在一个有着发达未来科学技术的时代，那时候宇宙间各个星系之间的...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/525176?_via=pc.newview.comleft13" target="_blank">
+        <img alt="亡灵之王" data-pvg="12" src="http://manhua.qpic.cn/manhua_cover/0/11_11_44_be78b45b147380247280ec9261ab7026.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/525176?_via=pc.newview.comleft13" target="_blank" title="亡灵之王">
+           亡灵之王
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/525176?_via=pc.newview.comleft13" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/3" target="_blank" title="冒险">
+           冒险
+          </a>
+          <a href="/Comic/index/theme/4" target="_blank" title="恐怖">
+           恐怖
+          </a>
+          <a href="/Comic/index/theme/6" target="_blank" title="魔幻">
+           魔幻
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           9.1
+          </span>
+          <span>
+           (1916人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           僵尸VS丧尸！传说中的两类“活死人”将在这里展开PK！来自神秘东方的诡...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/521241?_via=pc.newview.comleft14" target="_blank">
+        <img alt="审判之扉" data-pvg="13" src="http://manhua.qpic.cn/manhua_cover/0/26_17_27_c8308914007029552b0d9b052f80c537.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/521241?_via=pc.newview.comleft14" target="_blank" title="审判之扉">
+           审判之扉
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/521241?_via=pc.newview.comleft14" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/7" target="_blank" title="玄幻">
+           玄幻
+          </a>
+          <a href="/Comic/index/theme/6" target="_blank" title="魔幻">
+           魔幻
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           8.9
+          </span>
+          <span>
+           (927人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           妖狐少年天赐惨遭帝国灭族，怀着仇恨拜师学艺出山之后，为寻找复仇的机会而...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+      <li>
+       <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/510651?_via=pc.newview.comleft15" target="_blank">
+        <img alt="勇者传" data-pvg="14" src="http://manhua.qpic.cn/manhua_cover/0/23_14_29_1a3fd5d882657d8ee5dd2667836be854.jpg/0"/>
+       </a>
+       <div class="recommend-info-container">
+        <dl class="recommend-info">
+         <dd class="recommend-info-title clearfix">
+          <a class="ui-left" href="http://ac.qq.com/Comic/comicInfo/id/510651?_via=pc.newview.comleft15" target="_blank" title="勇者传">
+           勇者传
+          </a>
+          <a class="recommend-info-more" href="http://ac.qq.com/Comic/comicInfo/id/510651?_via=pc.newview.comleft15" target="_blank" title="了解详情">
+           了解详情
+          </a>
+         </dd>
+         <dd class="recommend-info-type">
+          <a href="/Comic/index/theme/7" target="_blank" title="玄幻">
+           玄幻
+          </a>
+          <a href="/Comic/index/theme/34" target="_blank" title="动作">
+           动作
+          </a>
+          <a href="/Comic/index/theme/3" target="_blank" title="冒险">
+           冒险
+          </a>
+         </dd>
+         <dd>
+          <span>
+           评分：
+          </span>
+          <span class="recommend-info-fraction">
+           8.7
+          </span>
+          <span>
+           (170人评价)
+          </span>
+         </dd>
+         <dd>
+          <p>
+           由周烈焚、易飘扬合作搭档创作的热血搞笑漫画系列，目前连载于《漫画世界》...
+          </p>
+         </dd>
+        </dl>
+       </div>
+      </li>
+     </ul>
+    </div>
+    <div class="scroll-scrollbar" id="recommendScrollBg" style="display: none;">
+     <div class="scroll-scrollbar-thumb" id="recommendScrollBlock" style="top: 0px;">
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--普通部分 end-->
+  <!--收起状态下的推荐列表-->
+  <div class="recommend_stack hidden" id="recommendStack">
+   <ul class="recommend_stack_all">
+    <li class="recommend_stack_cover recommend_stack_li1">
+     <img alt="PUNK机甲熊猫" src="http://manhua.qpic.cn/manhua_cover/0/27_10_22_22aa9aec67658cb2fee3f7a90f22d4b9.jpg/0"/>
+    </li>
+    <li class="recommend_stack_cover recommend_stack_li2">
+     <img alt="御狐之绊" src="http://manhua.qpic.cn/manhua_cover/0/22_14_35_cf471b9369087863c520a5806e76d13f.jpg/0"/>
+    </li>
+    <li class="recommend_stack_cover recommend_stack_li3">
+     <img alt="审判之扉" src="http://manhua.qpic.cn/manhua_cover/0/26_17_27_c8308914007029552b0d9b052f80c537.jpg/0"/>
+    </li>
+    <li class="recommend_stack_cover recommend_stack_li4">
+     <img alt="勇者传" src="http://manhua.qpic.cn/manhua_cover/0/23_14_29_1a3fd5d882657d8ee5dd2667836be854.jpg/0"/>
+    </li>
+   </ul>
+   <a class="recommend_open" id="recommendFadeIn">
+    <span class="ui-left">
+     猜你喜欢
+    </span>
+    <span class="iconfont icon-arrow-bottom">
+    </span>
+   </a>
+  </div>
+  <!--猜你喜欢 end-->
+  <!--下方工具栏部分 begin-->
+  <div class="tool-wrap" id="toolWrapBottom">
+   <div class="tool" id="toolBottom">
+    <!-- 对页分页 -->
+    <ul class="tool_icon_list tool_icon_list_sub">
+     <li class="tool_icon_list_li tool_icon_last_li">
+      <a>
+       <span class="iconfont icon-tools">
+       </span>
+       <span class="tool_title">
+        退出全屏
+       </span>
+      </a>
+     </li>
+     <li class="tool_icon_list_li tool_icon_open_li">
+      展开工具栏
+     </li>
+    </ul>
+    <ul class="tool_icon_list tool_icon_list_main">
+     <li class="tool_icon_list_li last">
+      <a class="tool_btn_open" id="toolBtn">
+       <span class="tool_title tool_title_last tool_title_last_open">
+        展开工具栏
+       </span>
+       <span class="tool_title tool_title_last tool_title_last_close">
+        收起工具栏
+       </span>
+      </a>
+     </li>
+     <li class="tool_icon_list_li">
+      <a id="themeControl">
+       <span class="tool_icon_themeControl iconfont icon-light">
+       </span>
+       <span class="tool_title tool_title_lamp">
+        开灯
+       </span>
+      </a>
+     </li>
+     <!--             <li class="tool_icon_list_li">
+                <a id="fullscreen">
+                    <span class="iconfont icon-fullsrceen"></span> <span class="tool_title"></span>
+                </a>
+            </li> -->
+     <li class="tool_icon_list_li to-cross-page">
+      <a class="dpage_a" id="crossPage">
+       <span class="iconfont icon-dpage">
+       </span>
+       <span class="tool_title">
+        切换至对页阅读
+       </span>
+      </a>
+     </li>
+     <li class="tool_icon_list_li tool_icon_list_chapter">
+      <a class="tool_chapters_button" id="catalogueControl">
+       <span class="iconfont icon-catalogue">
+       </span>
+       <span class="tool_title">
+        目录
+       </span>
+       <span class="ico-bottom-3c">
+       </span>
+      </a>
+     </li>
+     <li class="tool_icon_list_li">
+      <a href="/ComicView/index/id/530132/cid/4?fromPrev=1" id="nextChapter">
+       <span class="iconfont icon-btnright">
+       </span>
+       <span class="tool_title">
+        下一话
+       </span>
+      </a>
+     </li>
+     <li class="tool_icon_list_li">
+      <a href="javascript:void(0)" id="prevChapter" onclick="noPrev()">
+       <span class="iconfont icon-btnleft">
+       </span>
+       <span class="tool_title">
+        上一话
+       </span>
+      </a>
+     </li>
+    </ul>
+    <!--章节目录列表弹窗 begin-->
+    <div class="tool_chapters_dialog hidden" id="catalogueContain">
+     <div class="tool_chapters_dialog_title_wrap">
+      <h3 class="tool_chapters_dialog_title" id="catalogueSlideDown">
+       <a>
+        <span id="catalogueTitle">
+         《食戟之灵》目录
+        </span>
+        <span class="user-ico">
+        </span>
+       </a>
+      </h3>
+     </div>
+     <div class="catalogue" data-scroll="scrollCatalogue" id="catalogue">
+      <div class="scroll-relative scroll-list">
+       <div class="scroll-warp" id="catalogueListWrap" style="width: 0px; height: 0px;">
+        <ul class="tool_chapters_list moved" id="catalogueList" style="position: absolute; -webkit-transform: translate(0px, 0px) translateZ(0px);">
+         <li class="now-reading">
+          <a href="/ComicView/index/id/530132/cid/3" title="第1话 无尽的荒野">
+           <span class="tool_chapters_list_number">
+            [1]
+           </span>
+           <span class="tool_chapters_list_title">
+            第1话 无尽的荒野
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/4" title="第2话 神之舌">
+           <span class="tool_chapters_list_number">
+            [2]
+           </span>
+           <span class="tool_chapters_list_title">
+            第2话 神之舌
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/5" title="第3话 『变身』生蛋拌饭">
+           <span class="tool_chapters_list_number">
+            [3]
+           </span>
+           <span class="tool_chapters_list_title">
+            第3话 『变身』生蛋拌饭
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/6" title="第4话 魔王叙『玉』">
+           <span class="tool_chapters_list_number">
+            [4]
+           </span>
+           <span class="tool_chapters_list_title">
+            第4话 魔王叙『玉』
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/7" title="第5话 那个厨师不会笑">
+           <span class="tool_chapters_list_number">
+            [5]
+           </span>
+           <span class="tool_chapters_list_title">
+            第5话 那个厨师不会笑
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/8" title="第6话 极星的玛利亚">
+           <span class="tool_chapters_list_number">
+            [6]
+           </span>
+           <span class="tool_chapters_list_title">
+            第6话 极星的玛利亚
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/9" title="第7话 无法地带">
+           <span class="tool_chapters_list_number">
+            [7]
+           </span>
+           <span class="tool_chapters_list_title">
+            第7话 无法地带
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/10" title="第8话 呼唤春天的菜品">
+           <span class="tool_chapters_list_number">
+            [8]
+           </span>
+           <span class="tool_chapters_list_title">
+            第8话 呼唤春天的菜品
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/11" title="第9话 寒冰女王与春之暴风雨">
+           <span class="tool_chapters_list_number">
+            [9]
+           </span>
+           <span class="tool_chapters_list_title">
+            第9话 寒冰女王与春之暴风雨
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/12" title="第10话 肉之侵略者">
+           <span class="tool_chapters_list_number">
+            [10]
+           </span>
+           <span class="tool_chapters_list_title">
+            第10话 肉之侵略者
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/13" title="第11话 对决前夜">
+           <span class="tool_chapters_list_number">
+            [11]
+           </span>
+           <span class="tool_chapters_list_title">
+            第11话 对决前夜
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/14" title="第12话 身临战场">
+           <span class="tool_chapters_list_number">
+            [12]
+           </span>
+           <span class="tool_chapters_list_title">
+            第12话 身临战场
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/15" title="第13话 寂静的盖饭、雄辩的盖饭">
+           <span class="tool_chapters_list_number">
+            [13]
+           </span>
+           <span class="tool_chapters_list_title">
+            第13话 寂静的盖饭、雄辩的盖饭
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/16" title="第14话 小惠的庭院">
+           <span class="tool_chapters_list_number">
+            [14]
+           </span>
+           <span class="tool_chapters_list_title">
+            第14话 小惠的庭院
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/17" title="第15话 摩擦与选拔菁英">
+           <span class="tool_chapters_list_number">
+            [15]
+           </span>
+           <span class="tool_chapters_list_title">
+            第15话 摩擦与选拔菁英
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/18" title="第16话 构思与创造的协奏曲">
+           <span class="tool_chapters_list_number">
+            [16]
+           </span>
+           <span class="tool_chapters_list_title">
+            第16话 构思与创造的协奏曲
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/19" title="第17话 点缀山林的外衣">
+           <span class="tool_chapters_list_number">
+            [17]
+           </span>
+           <span class="tool_chapters_list_title">
+            第17话 点缀山林的外衣
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/20" title="第18话 创意的种子">
+           <span class="tool_chapters_list_number">
+            [18]
+           </span>
+           <span class="tool_chapters_list_title">
+            第18话 创意的种子
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/21" title="第19话 耀眼的灵魂">
+           <span class="tool_chapters_list_number">
+            [19]
+           </span>
+           <span class="tool_chapters_list_title">
+            第19话 耀眼的灵魂
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/22" title="第20话 宣告">
+           <span class="tool_chapters_list_number">
+            [20]
+           </span>
+           <span class="tool_chapters_list_title">
+            第20话 宣告
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/23" title="第21话 至上的食谱">
+           <span class="tool_chapters_list_number">
+            [21]
+           </span>
+           <span class="tool_chapters_list_title">
+            第21话 至上的食谱
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/24" title="第22话 毕业生们">
+           <span class="tool_chapters_list_number">
+            [22]
+           </span>
+           <span class="tool_chapters_list_title">
+            第22话 毕业生们
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/25" title="第23话 存在的证明">
+           <span class="tool_chapters_list_number">
+            [23]
+           </span>
+           <span class="tool_chapters_list_title">
+            第23话 存在的证明
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/26" title="第24话 东方来的魔法师">
+           <span class="tool_chapters_list_number">
+            [24]
+           </span>
+           <span class="tool_chapters_list_title">
+            第24话 东方来的魔法师
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/27" title="第25话 其之面貌">
+           <span class="tool_chapters_list_number">
+            [25]
+           </span>
+           <span class="tool_chapters_list_title">
+            第25话 其之面貌
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/28" title="第26话 盘中的记忆">
+           <span class="tool_chapters_list_number">
+            [26]
+           </span>
+           <span class="tool_chapters_list_title">
+            第26话 盘中的记忆
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/29" title="第27话 败北的苦涩">
+           <span class="tool_chapters_list_number">
+            [27]
+           </span>
+           <span class="tool_chapters_list_title">
+            第27话 败北的苦涩
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/30" title="第28话 谁都无法入眠">
+           <span class="tool_chapters_list_number">
+            [28]
+           </span>
+           <span class="tool_chapters_list_title">
+            第28话 谁都无法入眠
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/31" title="第29话 黎明前的鸡蛋们">
+           <span class="tool_chapters_list_number">
+            [29]
+           </span>
+           <span class="tool_chapters_list_title">
+            第29话 黎明前的鸡蛋们
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/32" title="第30话 假设的圈套">
+           <span class="tool_chapters_list_number">
+            [30]
+           </span>
+           <span class="tool_chapters_list_title">
+            第30话 假设的圈套
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/33" title="第31话 变形">
+           <span class="tool_chapters_list_number">
+            [31]
+           </span>
+           <span class="tool_chapters_list_title">
+            第31话 变形
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/34" title="第32话 舞动的厨师">
+           <span class="tool_chapters_list_number">
+            [32]
+           </span>
+           <span class="tool_chapters_list_title">
+            第32话 舞动的厨师
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/35" title="第33话 至终究会踏上战场的诸位">
+           <span class="tool_chapters_list_number">
+            [33]
+           </span>
+           <span class="tool_chapters_list_title">
+            第33话 至终究会踏上战场的诸位
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/36" title="第34话 围绕着远月的因缘">
+           <span class="tool_chapters_list_number">
+            [34]
+           </span>
+           <span class="tool_chapters_list_title">
+            第34话 围绕着远月的因缘
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/37" title="第35话 感官的炸鸡块①">
+           <span class="tool_chapters_list_number">
+            [35]
+           </span>
+           <span class="tool_chapters_list_title">
+            第35话 感官的炸鸡块①
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/38" title="第36话 感官的炸鸡块②">
+           <span class="tool_chapters_list_number">
+            [36]
+           </span>
+           <span class="tool_chapters_list_title">
+            第36话 感官的炸鸡块②
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/39" title="第37话 感官的炸鸡块③">
+           <span class="tool_chapters_list_number">
+            [37]
+           </span>
+           <span class="tool_chapters_list_title">
+            第37话 感官的炸鸡块③
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/40" title="第38话 感官的炸鸡块④">
+           <span class="tool_chapters_list_number">
+            [38]
+           </span>
+           <span class="tool_chapters_list_title">
+            第38话 感官的炸鸡块④
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/41" title="第39话 被选上的人">
+           <span class="tool_chapters_list_number">
+            [39]
+           </span>
+           <span class="tool_chapters_list_title">
+            第39话 被选上的人
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/42" title="第40话 归来">
+           <span class="tool_chapters_list_number">
+            [40]
+           </span>
+           <span class="tool_chapters_list_title">
+            第40话 归来
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/43" title="第41话 曾经被称为「修罗」的男人">
+           <span class="tool_chapters_list_number">
+            [41]
+           </span>
+           <span class="tool_chapters_list_title">
+            第41话 曾经被称为「修罗」的男人
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/44" title="第42话 把人唤醒的亲吻">
+           <span class="tool_chapters_list_number">
+            [42]
+           </span>
+           <span class="tool_chapters_list_title">
+            第42话 把人唤醒的亲吻
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/45" title="第43话 驰骋万里的厨师">
+           <span class="tool_chapters_list_number">
+            [43]
+           </span>
+           <span class="tool_chapters_list_title">
+            第43话 驰骋万里的厨师
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/46" title="第44话 预料之外的直击">
+           <span class="tool_chapters_list_number">
+            [44]
+           </span>
+           <span class="tool_chapters_list_title">
+            第44话 预料之外的直击
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/47" title="第45话 香气与刺激的伴奏者">
+           <span class="tool_chapters_list_number">
+            [45]
+           </span>
+           <span class="tool_chapters_list_title">
+            第45话 香气与刺激的伴奏者
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/48" title="第46话 卧龙飞天">
+           <span class="tool_chapters_list_number">
+            [46]
+           </span>
+           <span class="tool_chapters_list_title">
+            第46话 卧龙飞天
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/49" title="第47话 战斗的记忆">
+           <span class="tool_chapters_list_number">
+            [47]
+           </span>
+           <span class="tool_chapters_list_title">
+            第47话 战斗的记忆
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/50" title="第48话 未知的已知">
+           <span class="tool_chapters_list_number">
+            [48]
+           </span>
+           <span class="tool_chapters_list_title">
+            第48话 未知的已知
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/51" title="第49话 群狼">
+           <span class="tool_chapters_list_number">
+            [49]
+           </span>
+           <span class="tool_chapters_list_title">
+            第49话 群狼
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/52" title="第50话 超越日常的事物">
+           <span class="tool_chapters_list_number">
+            [50]
+           </span>
+           <span class="tool_chapters_list_title">
+            第50话 超越日常的事物
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/53" title="第51话 魔女的餐桌">
+           <span class="tool_chapters_list_number">
+            [51]
+           </span>
+           <span class="tool_chapters_list_title">
+            第51话 魔女的餐桌
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/54" title="第52话 侍奉花朵的人">
+           <span class="tool_chapters_list_number">
+            [52]
+           </span>
+           <span class="tool_chapters_list_title">
+            第52话 侍奉花朵的人
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/55" title="第53话 来自寒冰国家的男人">
+           <span class="tool_chapters_list_number">
+            [53]
+           </span>
+           <span class="tool_chapters_list_title">
+            第53话 来自寒冰国家的男人
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/56" title="第54话 百花齐放的个人竞演">
+           <span class="tool_chapters_list_number">
+            [54]
+           </span>
+           <span class="tool_chapters_list_title">
+            第54话 百花齐放的个人竞演
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/57" title="第55话 用知识另开门路">
+           <span class="tool_chapters_list_number">
+            [55]
+           </span>
+           <span class="tool_chapters_list_title">
+            第55话 用知识另开门路
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/58" title="第56话 托斯卡尼的月亮">
+           <span class="tool_chapters_list_number">
+            [56]
+           </span>
+           <span class="tool_chapters_list_title">
+            第56话 托斯卡尼的月亮
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/59" title="第57话 她的回忆">
+           <span class="tool_chapters_list_number">
+            [57]
+           </span>
+           <span class="tool_chapters_list_title">
+            第57话 她的回忆
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/60" title="第58话 神圣的香气">
+           <span class="tool_chapters_list_number">
+            [58]
+           </span>
+           <span class="tool_chapters_list_title">
+            第58话 神圣的香气
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/61" title="第59话 各自的武器">
+           <span class="tool_chapters_list_number">
+            [59]
+           </span>
+           <span class="tool_chapters_list_title">
+            第59话 各自的武器
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/62" title="第60话 战士们的宴会">
+           <span class="tool_chapters_list_number">
+            [60]
+           </span>
+           <span class="tool_chapters_list_title">
+            第60话 战士们的宴会
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/63" title="第61话 倾注心意">
+           <span class="tool_chapters_list_number">
+            [61]
+           </span>
+           <span class="tool_chapters_list_title">
+            第61话 倾注心意
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/64" title="第62话 高手登场">
+           <span class="tool_chapters_list_number">
+            [62]
+           </span>
+           <span class="tool_chapters_list_title">
+            第62话 高手登场
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/65" title="第63话 企图">
+           <span class="tool_chapters_list_number">
+            [63]
+           </span>
+           <span class="tool_chapters_list_title">
+            第63话 企图
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/66" title="第64话 on the edge">
+           <span class="tool_chapters_list_number">
+            [64]
+           </span>
+           <span class="tool_chapters_list_title">
+            第64话 on the edge
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/67" title="第65话 便当进化论">
+           <span class="tool_chapters_list_number">
+            [65]
+           </span>
+           <span class="tool_chapters_list_title">
+            第65话 便当进化论
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/68" title="第66话 装入盒内的东西">
+           <span class="tool_chapters_list_number">
+            [66]
+           </span>
+           <span class="tool_chapters_list_title">
+            第66话 装入盒内的东西
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/69" title="第67话 交错的光影">
+           <span class="tool_chapters_list_number">
+            [67]
+           </span>
+           <span class="tool_chapters_list_title">
+            第67话 交错的光影
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/70" title="第68话 「港都」决战">
+           <span class="tool_chapters_list_number">
+            [68]
+           </span>
+           <span class="tool_chapters_list_title">
+            第68话 「港都」决战
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/71" title="第69话 厨房里的独裁者">
+           <span class="tool_chapters_list_number">
+            [69]
+           </span>
+           <span class="tool_chapters_list_title">
+            第69话 厨房里的独裁者
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/72" title="第70话 对极">
+           <span class="tool_chapters_list_number">
+            [70]
+           </span>
+           <span class="tool_chapters_list_title">
+            第70话 对极
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/73" title="第71话 「勇气」和「觉悟」">
+           <span class="tool_chapters_list_number">
+            [71]
+           </span>
+           <span class="tool_chapters_list_title">
+            第71话 「勇气」和「觉悟」
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/74" title="第72话 「玉」的世代">
+           <span class="tool_chapters_list_number">
+            [72]
+           </span>
+           <span class="tool_chapters_list_title">
+            第72话 「玉」的世代
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/75" title="第73话 精细入微">
+           <span class="tool_chapters_list_number">
+            [73]
+           </span>
+           <span class="tool_chapters_list_title">
+            第73话 精细入微
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/76" title="第74话 敏感怪兽">
+           <span class="tool_chapters_list_number">
+            [74]
+           </span>
+           <span class="tool_chapters_list_title">
+            第74话 敏感怪兽
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/77" title="第75话 面具下">
+           <span class="tool_chapters_list_number">
+            [75]
+           </span>
+           <span class="tool_chapters_list_title">
+            第75话 面具下
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/78" title="第76话 决斗的规矩">
+           <span class="tool_chapters_list_number">
+            [76]
+           </span>
+           <span class="tool_chapters_list_title">
+            第76话 决斗的规矩
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/79" title="第77话 追踪者">
+           <span class="tool_chapters_list_number">
+            [77]
+           </span>
+           <span class="tool_chapters_list_title">
+            第77话 追踪者
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/80" title="第78话 毫厘之间的攻防">
+           <span class="tool_chapters_list_number">
+            [78]
+           </span>
+           <span class="tool_chapters_list_title">
+            第78话 毫厘之间的攻防
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/81" title="第79话 最后的「王牌」">
+           <span class="tool_chapters_list_number">
+            [79]
+           </span>
+           <span class="tool_chapters_list_title">
+            第79话 最后的「王牌」
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/82" title="第80话 对决的条件">
+           <span class="tool_chapters_list_number">
+            [80]
+           </span>
+           <span class="tool_chapters_list_title">
+            第80话 对决的条件
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/83" title="第81话 观察者，到来">
+           <span class="tool_chapters_list_number">
+            [81]
+           </span>
+           <span class="tool_chapters_list_title">
+            第81话 观察者，到来
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/84" title="第82话 起跑线">
+           <span class="tool_chapters_list_number">
+            [82]
+           </span>
+           <span class="tool_chapters_list_title">
+            第82话 起跑线
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/85" title="第83话 追逐者与被追者">
+           <span class="tool_chapters_list_number">
+            [83]
+           </span>
+           <span class="tool_chapters_list_title">
+            第83话 追逐者与被追者
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/86" title="第84话 被隐藏的课题">
+           <span class="tool_chapters_list_number">
+            [84]
+           </span>
+           <span class="tool_chapters_list_title">
+            第84话 被隐藏的课题
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/87" title="第85话 第一口的秘密">
+           <span class="tool_chapters_list_number">
+            [85]
+           </span>
+           <span class="tool_chapters_list_title">
+            第85话 第一口的秘密
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/88" title="第86话 装饰配菜">
+           <span class="tool_chapters_list_number">
+            [86]
+           </span>
+           <span class="tool_chapters_list_title">
+            第86话 装饰配菜
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/89" title="第87话 秘策">
+           <span class="tool_chapters_list_number">
+            [87]
+           </span>
+           <span class="tool_chapters_list_title">
+            第87话 秘策
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/90" title="第88话 ～梦的国度～">
+           <span class="tool_chapters_list_number">
+            [88]
+           </span>
+           <span class="tool_chapters_list_title">
+            第88话 ～梦的国度～
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/91" title="第89话 清晨依旧来临">
+           <span class="tool_chapters_list_number">
+            [89]
+           </span>
+           <span class="tool_chapters_list_title">
+            第89话 清晨依旧来临
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/92" title="第90话 铁的意志、钢的心">
+           <span class="tool_chapters_list_number">
+            [90]
+           </span>
+           <span class="tool_chapters_list_title">
+            第90话 铁的意志、钢的心
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/93" title="第91话 互相啃食的野兽">
+           <span class="tool_chapters_list_number">
+            [91]
+           </span>
+           <span class="tool_chapters_list_title">
+            第91话 互相啃食的野兽
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/94" title="第92话 点火装置">
+           <span class="tool_chapters_list_number">
+            [92]
+           </span>
+           <span class="tool_chapters_list_title">
+            第92话 点火装置
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/95" title="第93话 宣告秋天的『刃』">
+           <span class="tool_chapters_list_number">
+            [93]
+           </span>
+           <span class="tool_chapters_list_title">
+            第93话 宣告秋天的『刃』
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/96" title="第94话 抓住季节的美味">
+           <span class="tool_chapters_list_number">
+            [94]
+           </span>
+           <span class="tool_chapters_list_title">
+            第94话 抓住季节的美味
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/97" title="第95话 围绕着「新鲜」的战斗">
+           <span class="tool_chapters_list_number">
+            [95]
+           </span>
+           <span class="tool_chapters_list_title">
+            第95话 围绕着「新鲜」的战斗
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/98" title="第96话 抓在手心里的答案">
+           <span class="tool_chapters_list_number">
+            [96]
+           </span>
+           <span class="tool_chapters_list_title">
+            第96话 抓在手心里的答案
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/99" title="第97话 月光的记忆">
+           <span class="tool_chapters_list_number">
+            [97]
+           </span>
+           <span class="tool_chapters_list_title">
+            第97话 月光的记忆
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/100" title="第98话 过去积累的东西">
+           <span class="tool_chapters_list_number">
+            [98]
+           </span>
+           <span class="tool_chapters_list_title">
+            第98话 过去积累的东西
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/101" title="第99话 先锋露出的獠牙">
+           <span class="tool_chapters_list_number">
+            [99]
+           </span>
+           <span class="tool_chapters_list_title">
+            第99话 先锋露出的獠牙
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/1" title="第100话 锋利的刃尖">
+           <span class="tool_chapters_list_number">
+            [100]
+           </span>
+           <span class="tool_chapters_list_title">
+            第100话 锋利的刃尖
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/2" title="第101话 千锤百炼的名刀">
+           <span class="tool_chapters_list_number">
+            [101]
+           </span>
+           <span class="tool_chapters_list_title">
+            第101话 千锤百炼的名刀
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/102" title="第102话 创真的“强大”">
+           <span class="tool_chapters_list_number">
+            [102]
+           </span>
+           <span class="tool_chapters_list_title">
+            第102话 创真的“强大”
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/103" title="第103话 必杀菜品">
+           <span class="tool_chapters_list_number">
+            [103]
+           </span>
+           <span class="tool_chapters_list_title">
+            第103话 必杀菜品
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/104" title="第104话 新「玉」">
+           <span class="tool_chapters_list_number">
+            [104]
+           </span>
+           <span class="tool_chapters_list_title">
+            第104话 新「玉」
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/105" title="第105话 实地实习">
+           <span class="tool_chapters_list_number">
+            [105]
+           </span>
+           <span class="tool_chapters_list_title">
+            第105话 实地实习
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/106" title="第106话 问题多多又很忙的餐馆">
+           <span class="tool_chapters_list_number">
+            [106]
+           </span>
+           <span class="tool_chapters_list_title">
+            第106话 问题多多又很忙的餐馆
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/107" title="第107话 与理想之间的距离">
+           <span class="tool_chapters_list_number">
+            [107]
+           </span>
+           <span class="tool_chapters_list_title">
+            第107话 与理想之间的距离
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/108" title="第108话 择路">
+           <span class="tool_chapters_list_number">
+            [108]
+           </span>
+           <span class="tool_chapters_list_title">
+            第108话 择路
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/109" title="第109话 沐浴着光芒的人">
+           <span class="tool_chapters_list_number">
+            [109]
+           </span>
+           <span class="tool_chapters_list_title">
+            第109话 沐浴着光芒的人
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/110" title="第110话 魔术师再临！！">
+           <span class="tool_chapters_list_number">
+            [110]
+           </span>
+           <span class="tool_chapters_list_title">
+            第110话 魔术师再临！！
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/111" title="第111话 套餐">
+           <span class="tool_chapters_list_number">
+            [111]
+           </span>
+           <span class="tool_chapters_list_title">
+            第111话 套餐
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/112" title="第112话 通往成长的路标">
+           <span class="tool_chapters_list_number">
+            [112]
+           </span>
+           <span class="tool_chapters_list_title">
+            第112话 通往成长的路标
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/113" title="第113话 被遗忘的蔬菜">
+           <span class="tool_chapters_list_number">
+            [113]
+           </span>
+           <span class="tool_chapters_list_title">
+            第113话 被遗忘的蔬菜
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/114" title="第114话 幸平•改">
+           <span class="tool_chapters_list_number">
+            [114]
+           </span>
+           <span class="tool_chapters_list_title">
+            第114话 幸平•改
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/115" title="第115话 突破">
+           <span class="tool_chapters_list_number">
+            [115]
+           </span>
+           <span class="tool_chapters_list_title">
+            第115话 突破
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/116" title="第116话 名为成长的果实">
+           <span class="tool_chapters_list_number">
+            [116]
+           </span>
+           <span class="tool_chapters_list_title">
+            第116话 名为成长的果实
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/117" title="第117话 威风凛凛">
+           <span class="tool_chapters_list_number">
+            [117]
+           </span>
+           <span class="tool_chapters_list_title">
+            第117话 威风凛凛
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/118" title="第118话 远月十杰">
+           <span class="tool_chapters_list_number">
+            [118]
+           </span>
+           <span class="tool_chapters_list_title">
+            第118话 远月十杰
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/119" title="第119话 与十杰之间的距离">
+           <span class="tool_chapters_list_number">
+            [119]
+           </span>
+           <span class="tool_chapters_list_title">
+            第119话 与十杰之间的距离
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/120" title="第120话 怪物活动">
+           <span class="tool_chapters_list_number">
+            [120]
+           </span>
+           <span class="tool_chapters_list_title">
+            第120话 怪物活动
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/121" title="第121话 辛辣礼赞">
+           <span class="tool_chapters_list_number">
+            [121]
+           </span>
+           <span class="tool_chapters_list_title">
+            第121话 辛辣礼赞
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/122" title="第122话 「麻」和「辣」">
+           <span class="tool_chapters_list_number">
+            [122]
+           </span>
+           <span class="tool_chapters_list_title">
+            第122话 「麻」和「辣」
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/123" title="第123话 无惧辛辣">
+           <span class="tool_chapters_list_number">
+            [123]
+           </span>
+           <span class="tool_chapters_list_title">
+            第123话 无惧辛辣
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/124" title="第124话  齐唱校歌">
+           <span class="tool_chapters_list_number">
+            [124]
+           </span>
+           <span class="tool_chapters_list_title">
+            第124话  齐唱校歌
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/125" title="第125话 月饗祭">
+           <span class="tool_chapters_list_number">
+            [125]
+           </span>
+           <span class="tool_chapters_list_title">
+            第125话 月饗祭
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/126" title="第126话 摊子大作战！">
+           <span class="tool_chapters_list_number">
+            [126]
+           </span>
+           <span class="tool_chapters_list_title">
+            第126话 摊子大作战！
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/127" title="第127话 月光细语">
+           <span class="tool_chapters_list_number">
+            [127]
+           </span>
+           <span class="tool_chapters_list_title">
+            第127话 月光细语
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/128" title="第128话 死角">
+           <span class="tool_chapters_list_number">
+            [128]
+           </span>
+           <span class="tool_chapters_list_title">
+            第128话 死角
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/129" title="第129话 狮子与狮子">
+           <span class="tool_chapters_list_number">
+            [129]
+           </span>
+           <span class="tool_chapters_list_title">
+            第129话 狮子与狮子
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/130" title="第130话 年轻的狮群">
+           <span class="tool_chapters_list_number">
+            [130]
+           </span>
+           <span class="tool_chapters_list_title">
+            第130话 年轻的狮群
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/131" title="第131话 对他翘首以盼">
+           <span class="tool_chapters_list_number">
+            [131]
+           </span>
+           <span class="tool_chapters_list_title">
+            第131话 对他翘首以盼
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/132" title="第132话 第一席的实力">
+           <span class="tool_chapters_list_number">
+            [132]
+           </span>
+           <span class="tool_chapters_list_title">
+            第132话 第一席的实力
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/133" title="第133话 被阴影笼罩的餐桌">
+           <span class="tool_chapters_list_number">
+            [133]
+           </span>
+           <span class="tool_chapters_list_title">
+            第133话 被阴影笼罩的餐桌
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/134" title="第134话 乌云盖月">
+           <span class="tool_chapters_list_number">
+            [134]
+           </span>
+           <span class="tool_chapters_list_title">
+            第134话 乌云盖月
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/135" title="第135话 薙切的血亲">
+           <span class="tool_chapters_list_number">
+            [135]
+           </span>
+           <span class="tool_chapters_list_title">
+            第135话 薙切的血亲
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/136" title="第136话 被囚禁的女王">
+           <span class="tool_chapters_list_number">
+            [136]
+           </span>
+           <span class="tool_chapters_list_title">
+            第136话 被囚禁的女王
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/137" title="第137话 希望之灯">
+           <span class="tool_chapters_list_number">
+            [137]
+           </span>
+           <span class="tool_chapters_list_title">
+            第137话 希望之灯
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/138" title="第138话 绘里奈前往极星宿舍">
+           <span class="tool_chapters_list_number">
+            [138]
+           </span>
+           <span class="tool_chapters_list_title">
+            第138话 绘里奈前往极星宿舍
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/139" title="第139话 逐渐崩塌的学园">
+           <span class="tool_chapters_list_number">
+            [139]
+           </span>
+           <span class="tool_chapters_list_title">
+            第139话 逐渐崩塌的学园
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/140" title="第140话 杀鸡儆猴">
+           <span class="tool_chapters_list_number">
+            [140]
+           </span>
+           <span class="tool_chapters_list_title">
+            第140话 杀鸡儆猴
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/141" title="第141话 回忆">
+           <span class="tool_chapters_list_number">
+            [141]
+           </span>
+           <span class="tool_chapters_list_title">
+            第141话 回忆
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/142" title="第142话 卑劣至极">
+           <span class="tool_chapters_list_number">
+            [142]
+           </span>
+           <span class="tool_chapters_list_title">
+            第142话 卑劣至极
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/143" title="第143话 拉开序幕">
+           <span class="tool_chapters_list_number">
+            [143]
+           </span>
+           <span class="tool_chapters_list_title">
+            第143话 拉开序幕
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/144" title="第144话 炼金术士的实力">
+           <span class="tool_chapters_list_number">
+            [144]
+           </span>
+           <span class="tool_chapters_list_title">
+            第144话 炼金术士的实力
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/145" title="第145话 真正的美食">
+           <span class="tool_chapters_list_number">
+            [145]
+           </span>
+           <span class="tool_chapters_list_title">
+            第145话 真正的美食
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/146" title="第146话 隐藏的味道">
+           <span class="tool_chapters_list_number">
+            [146]
+           </span>
+           <span class="tool_chapters_list_title">
+            第146话 隐藏的味道
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/147" title="第147话 开始反击！！">
+           <span class="tool_chapters_list_number">
+            [147]
+           </span>
+           <span class="tool_chapters_list_title">
+            第147话 开始反击！！
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/148" title="第148话 凯旋">
+           <span class="tool_chapters_list_number">
+            [148]
+           </span>
+           <span class="tool_chapters_list_title">
+            第148话 凯旋
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/149" title="第149话 天国与地狱">
+           <span class="tool_chapters_list_number">
+            [149]
+           </span>
+           <span class="tool_chapters_list_title">
+            第149话 天国与地狱
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/150" title="第150话 桌游">
+           <span class="tool_chapters_list_number">
+            [150]
+           </span>
+           <span class="tool_chapters_list_title">
+            第150话 桌游
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/151" title="第151话 开战">
+           <span class="tool_chapters_list_number">
+            [151]
+           </span>
+           <span class="tool_chapters_list_title">
+            第151话 开战
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/152" title="第152话 前去侦查">
+           <span class="tool_chapters_list_number">
+            [152]
+           </span>
+           <span class="tool_chapters_list_title">
+            第152话 前去侦查
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/153" title="第153话 死之会场">
+           <span class="tool_chapters_list_number">
+            [153]
+           </span>
+           <span class="tool_chapters_list_title">
+            第153话 死之会场
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/154" title="第154话 展露獠牙">
+           <span class="tool_chapters_list_number">
+            [154]
+           </span>
+           <span class="tool_chapters_list_title">
+            第154话 展露獠牙
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/155" title="第155话 死之会场">
+           <span class="tool_chapters_list_number">
+            [155]
+           </span>
+           <span class="tool_chapters_list_title">
+            第155话 死之会场
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/156" title="第156话 绝对“温”感">
+           <span class="tool_chapters_list_number">
+            [156]
+           </span>
+           <span class="tool_chapters_list_title">
+            第156话 绝对“温”感
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/157" title="第157话 跃动的大马哈鱼">
+           <span class="tool_chapters_list_number">
+            [157]
+           </span>
+           <span class="tool_chapters_list_title">
+            第157话 跃动的大马哈鱼
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/158" title="第158话 差距">
+           <span class="tool_chapters_list_number">
+            [158]
+           </span>
+           <span class="tool_chapters_list_title">
+            第158话 差距
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/159" title="第159话 成长">
+           <span class="tool_chapters_list_number">
+            [159]
+           </span>
+           <span class="tool_chapters_list_title">
+            第159话 成长
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/160" title="第160话 爱丽丝的回忆">
+           <span class="tool_chapters_list_number">
+            [160]
+           </span>
+           <span class="tool_chapters_list_title">
+            第160话 爱丽丝的回忆
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/161" title="第161话 竞演">
+           <span class="tool_chapters_list_number">
+            [161]
+           </span>
+           <span class="tool_chapters_list_title">
+            第161话 竞演
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/162" title="第162话 自己">
+           <span class="tool_chapters_list_number">
+            [162]
+           </span>
+           <span class="tool_chapters_list_title">
+            第162话 自己
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/163" title="第163话 向着顶点攀爬的人">
+           <span class="tool_chapters_list_number">
+            [163]
+           </span>
+           <span class="tool_chapters_list_title">
+            第163话 向着顶点攀爬的人
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/164" title="第164话 师父和徒弟">
+           <span class="tool_chapters_list_number">
+            [164]
+           </span>
+           <span class="tool_chapters_list_title">
+            第164话 师父和徒弟
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/165" title="第165话 两种表情">
+           <span class="tool_chapters_list_number">
+            [165]
+           </span>
+           <span class="tool_chapters_list_title">
+            第165话 两种表情
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/166" title="第166话 压倒性胜利">
+           <span class="tool_chapters_list_number">
+            [166]
+           </span>
+           <span class="tool_chapters_list_title">
+            第166话 压倒性胜利
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/167" title="第167话 浮现的脸和沮丧的脸">
+           <span class="tool_chapters_list_number">
+            [167]
+           </span>
+           <span class="tool_chapters_list_title">
+            第167话 浮现的脸和沮丧的脸
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/168" title="第168话 邂逅的那天">
+           <span class="tool_chapters_list_number">
+            [168]
+           </span>
+           <span class="tool_chapters_list_title">
+            第168话 邂逅的那天
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/169" title="第169话 一雪前耻">
+           <span class="tool_chapters_list_number">
+            [169]
+           </span>
+           <span class="tool_chapters_list_title">
+            第169话 一雪前耻
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/170" title="第170话 被冻结了的思绪">
+           <span class="tool_chapters_list_number">
+            [170]
+           </span>
+           <span class="tool_chapters_list_title">
+            第170话 被冻结了的思绪
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/171" title="第171话 跟着我">
+           <span class="tool_chapters_list_number">
+            [171]
+           </span>
+           <span class="tool_chapters_list_title">
+            第171话 跟着我
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/172" title="第172话 奔赴战场">
+           <span class="tool_chapters_list_number">
+            [172]
+           </span>
+           <span class="tool_chapters_list_title">
+            第172话 奔赴战场
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/173" title="第173话 不公平">
+           <span class="tool_chapters_list_number">
+            [173]
+           </span>
+           <span class="tool_chapters_list_title">
+            第173话 不公平
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/174" title="第174话 穿越时空的大马哈鱼">
+           <span class="tool_chapters_list_number">
+            [174]
+           </span>
+           <span class="tool_chapters_list_title">
+            第174话 穿越时空的大马哈鱼
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/175" title="第175话 远月列车启航">
+           <span class="tool_chapters_list_number">
+            [175]
+           </span>
+           <span class="tool_chapters_list_title">
+            第175话 远月列车启航
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/176" title="第176话 雪天的恶作剧">
+           <span class="tool_chapters_list_number">
+            [176]
+           </span>
+           <span class="tool_chapters_list_title">
+            第176话 雪天的恶作剧
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/177" title="第177话 挺身而出的女骑士">
+           <span class="tool_chapters_list_number">
+            [177]
+           </span>
+           <span class="tool_chapters_list_title">
+            第177话 挺身而出的女骑士
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/178" title="第178话 闪耀的街道">
+           <span class="tool_chapters_list_number">
+            [178]
+           </span>
+           <span class="tool_chapters_list_title">
+            第178话 闪耀的街道
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/179" title="第179话 会面">
+           <span class="tool_chapters_list_number">
+            [179]
+           </span>
+           <span class="tool_chapters_list_title">
+            第179话 会面
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/180" title="第180话 旗鼓相当">
+           <span class="tool_chapters_list_number">
+            [180]
+           </span>
+           <span class="tool_chapters_list_title">
+            第180话 旗鼓相当
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="/ComicView/index/id/530132/cid/181" title="第181话 攻略熊肉">
+           <span class="tool_chapters_list_number">
+            [181]
+           </span>
+           <span class="tool_chapters_list_title">
+            第181话 攻略熊肉
+           </span>
+           <span class="icon-gold">
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="scroll-scrollbar" id="catalogueScrollBg" style="height: 0px; display: none;">
+        <div class="scroll-scrollbar-thumb" id="catalogueScrollBlock" style="top: 0px;">
+        </div>
+       </div>
+      </div>
+     </div>
+     <span class="ft-number">
+      共 181 话
+     </span>
+    </div>
+    <!--章节目录列表弹窗 end-->
+   </div>
+   <!-- 吐槽一期 -->
+   <div class="roast-and-barrage" id="roastAndBarrage">
+    <div class="tool_roast">
+     <ul class="tool_roast_list clearfix">
+      <li>
+       <a class="rool_roast_a rool_roast_a_short" id="toRoast">
+        <span class="roast_txt">
+         吐槽
+        </span>
+        <span class="roast_dm_txt">
+         发弹幕
+        </span>
+       </a>
+      </li>
+      <li>
+       <a class="rool_roast_a rool_roast_a_long" id="roastMode">
+        <span class="no_roast_txt_n">
+         隐藏
+        </span>
+        <span class="no_roast_txt_b">
+         显示
+        </span>
+        <span class="roast_txt">
+         吐槽
+        </span>
+        <span class="roast_dm_txt">
+         弹幕
+        </span>
+       </a>
+      </li>
+      <li class="roast_change_li">
+       <a class="rool_roast_a rool_roast_a_long" id="changeRoast">
+        换一批
+       </a>
+      </li>
+      <li>
+       该图
+       <span class="roast_txt">
+        吐槽
+       </span>
+       <span class="roast_dm_txt">
+        弹幕
+       </span>
+       数：
+       <i id="roastNum">
+        --
+       </i>
+      </li>
+      <li>
+       <a class="roast-check-btn pop" id="barrage">
+        <span class="tool_title tool_title_roast_tan">
+         切换为弹幕模式
+        </span>
+        <span class="tool_title tool_title_roast_tu">
+         切换为吐槽模式
+        </span>
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="publish-comment-wrap" id="commentWrap">
+     <div class="publish-comment">
+      <div class="publish-textarea">
+       <input id="roastContent" maxlength="30"/>
+       <span class="publish-textarea-text" id="roastPrompt">
+        输入
+        <span class="roast_txt">
+         吐槽
+        </span>
+        <span class="roast_dm_txt">
+         弹幕
+        </span>
+        内容
+       </span>
+       <span class="publish-textarea-length" id="roastCount">
+        0/30
+       </span>
+      </div>
+      <div class="publish-comment-foot">
+       <div class="publish-foot-ico" data-color-select="0" id="roastColorSelector">
+        <a class="publish-font-white active" data-color="0">
+         白
+        </a>
+        <a class="publish-font-blue" data-color="1">
+         蓝
+        </a>
+        <a class="publish-font-yellow" data-color="2">
+         黄
+        </a>
+        <a class="publish-font-red" data-color="3">
+         红
+        </a>
+        <a class="publish-font-green" data-color="4">
+         绿
+        </a>
+        <a class="publish-font-pink" data-color="5">
+         粉
+        </a>
+       </div>
+       <a class="publish-btn-sure ui-right" id="postRoast">
+        发表
+        <span class="roast_txt">
+         吐槽
+        </span>
+        <span class="roast_dm_txt">
+         弹幕
+        </span>
+       </a>
+       <a class="publish-btn-cancel ui-right" id="calcelRoast">
+        取消
+       </a>
+       <a class="publish-vip ui-right" href="/Charge" id="publishVip" target="_blank">
+        <span>
+         开通VIP 畅享彩色吐槽
+        </span>
+        &gt;&gt;
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--下方工具栏部分 end-->
+  <!-- Q娘 start -->
+  <div class="qGirl-wrap">
+   <canvas class="qGirl-canvas" height="160" id="qgirlCanvas" style="width: 140px; height: 160px;" width="140">
+   </canvas>
+   <div class="msg-pop msg-pop-big" id="msgPop" style="display: none;">
+    <span class="border">
+    </span>
+    <a class="msg-pop-style-0" href="http://ac.qq.com/event/collectMagicBall2016/index.shtml?auth=1" target="_blank">
+     <img src="http://ugc.qpic.cn/manhua_detail/0/30_19_38_b0e6bfebe2d256326f911d128f953efa.jpg/0"/>
+     <p>
+      大家都在夏日浴场领福利呢，一大波漫画周边、Q币向你走来，要不要戳我你看着办~
+     </p>
+    </a>
+    <a class="close-btn" id="msgPopClose">
+    </a>
+    <i class="decoration-1">
+    </i>
+    <i class="decoration-2">
+    </i>
+    <i class="decoration-3">
+    </i>
+   </div>
+   <div class="qGirl-contain" id="qgirlContain">
+   </div>
+   <div class="bomb-contain" id="bombContain">
+   </div>
+   <span class="msg-tip" id="msgTip" style="display: block;">
+   </span>
+   <a class="hide-btn" id="hideBtn">
+   </a>
+  </div>
+  <!-- Q娘 end -->
+  <!--宝珠 start-->
+  <div class="magicBall-wrap" id="magicBall_wrap">
+   <div class="magicBall-loadImg">
+    <img src="http://ac.gtimg.com/media/images/ball1.png"/>
+    <img src="http://ac.gtimg.com/media/images/ball2.png"/>
+    <img src="http://ac.gtimg.com/media/images/ball3.png"/>
+    <img src="http://ac.gtimg.com/media/images/ball4.png"/>
+    <img src="http://ac.gtimg.com/media/images/ball5.png"/>
+   </div>
+   <a class="magicBall-cancel" id="magicBall_cancel">
+    X
+   </a>
+   <a class="magicBall-ani" href="/event/collectMagicBall2016/index.shtml" id="magicBall" target="_blank">
+   </a>
+   <a class="magicBall-login" href="/event/collectMagicBall2016/index.shtml" id="magicBall_login" target="_blank">
+   </a>
+   <span class="magicBall-add" id="magicBall_add">
+    +1
+   </span>
+   <span class="magicBall-text" id="magicBall_text">
+    收集成功
+   </span>
+  </div>
+  <!--宝珠 end-->
+  <!-- 对页引导 -->
+  <div class="page-lead-list">
+   <a class="page-lead-btn" id="pageLeadBtn">
+    知道了，退下吧！！
+   </a>
+  </div>
+  <div class="page-lead-bg">
+  </div>
+  <!-- 切页弹层 -->
+  <div class="mask" id="chapterChangePrompt">
+  </div>
+  <script id="chapterChangePromptMod" type="text/html">
+   <div class="mask_bg"></div>
+<div class="mask_iframe_container">
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                <div class="dialog-normal dialog-page">
+                    <div class="dialog-title dialog-tit-small">即将进入：{{turnTitle}}</div>
+                    <a onclick="closePrompt()" id="dialogClose" class="dialog-close">X</a>
+                    <div class="dialog-page-con">
+                        <p class="ft-xone">^_^  主人，本章节已结束，确认{{turnState}}一话？</p>
+                        <div class="dialog-btn-wrap clearfix">
+                            <a class="ui-btn-white btn-page-this" title="留在本页" onclick="closePrompt()">留在本页</a>
+                            <a onclick="localTo({{turnTo}})" class="ui-btn-org btn-page-next">确定，{{turnState}}一话</a>
+                        </div>
+                        <p class="dialog-p-check">
+                            <a href="http://ac.qq.com/Comic/comicInfo/id/{{id}}" title="回到目录" class="page-a-back">回到目录</a>
+                            <input type="checkbox" name="checkbox" id="promptCheck">
+                            <label for="promptCheck">不再提示</label>
+                        </p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+  </script>
+  <!-- 切页弹层 end-->
+  <!--遮罩层部分 begin-->
+  <div class="mask" id="iframeMask">
+   <div class="mask_bg">
+   </div>
+   <div class="mask_iframe_container">
+    <table>
+     <tbody>
+      <tr>
+       <td>
+        <iframe frameborder="no" id="iframeAll" name="iframeAll" scrolling="no" src="javascript:void(0);" style="display:none">
+        </iframe>
+        <!--普通弹窗结构 begin-->
+        <div class="dialog-normal hidden" id="dialog">
+        </div>
+        <script id="dialogMod" type="text/html">
+         <div class="dialog-title">{{title}}</div>
+                        <div class="dialog-content">
+                            {{if emotion}}
+                            <span class="dialog-text-emoticon">{{emotion}}</span><br/>
+                            {{/if}}
+                            {{if text}}
+                            <span class="dialog-text-normal">{{text}}</span><br/>
+                            {{/if}}
+                        </div>
+                        {{if button}}
+                        <div class="dialog-button-list">
+                            {{each button}}
+                                <a class="dialog-button"{{if $value.id}} id="{{$value.id}}"{{/if}}{{if $value.fn}} onclick="{{$value.fn}}()"{{/if}}>{{$value.name}}</a>
+                            {{/each}}
+                        </div>
+                        {{/if}}
+                        {{if noReview}}
+                        <div class="dialog-notmore">
+                            <input type="checkbox"/><span>不再提示</span>
+                        </div>
+                        {{/if}}
+                        <a class="dialog-close"{{if closebtn.id}} id="{{closebtn.id}}"{{/if}}{{if closebtn.fn}} onclick="{{closebtn.fn}}()"{{/if}}>{{if closebtn.name}}{{closebtn.name}}{{/if}}</a>
+        </script>
+        <!--普通弹窗结构 end-->
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+  </div>
+  <!--遮罩层部分 end-->
+  <!--提示部分 begin-->
+  <div class="prompt-text hidden" id="promptText">
+   <div class="prompt-cover">
+   </div>
+   <span id="promptMain">
+    按 F11 进入全屏模式
+   </span>
+  </div>
+  <!--提示部分 end-->
+  <!--打赏 月票 begin-->
+  <iframe allowtransparency="true" class="hidden" frameborder="no" id="rewardFrame" scrolling="no" src="javascript:void(0);" style="position:fixed;width:100%;height:100%;z-index:999;top:0;left:0;">
+  </iframe>
+  <!--打赏 月票 end-->
+  <i class="small-heart" id="smallHeart">
+  </i>
+  <div class="roast-plus-wrap" id="plusOneWrap">
+  </div>
+  <!-- 吐槽右侧 -->
+  <div class="roast-bar-wrap" id="roastBarWrap">
+   <!-- <span class="roast-border-top"></span> -->
+   <!-- <div class="roast-user clearfix" id="roastUserWrap">
+        <img class="roast-avatar" id="roastAvatar" src="http://ac.gtimg.com/media/images/blank.gif" alt="用户头像">
+        <div class="roast-user-info" style="display:none;">
+            <h4 id="roastNickname">腾讯动漫用户</h4>
+            <p>本作品<span class="roast_right_txt">吐槽</span><span class="roast_right_dm_txt">弹幕</span>：<span class="roast-info-num">999+</span></p>
+            <p>获赞：<span class="roast-info-num">999+</span></p>
+        </div>
+        <div class="roast-user-unsigned">
+            <a href="javascript:void(0);" id="roastLogIn">登录</a>
+            <p>登录后发射点什么吧...</p>
+        </div>
+    </div> -->
+   <div class="roast-bar">
+    <div class="roast-bar-top">
+     <!-- <h2 class="tit"><span class="tool_title roast-drag-tip">拖拽发光区域 吐槽换一批</span></h2> -->
+     <h2 class="tit">
+      <span class="roast_right_txt">
+       吐槽
+      </span>
+      <span class="roast_right_dm_txt">
+       弹幕
+      </span>
+     </h2>
+     <div class="roast-content" id="roastBarContent">
+     </div>
+     <div class="roast-bar-bottom">
+      <a class="roast-btn" href="javascript:void(0);" id="roastBtnText">
+       我要来一发
+      </a>
+      <div class="roast-main-btn">
+       <!-- <a class="roast-btn-text" id="roastBtnText">
+                        <span class="tool_title">
+                            <span class="roast_txt">发吐槽</span>
+                            <span class="roast_dm_txt">发弹幕</span>
+                            <span class="set-trash">放弃吐槽</span>
+                        </span>
+                    </a> -->
+       <a class="roast-btn-pop roast-btn-hide" id="roastHide">
+        <span class="pop_icon_dm">
+        </span>
+        <span class="pop_icon_dm_close">
+        </span>
+        <!-- <span class="pop_icon_tan"></span> -->
+        <span class="tool_title">
+         隐藏
+         <span class="roast_dm_txt">
+          弹幕
+         </span>
+         <span class="roast_txt">
+          吐槽
+         </span>
+        </span>
+       </a>
+       <a class="roast-btn-pop roast-btn-pop-right mod-fl-right" id="turnToRoastDm">
+        <span class="pop_icon_tc">
+        </span>
+        <span class="pop_icon_tc_close">
+        </span>
+        <!-- <span class="pop_icon_tan"></span> -->
+        <span class="tool_title">
+         切换为
+         <span class="roast_txt">
+          弹幕模式
+         </span>
+         <span class="roast_dm_txt">
+          吐槽模式
+         </span>
+        </span>
+       </a>
+       <span class="roast-hide-lead" style="display:none;">
+        不想看
+        <span class="roast_dm_txt">
+         弹幕
+        </span>
+        <span class="roast_txt">
+         吐槽
+        </span>
+        吗？点
+        <span class="roast-hide-ico">
+        </span>
+        <span class="roast-hide-txt">
+         隐藏
+        </span>
+        可以屏蔽哦
+        <a id="roastHideLead">
+        </a>
+       </span>
+       <!-- <a class="roast-btn-none"><span class="tool_title">隐藏<span class="roast_txt">吐槽</span><span class="roast_dm_txt">弹幕</span></span></a> -->
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="roast-bar-save" id="roastBarShrink">
+    <div class="roast-bar-save-top">
+     <a class="ico-bar-write" id="icoBarWrite">
+      <span class="tool_title">
+       <span class="roast_txt">
+        发吐槽
+       </span>
+       <span class="roast_dm_txt">
+        发弹幕
+       </span>
+      </span>
+     </a>
+     <a class="roast-btn-pop ico-bar-show" id="icoBarShow">
+      <!-- <span class="pop_icon_tan"></span> -->
+      <span class="tool_title">
+       <span class="roast_hide_txt">
+        隐藏
+       </span>
+       <span class="roast_show_txt">
+        显示
+       </span>
+       <span class="roast_dm_txt">
+        弹幕
+       </span>
+       <span class="roast_txt">
+        吐槽
+       </span>
+      </span>
+     </a>
+     <a class="roast-btn-pop mod-fl-right roast-btn-mode ico-bar-mode" id="icoBarMode">
+      <!-- <span class="pop_icon_tc"></span>
+                <span class="pop_icon_tc_close"></span> -->
+      <!-- <span class="pop_icon_tan"></span> -->
+      <span class="tool_title">
+       切换为
+       <span class="roast_txt">
+        弹幕模式
+       </span>
+       <span class="roast_dm_txt">
+        吐槽模式
+       </span>
+      </span>
+     </a>
+     <a class="ico-bar-change" id="icoBarChange">
+      换一批
+     </a>
+    </div>
+    <span class="roast-hide-lead" style="display:none;">
+     不想看
+     <span class="roast_dm_txt">
+      弹幕
+     </span>
+     <span class="roast_txt">
+      吐槽
+     </span>
+     吗？点
+     <span class="roast-hide-ico">
+     </span>
+     可以屏蔽哦
+     <a id="roastHideLeadShrink">
+     </a>
+    </span>
+    <!-- <a class="ico-bar-open" id="icoBarOpen"><i></i>展开
+                <span class="tool_title">
+                        <span class="roast_txt">显示吐槽</span>
+                        <span class="roast_dm_txt">显示弹幕</span>
+                </span>
+        </a> -->
+   </div>
+   <!-- <a class="roast-bar-hide" href="javascript:void(0);" id="roastSmallBar">
+        <i></i>收起
+    </a> -->
+  </div>
+  <div class="roast-drag-tip" id="roastDragTip">
+   拖拽发光区域 吐槽换一批
+  </div>
+  <script id="roastInfoMod" type="text/html">
+   {{if total === 0}}
+        <div class="roast-blank">
+            弹幕空空哒，发射点什么吧
+        </div>
+    {{else if total <= 17}}
+        <div class="roast-info roast-info-no-move" style="height:{{total * 32}}px" id="roast_list_wrap">
+        {{each data}}
+            <p  {{if !$value.good || $value.good == 0}}class="roast-info-no-hot {{if $index + 1 == total }} roast-p-end {{/if}}"  {{else}} {{if $index + 1 == total }} class="roast-p-end" {{/if}} {{hot++}} {{/if}}>
+				<span class="roast-info-txt">{{$index + 1 + ' ' + $value.content}}</span>
+				<span class="roast-info-hot">{{if $value.good >= 10000}}{{($value.good - $value.good % 10000) / 10000}}万{{else}}{{$value.good}}{{/if}}</span>
+				<span class="tool_title">{{ $value.content}}</span>
+			</p>
+        {{/each}}
+        </div>
+    {{else}}
+        <div class="roast-info" data-scroll="roast-bar">
+        <div class="roast-info-content" id="roast_list_wrap">
+        {{each data}}
+            <p  {{if !$value.good || $value.good == 0}}class="roast-info-no-hot {{if ($index + 1)%17 == 0}} roast-p-end {{/if}}"  {{else}} {{if ($index + 1)%17 == 0}} class="roast-p-end" {{/if}} {{hot++ }} {{/if}}>
+				<span class="roast-info-txt">{{$index + 1 + ' ' + $value.content}}</span>
+				<span class="roast-info-hot">{{if $value.good >= 10000}}{{($value.good - $value.good % 10000) / 10000}}万{{else}}{{$value.good}}{{/if}}</span>
+				<span class="tool_title">{{ $value.content}}</span>
+			</p>
+        {{/each}}
+        </div>
+
+        </div>
+    {{/if}}
+    <div class="roast-bar-coin"></div>
+    <p class="roast-bar-p-size">
+    该图总<span class="roast_txt">吐槽：{{total}}</span><span class="roast_dm_txt">弹幕：{{total}}</span>热门：{{hot}}
+    </p>
+    <span class="roast-mouse-bg"></span>
+  </script>
+  <div class="pop-up-msg" id="popUpMsg" style="display:none;">
+   <div class="pop-overlay">
+   </div>
+   <div class="pop-wr">
+    <div class="pop-content-wr">
+     <sub class="pop-close" id="popUpClose">
+     </sub>
+     <div class="pop-content" id="popUpContent">
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="qgirl-refresh-lead show" id="qgirlRefreshLead" style="display:none;">
+   <div class="qgirl-refresh-mask">
+   </div>
+   <div class="lead">
+    <a class="close-btn" href="javascript:void(0);" id="qgirlRefreshLeadClose" title="关闭">
+    </a>
+   </div>
+  </div>
+  <!--[if lt IE 8]>
+<script src="http://ac.gtimg.com/media/js/json2.js"></script>
+<![endif]-->
+  <script>
+   var DATA        = 'EeyJjb21pYyI6eyJpZCI6NTMwMTMyLCJ0aXRsZSI6Ilx1OThkZlx1NjIxZlx1NGU0Ylx1NzA3NSIsImNvbGxlY3QiOiIzNjIyNzciLCJpc0phcGFuQ29taWMiOnRydWUsImlzTGlnaHROb3ZlbCI6ZmFsc2UsImlzTGlnaHRDb21pYyI6ZmFsc2UsImlzRmluaXNoIjpmYWxzZSwiZUlkIjoiS2xCT1QwQkdWMU5WQ1FJZkFRWUdCZ3NMSEVNeSJ9LCJjaGFwdGVyIjp7ImNpZCI6MywiY1RpdGxlIjoiXHU3YjJjMVx1OGJkZCBcdTY1ZTBcdTVjM2RcdTc2ODRcdTgzNTJcdTkxY2UiLCJjU2VxIjoiMSIsInZpcFN0YXR1cyI6MSwicHJldkNpZCI6MCwibmV4dENpZCI6NCwiYmxhbmtGaXJzdCI6MiwiY2FuUmVhZCI6dHJ1ZX0sInBpY3R1cmUiOlt7InBpZCI6IjE5MjIiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjEwJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMDRmYmQ1M2Y0Mzg0N2YzNDViOTNhOTM3OTk0YmUwMzFfMTkyMi5vcmkifSx7InBpZCI6IjE5MjMiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjExJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMmM5NjkzZmE5OThlOWQ2ZGIwY2QyYjk0NDEwYTM2MTNfMTkyMy5vcmkifSx7InBpZCI6IjE5MjQiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjExJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMzMzYmU0ZWQ2MDMxOWM3MmFhNGE0NDQyMGRlY2M4N2ZfMTkyNC5vcmkifSx7InBpZCI6IjE5MjUiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjEyJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMGQxYmNmNTFhYzM1ZTA3YjA4NjBmZDc0NDc5ZmM1YjRfMTkyNS5vcmkifSx7InBpZCI6IjE5MjYiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjEyJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfOWEyMjRkYzZmYjc1ODI2ZDVkYWZjNWIyYTYwMGFmMmJfMTkyNi5vcmkifSx7InBpZCI6IjE5MjciLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjEzJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfOWMzYzIyOGI1NmFkNzE3NjVlMGRlZTM3NjdkY2EwZDhfMTkyNy5vcmkifSx7InBpZCI6IjE5MjgiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjE0JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfOTQ2YTczZWI3ODdhNzI0MmQ4OWI0OTFmYzIzNWRhMGVfMTkyOC5vcmkifSx7InBpZCI6IjE5MjkiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjE0JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfN2Q3NDI3N2E1ODI5N2UyZTM4NTQ3ZmNlNjlmNmUwZDFfMTkyOS5vcmkifSx7InBpZCI6IjE5MzAiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjE1JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfZjA1OGI3MWUxMjI3ZTZjZmQ4ZWI4NWQzNDc3ZDg4NjdfMTkzMC5vcmkifSx7InBpZCI6IjE5MzEiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjE1JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNDA3MDQ3MjM4YmRkMjQzMWZkNGQ1NzFkMmU2NzQ1YjFfMTkzMS5vcmkifSx7InBpZCI6IjE5MzIiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjE2JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNTQxNWE2YTEzYTMzMGMyYTI2ZDhhMjVkZmYxNjhmZTVfMTkzMi5vcmkifSx7InBpZCI6IjE5MzMiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjE3JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMDRkNTc2OTRjNGZmNjE5YjM0MjAzZGM0NmIzN2Q3N2ZfMTkzMy5vcmkifSx7InBpZCI6IjE5MzQiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjE3JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNzA1MWI5ZmIzNzExNjcwYmRhOGQzYTViYmM3NDZmOWFfMTkzNC5vcmkifSx7InBpZCI6IjE5MzUiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjE4JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMjgwNzdmZGYyOGI4YTBkY2NmOTQyNTJkNTNlNmE0NGRfMTkzNS5vcmkifSx7InBpZCI6IjE5MzYiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjE5JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfOTlhNzc2NDY0ZGEyODU0MmNhYzdjNmY5MzY0ZjkzODRfMTkzNi5vcmkifSx7InBpZCI6IjE5MzciLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjE5JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMWVmZGQzZjYyN2RmMmFlNTQ2ODI1YzNmMGJiZTM2NWZfMTkzNy5vcmkifSx7InBpZCI6IjE5MzgiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjIwJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfOTJlODk4YTIyYjhhYWRlMzY2Yjc5M2JlZDhiZmUxZDBfMTkzOC5vcmkifSx7InBpZCI6IjE5MzkiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjIxJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfODM4OGZmY2MyMjhhMzBhODhhNGU3Yzc0ODZjYWRiYjhfMTkzOS5vcmkifSx7InBpZCI6IjE5NDAiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjIxJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNTc2YTk5ZDM5ZTllZWJhMTExNmMxZWI4MzhkNzE4MzRfMTk0MC5vcmkifSx7InBpZCI6IjE5NDEiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjIyJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfYzIxYjdhYjYxODI5NjBjMWUzZWRlOTUyYTAyZDM5OTNfMTk0MS5vcmkifSx7InBpZCI6IjE5NDIiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjIyJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfODYzMWU4OGU0MjZhNTFmMDE1NzY0MjU5NmM5MDI3YzRfMTk0Mi5vcmkifSx7InBpZCI6IjE5NDMiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjIzJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNDcwMTE5MDcxODZlODAwNzI0NGI2Y2ViMDUzZGIzOTdfMTk0My5vcmkifSx7InBpZCI6IjE5NDQiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjI0JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNWJhNTlhMDhhZDdkNTFlMGViZDYwMDAwZjYxODVmMTBfMTk0NC5vcmkifSx7InBpZCI6IjE5NDUiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjI1JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfODVmMzcxOTY3NGIwNDU3NGE0MzAzYTA0Yjk1YmYxZDhfMTk0NS5vcmkifSx7InBpZCI6IjE5NDYiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjI1JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNjc2OTUyNWNjYWYyZTMwYzAwZDFlZGNlMDg4MmZjM2VfMTk0Ni5vcmkifSx7InBpZCI6IjE5NDciLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjI2JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMDFlMjg1YWI0OWQ2YTEwNzI5ZTI3ZDU4ZTI5MmZmZGVfMTk0Ny5vcmkifSx7InBpZCI6IjE5NDgiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjI3JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfYzQ3ODBmMTJiNjk4MTA4Nzk4YmVhN2ExOTYzNWVmYWZfMTk0OC5vcmkifSx7InBpZCI6IjE5NDkiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjI4JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfYTJhMWQzYTM1OWQ5Y2M3YTBiZWZiMmZmOGUzY2EwMGZfMTk0OS5vcmkifSx7InBpZCI6IjE5NTAiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjI4JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNDVmODllNjVkNmExMDFiMGE2ZDBhYzY5ZGRjYWRiZmFfMTk1MC5vcmkifSx7InBpZCI6IjE5NTEiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjI5JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMDVmZjZkNDAyYzY0Nzk1M2QwOTg5MGM1MGQ1MDgzNWJfMTk1MS5vcmkifSx7InBpZCI6IjE5NTIiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjMwJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfYTc0OTZjM2UzNzAyNjRhYzJjYjU2YmU5MDRkNTc2NGJfMTk1Mi5vcmkifSx7InBpZCI6IjE5NTMiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjMwJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfYmUzZWYzMzEzMzRiY2M1MWVhZGM0MjMzYTEwMmU5MjFfMTk1My5vcmkifSx7InBpZCI6IjE5NTQiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjMxJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMzExZTIyYTc5MmQwZDAyZmRlYTA0ZmQxOWI0MGIxZjNfMTk1NC5vcmkifSx7InBpZCI6IjE5NTUiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjMyJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfY2E3NzUxNWJlMDBmNjNiOWE3ZjViZTdjZDI5NGI3MWNfMTk1NS5vcmkifSx7InBpZCI6IjE5NTYiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjMyJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfY2I4ZWZjZDBlZDFmNWM0Zjk3ZGYxYzNiNjZmOTUzYjhfMTk1Ni5vcmkifSx7InBpZCI6IjE5NTciLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjMzJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMTE3YTA1NDE5YTExY2FkY2Q1ODE5ODBhODA4ZWJhYzhfMTk1Ny5vcmkifSx7InBpZCI6IjE5NTgiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjM0JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfYzg4MDg2NmNiYzhjZWQ1MTU0MmY5NzMxMTZjZmU4NDVfMTk1OC5vcmkifSx7InBpZCI6IjE5NTkiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjM0JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMjljY2FjNDk2MDc3MzIwYTVmZTNiNTkyMzQ2YmQzNmFfMTk1OS5vcmkifSx7InBpZCI6IjE5NjAiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjM1JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfOGIwZTVjMTViMzVhMmU4MGRkNGRjMzc4MmZhNzE4MDJfMTk2MC5vcmkifSx7InBpZCI6IjE5NjEiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjM2JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMzQ2Mjk4ZjU3NmY3YzkzNzgxYWJjYmQ5OTg3ODE3NDBfMTk2MS5vcmkifSx7InBpZCI6IjE5NjIiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjM2JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfODQ3MzFjNWI4NjdkOWYwODI0ZWUzNGRhMGQyZmJlNGRfMTk2Mi5vcmkifSx7InBpZCI6IjE5NjMiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjM3JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfZTNhNDMxNTU3NWZkYThmNzdhMzMwMzM0MzA0N2QxYzZfMTk2My5vcmkifSx7InBpZCI6IjE5NjQiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjM4JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMzQ2MjVhZDNhYmE3OTExNzFmMDhiZjdlMDQ3MjExZWVfMTk2NC5vcmkifSx7InBpZCI6IjE5NjUiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjM5JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfODczZmRiNDI0NzA4NDQwYzZiZTViNGE4MWMxMDc2MmZfMTk2NS5vcmkifSx7InBpZCI6IjE5NjYiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjM5JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfOWE0YmEzMmE5NDNlNmJlNDdlYTIzMGNlZWQ4ZWMyN2JfMTk2Ni5vcmkifSx7InBpZCI6IjE5NjciLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQwJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNzdhM2VmNWY2NGJmNTk0YWU1Yjg2ZDI2ZWI2M2FhY2VfMTk2Ny5vcmkifSx7InBpZCI6IjE5NjgiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQxJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNDBmMjFjNmU0Y2M2ZDYxZGM4NzY4MTcwYTBlNjAxZWZfMTk2OC5vcmkifSx7InBpZCI6IjE5NjkiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQxJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNzc1ZjNiMjJlODE3ODA0Nzg1ZWJhYzU0YzhmOGY2NzdfMTk2OS5vcmkifSx7InBpZCI6IjE5NzAiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQyJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMDNjM2NhZWI5Yjk3Yjk4MDZiN2I1ZTY2ODhjM2I4OTFfMTk3MC5vcmkifSx7InBpZCI6IjE5NzEiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQzJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMjBlNGU0Yjg1NzEzZTgyM2JlN2ZjYTVkMDc2MWQzNzJfMTk3MS5vcmkifSx7InBpZCI6IjE5NzIiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQzJmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfYTY1YzJlYjAwYWU0NGM4YjY3MjRhYWMxMzQ0ZTMwODBfMTk3Mi5vcmkifSx7InBpZCI6IjE5NzMiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQ0JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfOThlNzNiOWZjOWE1ZjRjMTg2YWQxMGExYmMyZDY5NGFfMTk3My5vcmkifSx7InBpZCI6IjE5NzQiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQ0JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfYmMwMmNjMmJjNTk2NmUyOGNjM2Y2NGFkNDRmMmI3MzRfMTk3NC5vcmkifSx7InBpZCI6IjE5NzUiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQ1JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfN2E5NGJkOTUxNDJkNzU5MDFlZWY5MjczOGUzNjI0ODNfMTk3NS5vcmkifSx7InBpZCI6IjE5NzYiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQ2JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfYjRlZGFlNzY3NmMzZjRkNzkyZjMyMDI1Y2IzOWE0M2RfMTk3Ni5vcmkifSx7InBpZCI6IjE5NzciLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQ2JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfYjk4MmNmYmEyODdiMDIzM2RmNDAzYWUxZTg2NjhiOTZfMTk3Ny5vcmkifSx7InBpZCI6IjE5NzgiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQ3JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfYjE0YmI3ZTI5ZDFjMzliMmQ2OWVhMDU4ZTU3MzM3ZjRfMTk3OC5vcmkifSx7InBpZCI6IjE5NzkiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQ4JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMjY0MTdiZDA2ZjllYjk1MWFlN2Q2Mjc0NDhkYTViYzZfMTk3OS5vcmkifSx7InBpZCI6IjE5ODAiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQ4JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMGJmMjhmYjJhNGE3ODhjMWRhODRkZDAwNmZmYjU3ODBfMTk4MC5vcmkifSx7InBpZCI6IjE5ODEiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQ5JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfMmY3OTlkMzQxOGMwYjc5NGY1NDdlZjIwM2IxZDg4NjVfMTk4MS5vcmkifSx7InBpZCI6IjE5ODIiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDIyMzA2NjQ5JmRpcl9wYXRoPVwvJm5hbWU9MjdfMDVfMTBfNTkzZDI4MTQzN2E2ZmU0NWE5NjhlNTRiZmQ4Y2I2ZTRfMTk4Mi5vcmkifSx7InBpZCI6IjQ2NDgiLCJ3aWR0aCI6ODIyLCJoZWlnaHQiOjEyMDAsInVybCI6Imh0dHA6XC9cL2FjLnRjLnFxLmNvbVwvc3RvcmVfZmlsZV9kb3dubG9hZD9idWlkPTE1MDE3JnVpbj0xNDM0MDE2ODA1JmRpcl9wYXRoPVwvJm5hbWU9MTFfMThfMDBfNDIzYmViNDAzNTkyZGI0MjlkNWYxNWMzMjlkMjE0MjFfNDY0OC5vcmkifV0sImFkcyI6eyJ0b3AiOnsidGl0bGUiOiJcdTU5MGZcdTY1ZTVcdTZkNzRcdTU3M2EiLCJwaWMiOiJodHRwOlwvXC9tYW5odWEucXBpYy5jblwvbWFuaHVhX2RldGFpbFwvMFwvMDJfMTZfMzdfNjdiMDFiNTBjOGZiYmE3OTNkYWFjYjE0NTljNmE3NzguanBnXC8wIiwidXJsIjoiaHR0cDpcL1wvYWMucXEuY29tXC9ldmVudFwvY29sbGVjdE1hZ2ljQmFsbDIwMTZcL2luZGV4LnNodG1sP2F1dGg9MSIsIndpZHRoIjoiNjUwIiwiaGVpZ2h0IjoiMTEwIn0sImxlZnQiOltdLCJib3R0b20iOnsidGl0bGUiOiJcdTU3MzBcdTg1Y2ZcdTlmNTBcdTU5MjkiLCJwaWMiOiJodHRwOlwvXC9tYW5odWEucXBpYy5jblwvbWFuaHVhX2RldGFpbFwvMFwvMDZfMDlfNDZfYTQ2N2M5NmQ2YmU5NGNlNDI1ZmRlMjFjYzM2ZjgzZDUuanBnXC8wIiwidXJsIjoiaHR0cDpcL1wvYWMucXEuY29tXC9Db21pY1wvQ29taWNJbmZvXC9pZFwvNTM2NDM1Iiwid2lkdGgiOiI2NTAiLCJoZWlnaHQiOiIxMTAifX0sImFydGlzdCI6eyJhdmF0YXIiOiJodHRwOlwvXC9tYW5odWEucXBpYy5jblwvbWFuaHVhX2hlYWRcLzBcLzI3XzExXzQ2X2E1NjllYTk4ZmYzYjM4MTg3OTY2MzVkYmY4MTlhNzhhLmpwZ1wvMCIsIm5pY2siOiJcdTk2YzZcdTgyZjFcdTc5M2UiLCJ1aW5DcnlwdCI6IlYxSTVVWEIyWkUxd1NXaFJTVlpKWXprd2VFMHJkejA5In19',
+        PRELOAD_NUM = 2,
+        NOTICE_TIME = 15,
+        ROAST_SIZE  = 300,
+        ROAST_PRE   = 5,
+        ROAST_VIEW  = 11,
+        DANMU_TIME  = 10000;
+  </script>
+  <script src="http://ac.gtimg.com/media/js/ac.page.chapter.view_v2.3.4.js?v=20160826">
+  </script>
+  <script src="http://ac.gtimg.com/media/js/tx.func.js">
+  </script>
+  <script src="http://ac.gtimg.com/media/js/ac.page.chapter.view.collectBall.js?v=20160826">
+  </script>
+ </body>
+</html>

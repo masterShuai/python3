@@ -1,0 +1,53 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\save\sync\code\crawler\bs4Project\.metadata\.plugins\org.eclipse.core.resources\.projects\winningNumBS4\com.python.pydev.analysis\v2_indexcache
+mylog|1471355356561000000|E:\save\sync\code\crawler\bs4Project\winningNumBS4\mylog.py
+getWinningNum|1471414574699700000|E:\save\sync\code\crawler\bs4Project\winningNumBS4\getWinningNum.py
+save2excel|1471424690687200000|E:\save\sync\code\crawler\bs4Project\winningNumBS4\save2excel.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+2=mylog
+7=DoubleColorBallItem
+1=getWinningNum
+9=SavaBallDate.__init__
+6=SavaBallDate
+3=save2excel
+8=MyLog.__init__
+10=GetDoubleColorBallNumber.__init__
+4=MyLog
+5=GetDoubleColorBallNumber
+-- END DICTIONARY
+-- START TREE 1
+5
+dou|1|DoubleColorBallItem!9@
+gdc|1|GDCBN!11@
+get|1|GetDoubleColorBallNumber!9@
+myl|2|mylog!19@MyLog!17@
+sav|1|SavaBallDate!25@
+-- END TREE
+-- START TREE 2
+22
+__i|3|__init__!4&18@__init__!5&10@__init__!6&26@
+blu|1|blue!7&11@
+cri|1|critical!4&18@
+dat|1|date!7&11@
+deb|1|debug!4&18@
+err|1|error!4&18@
+fir|1|firstPrize!7&11@
+for|1|formatter!8&19@
+get|2|getUrls!5&10@getResponseContent!5&10@
+inf|1|info!4&18@
+ite|2|items!9&27@items!10&11@
+log|5|logHandSt!8&19@logFile!8&19@logger!8&19@log!10&11@logHand!8&19@
+mon|1|money!7&11@
+ord|1|order!7&11@
+pip|1|pipelines!5&10@
+red|6|red1!7&11@red6!7&11@red5!7&11@red3!7&11@red4!7&11@red2!7&11@
+run|1|run!6&26@
+sec|1|secondPrize!7&11@
+spi|1|spider!5&10@
+url|1|urls!10&11@
+use|1|user!8&19@
+war|1|warn!4&18@
+-- END TREE

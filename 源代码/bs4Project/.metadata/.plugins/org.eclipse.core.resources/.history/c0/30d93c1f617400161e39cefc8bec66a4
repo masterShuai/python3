@@ -1,0 +1,16 @@
+#!/usr/bin/evn python
+#-*- coding: utf-8 -*-
+'''
+Created on 2016��9��7��
+
+@author: hstking hstking@hotmail.com
+'''
+
+from selenium import webdriver
+
+class TestBrowserSpeed(object):
+    def __init__(self, n):
+        drivers = ['PhantomJS', 'Chrome', 'FF', 'IE', 'Edge']
+
+if __name__ == '__main__':
+    pass

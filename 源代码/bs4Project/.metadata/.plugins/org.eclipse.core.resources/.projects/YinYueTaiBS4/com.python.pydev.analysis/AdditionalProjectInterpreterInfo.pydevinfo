@@ -1,0 +1,50 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\save\sync\code\crawler\bs4Project\.metadata\.plugins\org.eclipse.core.resources\.projects\YinYueTaiBS4\com.python.pydev.analysis\v2_indexcache
+mylog|1471355356561000000|E:\save\sync\code\crawler\bs4Project\YinYueTaiBS4\mylog.py
+resource|1471658660206139000|E:\save\sync\code\crawler\bs4Project\YinYueTaiBS4\resource.py
+getTrendsMV|1471628864649200000|E:\save\sync\code\crawler\bs4Project\YinYueTaiBS4\getTrendsMV.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+3=mylog
+5=GetMvList
+8=Item
+1=resource
+7=MyLog.__init__
+2=getTrendsMV
+6=GetMvList.__init__
+4=MyLog
+-- END DICTIONARY
+-- START TREE 1
+7
+__a|1|__author__!11@
+get|1|GetMvList!17@
+gml|1|GML!19@
+ite|1|Item!17@
+myl|2|mylog!27@MyLog!25@
+pro|1|PROXIES!11@
+use|1|UserAgents!11@
+-- END TREE
+-- START TREE 2
+19
+__i|2|__init__!4&26@__init__!5&18@
+are|1|areasDic!6&19@
+cri|1|critical!4&26@
+deb|1|debug!4&26@
+err|1|error!4&26@
+for|1|formatter!7&27@
+get|4|getRandomProxy!5&18@getResponseContent!5&18@getRandomHeaders!5&18@getUrls!5&18@
+inf|1|info!4&26@
+log|5|log!6&19@logHandSt!7&27@logFile!7&27@logger!7&27@logHand!7&27@
+mvn|1|mvName!8&19@
+pip|1|pipelines!5&18@
+rel|1|releasTime!8&19@
+sco|1|score!8&19@
+sin|1|singer!8&19@
+spi|1|spider!5&18@
+top|1|top_num!8&19@
+url|1|urlBase!6&19@
+use|1|user!7&27@
+war|1|warn!4&26@
+-- END TREE

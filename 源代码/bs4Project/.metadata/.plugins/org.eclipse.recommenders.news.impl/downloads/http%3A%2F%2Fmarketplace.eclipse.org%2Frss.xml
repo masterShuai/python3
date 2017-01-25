@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>SOMNIUM DRT Cortex-M IDE</title>
+    <link>http://marketplace.eclipse.org/content/somnium-drt-cortex-m-ide</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/DRT%20FSL%20White%20Small.jpg&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-07-27 10:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2016-08-09 09:03&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jpackerpek/listings&quot; title=&quot;Jamie Packer&quot;&gt;Jamie Packer&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;SOMNIUM DRT Cortex-M IDE is a professional C and C++ embedded software development environment for ARM Cortex-M devices, which is built on the Eclipse platform.&lt;/p&gt;
+&lt;p&gt;DRT is fully compatible with the GNU toolchain and other third party software. DRT provides industry-leading levels of optimization, support for the latest C and C++ language standards and unique debugging tools, including live expression view without breakpointing, trace and fault diagnosis.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Eclipse-based IDE
+&lt;/li&gt;&lt;li&gt;Advanced debug and trace (including live memory view without breakpointing)
+&lt;/li&gt;&lt;li&gt;Latest C/C++ language support
+&lt;/li&gt;&lt;li&gt;Smallest, fastest, most energy efficient code
+&lt;/li&gt;&lt;li&gt;Support for the following device families:
+&lt;ul&gt;&lt;li&gt;NXP Kinetis
+&lt;/li&gt;&lt;li&gt;NXP LPC
+&lt;/li&gt;&lt;li&gt;STMicroelectronics STM32
+&lt;/li&gt;&lt;li&gt;Atmel SMART
+&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Automatic import of projects from other systems (KDS, LPCXpresso, TrueSTUDIO, SMART, etc)
+&lt;/li&gt;&lt;li&gt;Technical support direct from our customer engineering team.
+&lt;/li&gt;&lt;li&gt;Available for Windows and Linux hosts. Mac OS X support coming soon.
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Build smaller, faster, cheaper and more energy efficient software with SOMNIUM DRT. Complete your design on time and on budget, with DRT&#039;s best in class debug and trace tools.  Download a &lt;a href=&quot;https://portal.somniumtech.com/products.html&quot;&gt;free trial from our website&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 27 Jul 2016 14:38:28 +0000</pubDate>
+ <dc:creator>jpackerpek</dc:creator>
+ <guid isPermaLink="false">2997681 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/somnium-drt-cortex-m-ide#comments</comments>
+  </item>
+  <item>
+    <title>Cupid</title>
+    <link>http://marketplace.eclipse.org/content/cupid</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_cupid.png&quot; width=&quot;110&quot; height=&quot;50&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2015-11-11 22:56&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2016-08-08 14:15&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rdunlapmqd/listings&quot; title=&quot;Rocky Dunlap&quot;&gt;Rocky Dunlap&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Cupid is a development and training environment for models that use the &lt;a href=&quot;https://www.earthsystemcog.org/projects/esmf/&quot;&gt;Earth System Modeling Framework (ESMF)&lt;/a&gt; and &lt;a href=&quot;https://www.earthsystemcog.org/projects/nuopc/&quot;&gt;National Unified Operational Capability (NUOPC) Layer&lt;/a&gt; infrastructure.&lt;/p&gt;
+&lt;p&gt;Key features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Analyze models coupled with NUOPC and create an outline of the model architecture &lt;/li&gt;
+&lt;li&gt;Show the components in the application, their initialize, run, and finalize phases, and their NUOPC compliance status&lt;/li&gt;
+&lt;li&gt;Present the outline side-by-side with code editor&lt;/li&gt;
+&lt;li&gt;Provide contextual guidance to the developer while NUOPC code is being edited&lt;/li&gt;
+&lt;li&gt;Generate code needed for NUOPC compliance automatically&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 12 Nov 2015 03:56:16 +0000</pubDate>
+ <dc:creator>rdunlapmqd</dc:creator>
+ <guid isPermaLink="false">2604393 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/cupid#comments</comments>
+  </item>
+  <item>
+    <title>EntireJ</title>
+    <link>http://marketplace.eclipse.org/content/entirej</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ForEclipse.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2013-05-21 13:19&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2016-08-08 11:53&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pharrison6yq/listings&quot; title=&quot;Paul Harrison&quot;&gt;Paul Harrison&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;EntireJ is a Rapid Application Development (RAD) environment for building highly scalable, enterprise-class applications in &lt;strong&gt;RAP/JavaFX&lt;/strong&gt; and mobile: &lt;strong&gt;Android&lt;/strong&gt; / &lt;strong&gt;IOS&lt;/strong&gt;. EntireJ uses powerful declarative features so that business developers can instantly create fully functional applications using any type of data persistency.&lt;/p&gt;
+&lt;p&gt;EntireJ also provides an EntireJ Reports tool that allows you to create not only EJ Forms but EJ Reports. EntireJ provides a wrapper around the Jasper reporting tool providing a far easier and more EntireJ friendly development environment&lt;/p&gt;
+&lt;p&gt;One of the main design decisions behind EntireJ was to build a development tool that gives developers the possibility to create applications without having to learn the complex programming languages used by the various client frameworks. With the help of EntireJ a developer with little java know-how can now create the following without having to learn these technologies. &lt;/p&gt;
+&lt;p&gt;•	Web applications using &lt;strong&gt;RAP&lt;/strong&gt;&lt;br /&gt;
+•	Desktop applications using &lt;strong&gt;RCP&lt;/strong&gt; and &lt;strong&gt;JavaFX&lt;/strong&gt;&lt;br /&gt;
+•	Mobile applications using the &lt;strong&gt;&lt;a href=&quot;http://developer.eclipsesource.com/tabris/&quot;&gt;Tabris&lt;/a&gt;&lt;/strong&gt; Mobile Client Framework&lt;br /&gt;
+•	EntireJ Reports using &lt;strong&gt;Jasper reports&lt;/strong&gt; and &lt;strong&gt;POI&lt;strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Developers can concentrate more on the business requirements rather than the technical requirements of the application, which will result in enormous savings in terms of time and money.&lt;/p&gt;
+&lt;p&gt;If you are looking for a tool that will enable you to move from an Oracle Forms environment to Java then EntireJ is perfect for you! EntireJ offers everything that you are used to in Oracle Forms and more. Download, install and contact our Support for all the information you require in moving from Oracle Forms to Java. &lt;/p&gt;
+&lt;p&gt;For more information on EntireJ visit our &lt;strong&gt;&lt;a href=&quot;http://www.entirej.com&quot;&gt;website&lt;/a&gt;&lt;/strong&gt; or for information on installing and using EntireJ read through the helpful tutorials and reference guides: &lt;strong&gt;&lt;a href=&quot;http://docs.entirej.com:8090&quot;&gt;EntireJ Documentation Website&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 21 May 2013 17:19:27 +0000</pubDate>
+ <dc:creator>pharrison6yq</dc:creator>
+ <guid isPermaLink="false">867720 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/entirej#comments</comments>
+  </item>
+  <item>
+    <title>Design and Verification Tools (DVT) IDE for e, SystemVerilog, and VHDL</title>
+    <link>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-and-vhdl</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/AMIQ_logo_web_110x63.jpg&quot; width=&quot;110&quot; height=&quot;63&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2006-04-19 08:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2016-08-08 07:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emisingname6ia/listings&quot; title=&quot;AMIQ Support&quot;&gt;AMIQ Support&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Design and Verification Tools (DVT) is an integrated development environment (IDE) for the &lt;strong&gt;&lt;em&gt;e&lt;/em&gt; language, SystemVerilog, Verilog,  VHDL, and mixed language projects&lt;/strong&gt; that also provides &lt;strong&gt;Universal Verification Methodology (UVM) support&lt;/strong&gt;.  It is similar to well-known programming tools like Visual Studio®, NetBeans®, and IntelliJ®.  &lt;/p&gt;
+&lt;p&gt;DVT comprises a proprietary IEEE standard-compliant parser, a smart code editor, an intuitive GUI, a comprehensive set of features that help with code inspection, navigation, documentation, and debugging,  and an innovative linting framework. &lt;/p&gt;
+&lt;p&gt;DVT allows design and verification engineers to overcome the limitations of plain text editors and use a modern and powerful tool that enables them to:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Increase the speed and quality of new code development&lt;/li&gt;
+&lt;li&gt;Easily understand complex or poorly documented source code&lt;/li&gt;
+&lt;li&gt;Simplify the maintenance of legacy code and reusable libraries&lt;/li&gt;
+&lt;li&gt;Accelerate language and methodology learning&lt;/li&gt;
+&lt;li&gt;Automatically generate well-organized source code documentation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.dvteclipse.com/mkt/Fig1-DVT-640x400-48border-web.jpg&quot; alt=&quot;DVT Overview Screenshot &quot; height=&quot;388&quot; width=&quot;620&quot; border=&quot;0&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 18px; font-weight: 700;&quot;&gt;FEATURES &lt;/span&gt;&lt;br /&gt;
+Some of the features that DVT offers include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Autocomplete&lt;/li&gt;
+&lt;li&gt;Compilation errors signaled on the fly &lt;/li&gt;
+&lt;li&gt;In-line reminders for task tracking (TO DOs)&lt;/li&gt;
+&lt;li&gt;Customizable code and project templates&lt;/li&gt;
+&lt;li&gt;Dedicated wizards to generate getters and setters, override&lt;br /&gt;
+functions, or help with UVM factory registration&lt;/li&gt;
+&lt;li&gt;Hyperlinks that help navigate faster in the source code
+&lt;/li&gt;&lt;li&gt;Semantic search&lt;/li&gt;
+&lt;li&gt;Refactoring&lt;/li&gt;
+&lt;li&gt;Macro expansion&lt;/li&gt;
+&lt;li&gt;Class and structural browsing&lt;/li&gt;
+&lt;li&gt;Trace port connections &lt;/li&gt;
+&lt;li&gt;UML diagrams for inspecting and documenting the architecture&lt;/li&gt;
+&lt;li&gt;Module flow diagrams for inspecting and documenting a module structure&lt;/li&gt;
+&lt;li&gt;Automated documentation extraction&lt;/li&gt;
+&lt;li&gt;UVM support and compliance checking&lt;/li&gt;
+&lt;li&gt;Cross-language capabilities for mixed-language projects&lt;/li&gt;
+&lt;li&gt;Vi and emacs emulation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 18px; font-weight: 700;&quot;&gt;INTEGRATION WITH OTHER TOOLS&lt;/span&gt;&lt;br /&gt;
+Since it is built on the Eclipse Platform, the DVT IDE can be easily integrated within a large plug-in ecosystem. It also integrates seamlessly with all major hardware simulators such as NCSim , Specman , VCS , and Questa, to enable simplified simulation analysis and debugging. In addition, it works with revision control systems like CVS, Git, Subversion, ClearCase and bug tracking systems such as Bugzilla and ClearQuest.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 18px; font-weight: 700;&quot;&gt;RESOURCES &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt; &lt;a href=&quot;http://www.dvteclipse.com/Design_and_Verification_Tools_Eclipse_IDE.html&quot; target=&quot;_blank&quot;&gt;DVT web page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.dvteclipse.com/datasheet/AMIQ_DVT_Datasheet.pdf&quot; target=&quot;_blank&quot;&gt;DVT datasheet&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/dvteclipse&quot; target=&quot;_blank&quot;&gt;Demo movies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.dvteclipse.com/UVM_Support_in_DVT_Eclipse.html&quot;&gt;UVM Support in DVT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.dvteclipse.com/DVT_Debugger_Add-On_Module.html&quot;&gt;DVT Debugger Module&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 19 Apr 2006 12:00:18 +0000</pubDate>
+ <dc:creator>emisingname6ia</dc:creator>
+ <guid isPermaLink="false">192 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-and-vhdl#comments</comments>
+  </item>
+  <item>
+    <title>Vrapper (Vim)</title>
+    <link>http://marketplace.eclipse.org/content/vrapper-vim</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/vrapper_logo_small_0.png&quot; width=&quot;100&quot; height=&quot;73&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2009-03-02 10:49&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2016-08-07 15:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingname4i2/listings&quot; title=&quot;Vrapper Team&quot;&gt;Vrapper Team&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Vrapper acts as a wrapper for Eclipse text editors to provide a Vim-like input scheme for moving around and editing text.&lt;/p&gt;
+&lt;p&gt;Unlike other plugins which embed Vim in Eclipse, Vrapper imitates the behaviour of Vim while still using whatever editor you have opened in the workbench. The goal is to have the comfort and ease which comes with the different modes, complex commands and count/operator/motion combinations which are the key features behind editing with Vim, while preserving the powerful features of the different Eclipse text editors, like code generation and refactoring.&lt;/p&gt;
+&lt;p&gt;Vrapper tries to offer Eclipse users the best of both worlds.&lt;/p&gt;
+&lt;p&gt;Our update site also has optional Vrapper extensions which are not available via the Marketplace.  They include additional support for programming languages and ports of various vimscripts.&lt;br /&gt;
+Specifically, they are:&lt;br /&gt;
+* Split Editor commands (requires Eclipse 4+)&lt;br /&gt;
+* Java extensions (requires JDT)&lt;br /&gt;
+* C/C++ extensions (requires CDT)&lt;br /&gt;
+* Python extensions (requires PyDev)&lt;br /&gt;
+* Port of surround.vim vimscript&lt;br /&gt;
+* Port of ipmotion.vim vimscript&lt;br /&gt;
+* Port of argtextobj.vim vimscript&lt;br /&gt;
+* Port of methodtextobj.vim vimscript&lt;br /&gt;
+* Port of exchange.vim vimscript&lt;br /&gt;
+* Port of textobj-line.vim vimscript&lt;br /&gt;
+* Port of vim-indent-object.vim vimscript&lt;br /&gt;
+* Port of cycle.vim vimscript&lt;br /&gt;
+* Port of camelcasemotion.vim vimscript&lt;br /&gt;
+* Integration with clang-format command&lt;br /&gt;
+Documentation for these optional plugins can be found here:&lt;br /&gt;&lt;a href=&quot;http://vrapper.sourceforge.net/documentation/?topic=optional_plugins&quot;&gt;http://vrapper.sourceforge.net/documentation/?topic=optional_plugins&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fork us on GitHub!&lt;br /&gt;&lt;a href=&quot;https://github.com/vrapper/vrapper&quot;&gt;https://github.com/vrapper/vrapper&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 02 Mar 2009 15:49:34 +0000</pubDate>
+ <dc:creator>mmisingname4i2</dc:creator>
+ <guid isPermaLink="false">881 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/vrapper-vim#comments</comments>
+  </item>
+  <item>
+    <title>Encoding StatusBar</title>
+    <link>http://marketplace.eclipse.org/content/encoding-statusbar</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/WS000000.fw_.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2016-06-11 21:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2016-08-07 11:02&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/skashihara/listings&quot; title=&quot;Shinji Kashihara&quot;&gt;Shinji Kashihara&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Show file information for the active editor in the status bar. &lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Show file encoding and line ending&lt;/b&gt;&lt;br /&gt;
+Line ending (separator) support showing CRLF, CR, LF and Mixed, can also be converted.&lt;br /&gt;&lt;img src=&quot;https://raw.githubusercontent.com/cypher256/eclipse-encoding-plugin/master/image/ending_select.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;b&gt;Change &quot;Text File Encoding&quot; setting by file property&lt;/b&gt;&lt;br /&gt;
+To add the encoding, use Preference &amp;gt; General &amp;gt; Workspace &amp;gt; Text File Encoding &amp;gt; Other.&lt;br /&gt;&lt;img src=&quot;https://raw.githubusercontent.com/cypher256/eclipse-encoding-plugin/master/image/encoding_select.jpg&quot; /&gt;&lt;br /&gt;
+Autodetect: Automatic detection by juniversalchardet&lt;br /&gt;
+Inheritance: Inherited from folder or project properties, workspace preferences&lt;br /&gt;
+Content Type: Determined from content type setting&lt;/p&gt;
+&lt;p&gt;&#039;Autodetect: Set Automatically&#039;&lt;br /&gt;
+This only applies if the file properties encoding is not specified.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&lt;h3&gt;Changes&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;1.7.0 - 2016.07.28&lt;/b&gt;&lt;br /&gt;
+* Add &#039;Add/Remove BOM&#039; action&lt;br /&gt;
+* Add file creation preferences shortcut&lt;br /&gt;
+* Improve autodetect&lt;br /&gt;
+* Improve determined from content&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;1.6.0 - 2016.07.18&lt;/b&gt;&lt;br /&gt;
+* Add autodetect behavior option&lt;br /&gt;
+* Add set automatically or show warning by autodetect&lt;br /&gt;
+* Add pom editor Effective pom tab support&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;1.5.0 - 2016.07.03&lt;/b&gt;&lt;br /&gt;
+* Add multi page editor support&lt;br /&gt;
+* Add class editor support&lt;br /&gt;
+* Add encoding label to menu&lt;br /&gt;
+* Add package root properties menu&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Original source: &lt;a href=&quot;/content/file-encoding-info&quot;&gt;File Encoding Info&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 12 Jun 2016 01:10:38 +0000</pubDate>
+ <dc:creator>skashihara</dc:creator>
+ <guid isPermaLink="false">2925771 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/encoding-statusbar#comments</comments>
+  </item>
+  <item>
+    <title>Bonita BPM </title>
+    <link>http://marketplace.eclipse.org/content/bonita-bpm</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Bonita_BPM_by%20Bonitasoft-110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2009-12-17 10:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2016-08-05 09:44&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingnamervj/listings&quot; title=&quot;Bonitasoft Community&quot;&gt;Bonitasoft Community&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Bonita BPM is an intuitive and powerful Business Process Management (BPM) solution for creating and executing process based applications.&lt;/p&gt;
+&lt;p&gt;Bonita BPM combines three solutions in one: a user-friendly Studio for process modeling and application development, an execution engine, and a breakthrough end-user web interface.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://community.bonitasoft.com/sites/community/files/pictures/home/ill_home_bonitacommunity1.png&quot; style=&quot;float: left; width: 210px; margin-right: 20px&quot; /&gt;With &lt;b&gt;Bonita Studio&lt;/b&gt; , an Eclipse-based graphical interface, users can draw their processes as naturally as on a white board. They can then define process actors &amp;amp; data, and link them easily with their Information Systems.&lt;/p&gt;
+&lt;p&gt;    &lt;br /&gt;&lt;img src=&quot;http://www.bonitasoft.com/system/files/newsletter/images/connectors_0.png&quot; style=&quot;float: left; width: 220px; margin-right: 20px&quot; /&gt;Bonita Studio comes with more than 100 built in and contributed connectors for many commonly used commercial and open-source database, messaging system, ERP, CRM, ECM and more.&lt;br /&gt;
+Examples: AD, Alfresco, BIRT, eXo, Jaspersoft, LDAP, Nuxeo, SAP, Sharepoint, SugarCRM, Talend ...&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Bonita Studio&lt;/b&gt; also provides a drag-n-drop application builder helping users design their web-forms easily - and add specific code when needed to achieve full customization. &lt;/p&gt;
+&lt;p&gt;When the application is designed, a simple click is enough to deploy it - either in the built-in test environment, or in production mode.&lt;/p&gt;
+&lt;p&gt;Other Studio features include process simulation, documentation generation, report and dashboard design.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://community.bonitasoft.com/sites/community/files/pictures/home/ill_home_bonitacommunity3.png&quot; style=&quot;float: left; width: 210px; margin-right: 20px&quot; /&gt;&lt;b&gt;Bonita Execution Engine&lt;/b&gt; is a powerful and scalable Java workflow engine. It is flexible enough to adapt easily to any Information Systems architecture, from simple to complex. And it&#039;s powerful enough to support intensive workload.&lt;/p&gt;
+&lt;p&gt;    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://community.bonitasoft.com/sites/community/files/pictures/home/ill_home_bonitacommunity2.png&quot; style=&quot;float: left; width: 230px; margin-right: 20px&quot; /&gt;&lt;b&gt;Bonita Portal&lt;/b&gt; is a BPM web-portal conceived to be as simple to use as an e-mail inbox allowing end-user to manage their processes and daily tasks.&lt;/p&gt;
+&lt;p&gt;Bonita Portal also give authorized users all the means to monitor and administrate processes execution.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.bonitasoft.com/how-we-do-it/downloads?utm_source=eclipse_market_place&amp;amp;utm_medium=dedicated_page&amp;amp;utm_content=product_presentation&amp;amp;utm_campaign=ecosystem_network&quot;&gt;&lt;img src=&quot;http://community.bonitasoft.com/sites/community/files/pictures/home/getbonitabpm.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 17 Dec 2009 15:35:48 +0000</pubDate>
+ <dc:creator>mmisingnamervj</dc:creator>
+ <guid isPermaLink="false">1092 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/bonita-bpm#comments</comments>
+  </item>
+  <item>
+    <title>Faktor-IPS</title>
+    <link>http://marketplace.eclipse.org/content/faktor-ips</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/fips_128_final.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2007-02-08 09:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2016-08-05 09:02&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jortmann/listings&quot; title=&quot;Jan Ortmann&quot;&gt;Jan Ortmann&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Faktor-IPS is a MDSD tool for the insurance industry. It provides a domain language to model insurance contracts and products. Based on Eclipse it provides an integration platform for both developers and business analysts. Business analysts can define new insurance products in a special product definition perspective. Faktor-IPS can be used as product system for SAP FS-PM.&lt;/p&gt;
+&lt;p&gt;As a MDSD tool, it offers a thight integration between model and (generated) sourcecode. You can jump directly from the model to all generated sourcecode elements. It also allows to refactor the model and the sourcecode, generated or not, in one single step. &lt;/p&gt;
+&lt;p&gt;Documentation is available in German and English.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 08 Feb 2007 14:59:29 +0000</pubDate>
+ <dc:creator>jortmann</dc:creator>
+ <guid isPermaLink="false">391 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/faktor-ips#comments</comments>
+  </item>
+  <item>
+    <title>Extras for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/extras-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo-plus.png&quot; width=&quot;82&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2016-02-05 05:56&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2016-08-05 08:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rherrmann/listings&quot; title=&quot;Rüdiger Herrmann&quot;&gt;Rüdiger Herrmann&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Extras for Eclipse is a collection of small extensions for the Eclipse IDE. They include a launch dialog, a JUnit status bar, a launch configuration housekeeper, and little helpers to accomplish recurring tasks with keyboard shortcuts.&lt;/p&gt;
+&lt;p&gt;The features at a glance:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;A dialog to quickly launch or edit launch configurations, think of &lt;em&gt;Open Resource&lt;/em&gt; for launch configurations&lt;/li&gt;
+&lt;li&gt;A JUnit progress meter in the main status bar&lt;/li&gt;
+&lt;li&gt;A key binding to open the JUnit View&lt;/li&gt;
+&lt;li&gt;A key binding for the &lt;em&gt;Open With…&lt;/em&gt; menu to choose the editor for the selected file&lt;/li&gt;
+&lt;li&gt;And yet another key binding that deletes the currently edited file&lt;/li&gt;
+&lt;li&gt;An option to remove generated launch configurations when they are no longer needed&lt;/li&gt;
+&lt;li&gt;A simple editor for viewing images that is able to display images, regardless of whether they are stored in the local file system or located in an archive, for example a jar or war file.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Each feature can be installed individually. Note, however, that a JRE 8 or newer is required to run this software.&lt;/p&gt;
+&lt;p&gt;Please see the &lt;a href=&quot;https://rherrmann.github.io/eclipse-extras/&quot;&gt;project home page&lt;/a&gt; or the &lt;a href=&quot;http://www.codeaffine.com/2016/02/10/announcing-extras-for-eclipse/&quot;&gt;announcement post&lt;/a&gt; for more information. To file a bug or propose an enhancement, please use the &lt;a href=&quot;https://github.com/rherrmann/eclipse-extras/issues&quot;&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Fri, 05 Feb 2016 10:56:22 +0000</pubDate>
+ <dc:creator>rherrmann</dc:creator>
+ <guid isPermaLink="false">2710118 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/extras-eclipse#comments</comments>
+  </item>
+  <item>
+    <title>UML Designer</title>
+    <link>http://marketplace.eclipse.org/content/uml-designer</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/icon_designer.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2014-07-09 05:43&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2016-08-04 09:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/omisingnameuel/listings&quot; title=&quot;Obeo Team &quot;&gt;Obeo Team &lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;b&gt;UML Designer&lt;/b&gt; is a graphical tool to edit and vizualize UML 2.5 models.&lt;/p&gt;
+
+&lt;p&gt;It uses the standard UML2 metamodel provided by Eclipse Foundation and it implements the following generic UML diagrams:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Package Hierarchy&lt;/li&gt;
+&lt;li&gt;Class Diagam&lt;/li&gt;
+&lt;li&gt;Component Diagram&lt;/li&gt;
+&lt;li&gt;Composite Structure Diagram&lt;/li&gt;
+&lt;li&gt;Deployment Diagram&lt;/li&gt;
+&lt;li&gt;Use Case Diagram&lt;/li&gt;
+&lt;li&gt;Activity Diagram&lt;/li&gt;
+&lt;li&gt;State Machine&lt;/li&gt;
+&lt;li&gt;Sequence Diagram&lt;/li&gt;
+&lt;li&gt;Profile Diagram&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;For those seeking to generate code from their UML diagrams, UML Designer is compatible with the free &lt;a href=&quot;http://marketplace.obeonetwork.com/module/uml2java-generator&quot;&gt;UML to Java code generator&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+As it is based on &lt;a href=&quot;https://www.eclipse.org/sirius&quot;&gt;Sirius&lt;/a&gt;, it provides an easy way to combine UML with domain specific modelling. You can extend the provided diagram definitions and seamlessly work on both UML and DSL models at the same time.
+&lt;/p&gt;
+
+
+&lt;a href=&quot;http://marketplace.obeonetwork.com/module/uml&quot;&gt;
+&lt;img src=&quot;https://github.com/ObeoNetwork/UML-Modeling/raw/fe3ee7f989727866f0cdf60c1902693eb8670093/plugins/org.obeonetwork.dsl.uml2.design.doc/doc/features/agency_pics/entities.jpg&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;https://github.com/ObeoNetwork/UML-Modeling/raw/fe3ee7f989727866f0cdf60c1902693eb8670093/plugins/org.obeonetwork.dsl.uml2.design.doc/doc/features/agency_pics/system%20use%20cases.jpg&quot; width=&quot;500&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;!--break--&gt;&lt;p&gt;
+This designer is free (Open Source with EPL license).&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;
+You can easily modify it with Sirius &lt;strong&gt;to adapt each diagram to your needs&lt;/strong&gt; or combine it to your own DSL. To start customizing this module, just import the &lt;a href=&quot;http://marketplace.obeonetwork.com/module/uml&quot;&gt;source code&lt;/a&gt; of UML Designer from Github.
+&lt;/p&gt;
+
+&lt;p&gt;
+More detail on the &lt;a href=&quot;http://www.umldesigner.org&quot;&gt;UML Designer website.&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+If you have any feedback, tell us &lt;a href=&quot;http://www.obeonetwork.com/group/uml-designer&quot;&gt;on the forum&lt;/a&gt;, fill in our &lt;a href=&quot;http://bit.ly/UMLDesignerSurvey&quot;&gt;survey&lt;/a&gt; or &lt;a href=&quot;https://github.com/ObeoNetwork/UML-Modeling/issues&quot;&gt;report an issue&lt;/a&gt;.
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 09 Jul 2014 09:43:32 +0000</pubDate>
+ <dc:creator>omisingnameuel</dc:creator>
+ <guid isPermaLink="false">1789445 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/uml-designer#comments</comments>
+  </item>
+  </channel>
+</rss>

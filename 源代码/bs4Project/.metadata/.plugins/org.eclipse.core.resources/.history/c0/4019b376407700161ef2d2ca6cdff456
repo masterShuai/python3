@@ -1,0 +1,35 @@
+#!/usr/bin/evn python
+#-*- coding: utf-8 -*-
+'''
+Created on 2016年9月10日
+
+@author: hstking hstking@hotmail.com
+'''
+
+from selenium import webdriver
+from mylog import MyLog as mylog
+
+class GetCartoon(object):
+    def __init__(self):
+        self.startUrl = u'http://www.1kkk.com/ch1-406302/'
+        self.log = mylog()
+        self.browser = self.getBrowser()
+        self.saveCartoon(self.browser)
+        
+        
+    def getBrowser(self):
+        browser = webdriver.PhantomJS()
+        try:
+            browser.get(self.startUrl)
+        except:
+            mylog.error('open the %s failed' %self.startUrl)
+        browser.implicitly_wait(20)
+            
+    def saveCartoon(self, browser):
+        
+        try:
+            NextTag = browser.find_element_by_id('next')
+        
+
+if __name__ == '__main__':
+    GC = GetCartoon()

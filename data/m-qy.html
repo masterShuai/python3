@@ -1,0 +1,2830 @@
+User-Agent: NOKIA5700/ UCWEB7.0.2.37/28/999
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+        window.domainUrl = 'https://m.quyiyuan.com';
+        window.substationUrl = 'https://m.quyiyuan.com';
+        window.region = '\u4E0D\u9650';
+    </script>
+<meta charset="utf-8" />
+<title>趣医挂号网_网上挂号，快人一步</title>
+<base href="/" />
+<meta content="UDfPLif6tv" name="baidu-site-verification" />
+<meta content="趣医网，预约挂号，挂号，挂号网，挂号平台，网上挂号，网上挂号平台，趣医，趣医院，挂号网上预约平台，挂号网上预约，预约挂号统一平台，预约挂号网，医院预约挂号平台，医院门诊，趣医网官网" name="keywords" />
+<meta content="趣医网是国内唯一一家深度直连医院系统的互联网医疗服务平台。提供全国1500余家医院在线挂号、预约门诊、充值缴费、查验报告单等就医全流程服务。" name="description" />
+<meta content="webkit" name="renderer" />
+<meta content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" name="viewport" />
+<meta content="mobile" name="applicable-device" />
+<link href="//g-cdn.quyiyuan.com" rel="dns-prefetch" />
+<link href="//hospitalimg.quyiyuan.com" rel="dns-prefetch" />
+<link href="//img-cdn.quyiyuan.com" rel="dns-prefetch" />
+<link href="//quyiyuanoss.oss-cn-qingdao.aliyuncs.com" rel="dns-prefetch" />
+<link rel="stylesheet" href="//g-cdn.quyiyuan.com/lib/bootstrap/3.3.5/css/bootstrap.min.css" />
+<link rel="stylesheet" href="//g-cdn.quyiyuan.com/lib/angular-plugins/pull-to-refresh/angular-pull-to-refresh.css" />
+<script src="//g-cdn.quyiyuan.com/lib/jquery/2.2.4/jquery.min.js"></script>
+<script src="//g-cdn.quyiyuan.com/lib/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="//g-cdn.quyiyuan.com/lib/plugins/touch-slide/1.1/TouchSlide.js"></script>
+<script src="https://api.map.baidu.com/api?v=2.0&ak=xO3VYDNldPFICINxf9vrGnkU&s=1"></script>
+<link rel="stylesheet" href="//g-cdn.quyiyuan.com/lib/bootstrap/3.3.5/css/bootstrap.min.css" />
+<script src="//g-cdn.quyiyuan.com/lib/angular/1.3.15/angular.min.js"></script>
+<script src="//g-cdn.quyiyuan.com/lib/angular/1.3.15/angular-animate.min.js"></script>
+<script src="//g-cdn.quyiyuan.com/lib/angular/1.3.15/angular-resource.min.js"></script>
+<script src="//g-cdn.quyiyuan.com/lib/angular-plugins/pull-to-refresh/angular-pull-to-refresh.js"></script>
+<script src="//g-cdn.quyiyuan.com/lib/angular-plugins/infinite-scroll/1.3.0/ng-infinite-scroll.min.js"></script>
+<script src="//g-cdn.quyiyuan.com/lib/plugins/touch-slide/1.1/TouchSlide.js"></script>
+<script src="//g-cdn.quyiyuan.com/lib/plugins/lazyload/echo.js"></script>
+<link rel="stylesheet" href="//g-cdn.quyiyuan.com/website/mobile/distCss/gateway-a7c6a9312a.css" />
+<link rel="stylesheet" href="//g-cdn.quyiyuan.com/website/mobile/home/distCss/ui-home-e4cbc2e5bf.css" />
+<script src="//g-cdn.quyiyuan.com/website/mobile/distJs/common-5b4a695fab.js"></script>
+<script src="//g-cdn.quyiyuan.com/website/mobile/distJs/app-776f2b9266.js"></script>
+<script src="//g-cdn.quyiyuan.com/website/mobile/distJs/gateway-98053b8808.js"></script>
+<script src="//g-cdn.quyiyuan.com/website/mobile/distJs/config/prod/config-b2dc326f05.js"></script>
+<script src="//g-cdn.quyiyuan.com/website/mobile/home/distJs/ui-home-7c1577455f.js"></script>
+<script src="//g-cdn.quyiyuan.com/website/mobile/home/distJs/home-4c81d4c9b3.js"></script>
+<script async="true" src="//g-cdn.quyiyuan.com/website/mobile/distJs/config/prod/baiduTongJi-f1fd952c87.js"></script>
+<script async="true" src="//g-cdn.quyiyuan.com/website/mobile/distJs/config/prod/baiduTuiSong-4c6ff8839e.js"></script>
+</head>
+<body ng-app="QY" ng-controller="homeCtrl">
+<div style="display: none">
+<img src="//g-cdn.quyiyuan.com/website/mobile/sprite/ui-home-sprite.png" />
+<img src="//img-cdn.quyiyuan.com/website/mobile/home/banner/puerperiumBanner.jpg" />
+</div>
+<form name="searchForm" ng-submit="search()" onSubmit="return checkKeyword()" role="search">
+<div class="searchSuggest-outer-box ng-hide" ng-show="showSearch">
+<div class="search-back-button" ng-click="hideSearchPanel()"><i class="iconfont icon-x-back top-icon"></i></div>
+<div class="searchSuggest-inner-box">
+<input class="searchSuggest-text-position ellipsis searchSuggest-text-input" id="key" name="keyword" ng-change="searchSuggest()" ng-model="keyword" placeholder="搜索医院、医生、科室、疾病" type="search" />
+<em class="clear-bt-position" ng-click="clearKeyword()" ng-show="keyword"><i class="iconfont icon-clear clear-button"></i></em>
+<button class="search-bt-position" type="search"><i class="iconfont icon-search-result search-button"></i></button>
+<div class="clearfix"></div>
+</div>
+</div>
+</form>
+<div class="search-outer-box" id="searchOuterBox" ng-show="!showSearch">
+<a class="region" data-target="#regionSelect" data-toggle="modal" id="region">
+<span>全国</span>
+<span class="iconfont icon-arrow-down-big"></span>
+</a>
+<div class="search-inner-box" id="searchInnerBox" ng-click="showSearchPanel()">
+<i class="iconfont icon-search icon-font-position" id="searchIcon"></i>
+<span class="search-text-position">搜索医院、医生、科室、疾病</span>
+</div>
+</div>
+<div class="searchSuggest-box ng-hide" ng-show="!keyword && showSearch">
+<div ng-show="searchHistory && searchHistory.length > 0">
+<div class="searchSuggest-title-box">
+<span class="searchSuggest-title-text">历史搜索</span>
+<span class="search-clean" ng-click="clearHistory()"><i class="iconfont icon-delete delete-history"></i></span>
+<div class="clearfix"></div>
+</div>
+<div class="disease-list" ng-click="historyClick(item)" ng-repeat="item in searchHistory">
+<div class="actived active-bg-actived">
+<div class="disease-list-in">
+<div class="disease-info-item ellipsis disease-name">
+<span><i class="iconfont icon-history search-history-icon"></i><span ng-bind="item.name"></span></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="searchSuggest-hot-box">
+<div class="segments3"></div>
+<div class="searchSuggest-hot-title">
+<span class="searchSuggest-hot-text">热门搜索</span>
+</div>
+<div class="searchSuggest-hot-list">
+<a ng-click="hotWordClick(0)" href="https://m.quyiyuan.com/hospital/280009/"><span class="searchSuggest-hot-word1">成都市金牛区妇幼保健院</span></a>
+<a ng-click="hotWordClick(1)" href="https://m.quyiyuan.com/hospital/280001/"><span class="searchSuggest-hot-word1">成都军区总医院</span></a>
+<a ng-click="hotWordClick(2)" href="https://m.quyiyuan.com/hospital/5510002/"><span class="searchSuggest-hot-word1">安徽中医药大学第一附属医院</span></a>
+<a ng-click="hotWordClick(3)" href="https://m.quyiyuan.com/hospital/5550001/"><span class="searchSuggest-hot-word1">马鞍山市人民医院</span></a>
+<a ng-click="hotWordClick(4)" href="https://m.quyiyuan.com/diseases/1230/"><span class="searchSuggest-hot-word1">高血压</span></a>
+<a ng-click="hotWordClick(5)" href="https://m.quyiyuan.com/diseases/161/"><span class="searchSuggest-hot-word1">月经失调</span></a>
+<a ng-click="hotWordClick(6)" href="https://m.quyiyuan.com/diseases/644/"><span class="searchSuggest-hot-word1">前列腺炎</span></a>
+<a ng-click="hotWordClick(7)" href="https://m.quyiyuan.com/diseases/1336/"><span class="searchSuggest-hot-word1">鼻炎</span></a>
+</div>
+<div class="segments4"></div>
+</div>
+</div>
+<div class="search-suggest-list ng-hide" ng-show="keyword && showSearch">
+<div class="search-suggest-item" ng-click="goToSuggestHospital(hospital)" ng-repeat="hospital in suggestData.hospitals" ng-show="suggestData.hospitals && suggestData.hospitals.length >0">
+<div class="actived active-bg-actived">
+<div class="search-suggest-position">
+<span class="search-suggest-item-name search-keyword-highlight" ng-bind-html="hospital.analyzeName | bindHtmlFilter"></span>
+<span class="search-type" ng-bind="hospital.type | searchSuggestFilter"></span>
+</div>
+</div>
+</div>
+<div class="search-suggest-item" ng-click="goToSuggestDisease(disease)" ng-repeat="disease in suggestData.diseases" ng-show="suggestData.diseases && suggestData.diseases.length >0">
+<div class="actived active-bg-actived">
+<div class="search-suggest-position">
+<span class="search-suggest-item-name search-keyword-highlight" ng-bind-html="disease.analyzeName | bindHtmlFilter"></span>
+<span class="search-type" ng-bind="disease.type | searchSuggestFilter"></span>
+</div>
+</div>
+</div>
+<div class="search-suggest-item" ng-click="goToSuggestDoctor(doctor)" ng-repeat="doctor in suggestData.doctors" ng-show="suggestData.doctors && suggestData.doctors.length >0">
+<div class="actived active-bg-actived">
+<div class="search-suggest-position">
+<span class="search-suggest-item-name search-keyword-highlight" ng-bind-html="doctor.name | bindHtmlFilter"></span>
+<span class="search-type" ng-bind="doctor.type | searchSuggestFilter"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="qy-body" ng-show="!showSearch" ontouchmove="" ontouchstart="">
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="regionSelect" role="dialog">
+<div class="modal-dialog region-dialog">
+<div class="modal-content region-content">
+<div class="modal-header region-header">
+<button class="close" data-dismiss="modal" type="button"><i aria-hidden="true" class="iconfont icon-x-back"></i></button>
+<h4 class="modal-title region-title">选择城市</h4>
+</div>
+<div>
+<div>
+<div class="home-location" ng-init="selectedProvince=&#39;0000000&#39;;selectedCity=&#39;0000000&#39;">
+<ul class="province-list">
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<a ng-click="selectProvince(&#39;0000000&#39;)" href="">
+<div>全国</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;110000&#39;)}">
+<a ng-click="selectProvince(&#39;110000&#39;)" href="https://beijing.m.quyiyuan.com">
+<div>北京</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;130000&#39;)}">
+<a ng-click="selectProvince(&#39;130000&#39;)" href="">
+<div>河北</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;140000&#39;)}">
+<a ng-click="selectProvince(&#39;140000&#39;)" href="">
+<div>山西</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;150000&#39;)}">
+<a ng-click="selectProvince(&#39;150000&#39;)" href="">
+<div>内蒙古</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;210000&#39;)}">
+<a ng-click="selectProvince(&#39;210000&#39;)" href="">
+<div>辽宁</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;220000&#39;)}">
+<a ng-click="selectProvince(&#39;220000&#39;)" href="">
+<div>吉林</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;230000&#39;)}">
+<a ng-click="selectProvince(&#39;230000&#39;)" href="">
+<div>黑龙江</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;310000&#39;)}">
+<a ng-click="selectProvince(&#39;310000&#39;)" href="https://shanghai.m.quyiyuan.com">
+<div>上海</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;320000&#39;)}">
+<a ng-click="selectProvince(&#39;320000&#39;)" href="">
+<div>江苏</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;330000&#39;)}">
+<a ng-click="selectProvince(&#39;330000&#39;)" href="">
+<div>浙江</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;340000&#39;)}">
+<a ng-click="selectProvince(&#39;340000&#39;)" href="">
+<div>安徽</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;350000&#39;)}">
+<a ng-click="selectProvince(&#39;350000&#39;)" href="">
+<div>福建</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;360000&#39;)}">
+<a ng-click="selectProvince(&#39;360000&#39;)" href="">
+<div>江西</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;370000&#39;)}">
+<a ng-click="selectProvince(&#39;370000&#39;)" href="">
+<div>山东</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;410000&#39;)}">
+<a ng-click="selectProvince(&#39;410000&#39;)" href="">
+<div>河南</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;420000&#39;)}">
+<a ng-click="selectProvince(&#39;420000&#39;)" href="">
+<div>湖北</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;430000&#39;)}">
+<a ng-click="selectProvince(&#39;430000&#39;)" href="">
+<div>湖南</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;440000&#39;)}">
+<a ng-click="selectProvince(&#39;440000&#39;)" href="">
+<div>广东</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;450000&#39;)}">
+<a ng-click="selectProvince(&#39;450000&#39;)" href="">
+<div>广西</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;460000&#39;)}">
+<a ng-click="selectProvince(&#39;460000&#39;)" href="">
+<div>海南</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;500000&#39;)}">
+<a ng-click="selectProvince(&#39;500000&#39;)" href="https://chongqing.m.quyiyuan.com">
+<div>重庆</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;510000&#39;)}">
+<a ng-click="selectProvince(&#39;510000&#39;)" href="">
+<div>四川</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;520000&#39;)}">
+<a ng-click="selectProvince(&#39;520000&#39;)" href="">
+<div>贵州</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;530000&#39;)}">
+<a ng-click="selectProvince(&#39;530000&#39;)" href="">
+<div>云南</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;540000&#39;)}">
+<a ng-click="selectProvince(&#39;540000&#39;)" href="">
+<div>西藏</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;610000&#39;)}">
+<a ng-click="selectProvince(&#39;610000&#39;)" href="">
+<div>陕西</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;620000&#39;)}">
+<a ng-click="selectProvince(&#39;620000&#39;)" href="">
+<div>甘肃</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;630000&#39;)}">
+<a ng-click="selectProvince(&#39;630000&#39;)" href="">
+<div>青海</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;640000&#39;)}">
+<a ng-click="selectProvince(&#39;640000&#39;)" href="">
+<div>宁夏</div>
+</a>
+</li>
+<li class="province-item" ng-class="{&#39;active-province&#39;: isSelectedProvince(&#39;650000&#39;)}">
+<a ng-click="selectProvince(&#39;650000&#39;)" href="">
+<div>新疆</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;0000000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="">
+<div>不限</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;110000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="">
+<div>不限</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;130000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://hebei.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;130100&#39;)}" ng-click="selectCity(&#39;130100&#39;)" href="https://shijiazhuang.m.quyiyuan.com">
+<div>石家庄</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;130200&#39;)}" ng-click="selectCity(&#39;130200&#39;)" href="https://tangshan.m.quyiyuan.com">
+<div>唐山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;130300&#39;)}" ng-click="selectCity(&#39;130300&#39;)" href="https://qinhuangdao.m.quyiyuan.com">
+<div>秦皇岛</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;130400&#39;)}" ng-click="selectCity(&#39;130400&#39;)" href="https://handan.m.quyiyuan.com">
+<div>邯郸</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;130500&#39;)}" ng-click="selectCity(&#39;130500&#39;)" href="https://xingtai.m.quyiyuan.com">
+<div>邢台</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;130600&#39;)}" ng-click="selectCity(&#39;130600&#39;)" href="https://baoding.m.quyiyuan.com">
+<div>保定</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;130682&#39;)}" ng-click="selectCity(&#39;130682&#39;)" href="https://dingzhou.m.quyiyuan.com">
+<div>定州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;130700&#39;)}" ng-click="selectCity(&#39;130700&#39;)" href="https://zhangjiakou.m.quyiyuan.com">
+<div>张家口</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;130900&#39;)}" ng-click="selectCity(&#39;130900&#39;)" href="https://cangzhou.m.quyiyuan.com">
+<div>沧州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;131100&#39;)}" ng-click="selectCity(&#39;131100&#39;)" href="https://hengshui.m.quyiyuan.com">
+<div>衡水</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;140000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://shanxi.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;140100&#39;)}" ng-click="selectCity(&#39;140100&#39;)" href="https://taiyuan.m.quyiyuan.com">
+<div>太原</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;140200&#39;)}" ng-click="selectCity(&#39;140200&#39;)" href="https://datong.m.quyiyuan.com">
+<div>大同</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;140300&#39;)}" ng-click="selectCity(&#39;140300&#39;)" href="https://yangquan.m.quyiyuan.com">
+<div>阳泉</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;140400&#39;)}" ng-click="selectCity(&#39;140400&#39;)" href="https://changzhi.m.quyiyuan.com">
+<div>长治</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;140500&#39;)}" ng-click="selectCity(&#39;140500&#39;)" href="https://jincheng.m.quyiyuan.com">
+<div>晋城</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;140600&#39;)}" ng-click="selectCity(&#39;140600&#39;)" href="https://shuozhou.m.quyiyuan.com">
+<div>朔州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;140700&#39;)}" ng-click="selectCity(&#39;140700&#39;)" href="https://jinzhong.m.quyiyuan.com">
+<div>晋中</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;140800&#39;)}" ng-click="selectCity(&#39;140800&#39;)" href="https://yuncheng.m.quyiyuan.com">
+<div>运城</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;140900&#39;)}" ng-click="selectCity(&#39;140900&#39;)" href="https://xinzhou.m.quyiyuan.com">
+<div>忻州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;141000&#39;)}" ng-click="selectCity(&#39;141000&#39;)" href="https://linfen.m.quyiyuan.com">
+<div>临汾</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;150000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://neimenggu.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;150300&#39;)}" ng-click="selectCity(&#39;150300&#39;)" href="https://wuhai.m.quyiyuan.com">
+<div>乌海</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;210000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://liaoning.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;210100&#39;)}" ng-click="selectCity(&#39;210100&#39;)" href="https://shenyang.m.quyiyuan.com">
+<div>沈阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;210200&#39;)}" ng-click="selectCity(&#39;210200&#39;)" href="https://dalian.m.quyiyuan.com">
+<div>大连</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;210300&#39;)}" ng-click="selectCity(&#39;210300&#39;)" href="https://anshan.m.quyiyuan.com">
+<div>鞍山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;210500&#39;)}" ng-click="selectCity(&#39;210500&#39;)" href="https://benxi.m.quyiyuan.com">
+<div>本溪</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;210700&#39;)}" ng-click="selectCity(&#39;210700&#39;)" href="https://jinzhou.m.quyiyuan.com">
+<div>锦州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;210800&#39;)}" ng-click="selectCity(&#39;210800&#39;)" href="https://yingkou.m.quyiyuan.com">
+<div>营口</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;210900&#39;)}" ng-click="selectCity(&#39;210900&#39;)" href="https://fuxin.m.quyiyuan.com">
+<div>阜新</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;211000&#39;)}" ng-click="selectCity(&#39;211000&#39;)" href="https://liaoyang.m.quyiyuan.com">
+<div>辽阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;211400&#39;)}" ng-click="selectCity(&#39;211400&#39;)" href="https://huludao.m.quyiyuan.com">
+<div>葫芦岛</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;220000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://jilin.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;220100&#39;)}" ng-click="selectCity(&#39;220100&#39;)" href="https://changchun.m.quyiyuan.com">
+<div>长春</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;220200&#39;)}" ng-click="selectCity(&#39;220200&#39;)" href="https://jilinjilin.m.quyiyuan.com">
+<div>吉林</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;220300&#39;)}" ng-click="selectCity(&#39;220300&#39;)" href="https://siping.m.quyiyuan.com">
+<div>四平</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;220400&#39;)}" ng-click="selectCity(&#39;220400&#39;)" href="https://liaoyuan.m.quyiyuan.com">
+<div>辽源</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;220500&#39;)}" ng-click="selectCity(&#39;220500&#39;)" href="https://tonghua.m.quyiyuan.com">
+<div>通化</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;220600&#39;)}" ng-click="selectCity(&#39;220600&#39;)" href="https://baishan.m.quyiyuan.com">
+<div>白山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;220700&#39;)}" ng-click="selectCity(&#39;220700&#39;)" href="https://songyuan.m.quyiyuan.com">
+<div>松原</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;220800&#39;)}" ng-click="selectCity(&#39;220800&#39;)" href="https://baicheng.m.quyiyuan.com">
+<div>白城</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;222400&#39;)}" ng-click="selectCity(&#39;222400&#39;)" href="https://yanbian.m.quyiyuan.com">
+<div>延边</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;230000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://heilongjiang.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;230100&#39;)}" ng-click="selectCity(&#39;230100&#39;)" href="https://haerbin.m.quyiyuan.com">
+<div>哈尔滨</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;230200&#39;)}" ng-click="selectCity(&#39;230200&#39;)" href="https://qiqihaer.m.quyiyuan.com">
+<div>齐齐哈尔</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;230500&#39;)}" ng-click="selectCity(&#39;230500&#39;)" href="https://shuangyashan.m.quyiyuan.com">
+<div>双鸭山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;230800&#39;)}" ng-click="selectCity(&#39;230800&#39;)" href="https://jiamusi.m.quyiyuan.com">
+<div>佳木斯</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;231000&#39;)}" ng-click="selectCity(&#39;231000&#39;)" href="https://mudanjiang.m.quyiyuan.com">
+<div>牡丹江</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;231200&#39;)}" ng-click="selectCity(&#39;231200&#39;)" href="https://suihua.m.quyiyuan.com">
+<div>绥化</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;310000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="">
+<div>不限</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;320000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://jiangsu.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;320100&#39;)}" ng-click="selectCity(&#39;320100&#39;)" href="https://nanjing.m.quyiyuan.com">
+<div>南京</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;320200&#39;)}" ng-click="selectCity(&#39;320200&#39;)" href="https://wuxi.m.quyiyuan.com">
+<div>无锡</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;320300&#39;)}" ng-click="selectCity(&#39;320300&#39;)" href="https://xuzhou.m.quyiyuan.com">
+<div>徐州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;320400&#39;)}" ng-click="selectCity(&#39;320400&#39;)" href="https://changzhou.m.quyiyuan.com">
+<div>常州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;320500&#39;)}" ng-click="selectCity(&#39;320500&#39;)" href="https://jiangsusuzhou.m.quyiyuan.com">
+<div>苏州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;320700&#39;)}" ng-click="selectCity(&#39;320700&#39;)" href="https://lianyungang.m.quyiyuan.com">
+<div>连云港</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;320800&#39;)}" ng-click="selectCity(&#39;320800&#39;)" href="https://huaian.m.quyiyuan.com">
+<div>淮安</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;320900&#39;)}" ng-click="selectCity(&#39;320900&#39;)" href="https://yancheng.m.quyiyuan.com">
+<div>盐城</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;321000&#39;)}" ng-click="selectCity(&#39;321000&#39;)" href="https://yangzhou.m.quyiyuan.com">
+<div>扬州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;321100&#39;)}" ng-click="selectCity(&#39;321100&#39;)" href="https://zhenjiang.m.quyiyuan.com">
+<div>镇江</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;321200&#39;)}" ng-click="selectCity(&#39;321200&#39;)" href="https://jiangsutaizhou.m.quyiyuan.com">
+<div>泰州</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;330000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://zhejiang.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;330100&#39;)}" ng-click="selectCity(&#39;330100&#39;)" href="https://hangzhou.m.quyiyuan.com">
+<div>杭州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;330300&#39;)}" ng-click="selectCity(&#39;330300&#39;)" href="https://wenzhou.m.quyiyuan.com">
+<div>温州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;330400&#39;)}" ng-click="selectCity(&#39;330400&#39;)" href="https://jiaxing.m.quyiyuan.com">
+<div>嘉兴</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;330500&#39;)}" ng-click="selectCity(&#39;330500&#39;)" href="https://huzhou.m.quyiyuan.com">
+<div>湖州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;330600&#39;)}" ng-click="selectCity(&#39;330600&#39;)" href="https://shaoxing.m.quyiyuan.com">
+<div>绍兴</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;330700&#39;)}" ng-click="selectCity(&#39;330700&#39;)" href="https://jinhua.m.quyiyuan.com">
+<div>金华</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;330900&#39;)}" ng-click="selectCity(&#39;330900&#39;)" href="https://zhoushan.m.quyiyuan.com">
+<div>舟山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;331000&#39;)}" ng-click="selectCity(&#39;331000&#39;)" href="https://zhejiangtaizhou.m.quyiyuan.com">
+<div>台州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;331100&#39;)}" ng-click="selectCity(&#39;331100&#39;)" href="https://lishui.m.quyiyuan.com">
+<div>丽水</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;340000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://anhui.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;340100&#39;)}" ng-click="selectCity(&#39;340100&#39;)" href="https://hefei.m.quyiyuan.com">
+<div>合肥</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;340300&#39;)}" ng-click="selectCity(&#39;340300&#39;)" href="https://bengbu.m.quyiyuan.com">
+<div>蚌埠</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;340400&#39;)}" ng-click="selectCity(&#39;340400&#39;)" href="https://huainan.m.quyiyuan.com">
+<div>淮南</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;340500&#39;)}" ng-click="selectCity(&#39;340500&#39;)" href="https://maanshan.m.quyiyuan.com">
+<div>马鞍山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;340600&#39;)}" ng-click="selectCity(&#39;340600&#39;)" href="https://huaibei.m.quyiyuan.com">
+<div>淮北</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;340700&#39;)}" ng-click="selectCity(&#39;340700&#39;)" href="https://tongling.m.quyiyuan.com">
+<div>铜陵</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;340800&#39;)}" ng-click="selectCity(&#39;340800&#39;)" href="https://anqing.m.quyiyuan.com">
+<div>安庆</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;341000&#39;)}" ng-click="selectCity(&#39;341000&#39;)" href="https://huangshan.m.quyiyuan.com">
+<div>黄山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;341100&#39;)}" ng-click="selectCity(&#39;341100&#39;)" href="https://chuzhou.m.quyiyuan.com">
+<div>滁州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;341200&#39;)}" ng-click="selectCity(&#39;341200&#39;)" href="https://fuyang.m.quyiyuan.com">
+<div>阜阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;341300&#39;)}" ng-click="selectCity(&#39;341300&#39;)" href="https://anhuisuzhou.m.quyiyuan.com">
+<div>宿州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;341500&#39;)}" ng-click="selectCity(&#39;341500&#39;)" href="https://liuan.m.quyiyuan.com">
+<div>六安</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;341600&#39;)}" ng-click="selectCity(&#39;341600&#39;)" href="https://bozhou.m.quyiyuan.com">
+<div>亳州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;341700&#39;)}" ng-click="selectCity(&#39;341700&#39;)" href="https://chizhou.m.quyiyuan.com">
+<div>池州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;341800&#39;)}" ng-click="selectCity(&#39;341800&#39;)" href="https://xuancheng.m.quyiyuan.com">
+<div>宣城</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;350000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://fujian.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;350100&#39;)}" ng-click="selectCity(&#39;350100&#39;)" href="https://fujianfuzhou.m.quyiyuan.com">
+<div>福州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;350200&#39;)}" ng-click="selectCity(&#39;350200&#39;)" href="https://xiamen.m.quyiyuan.com">
+<div>厦门</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;350300&#39;)}" ng-click="selectCity(&#39;350300&#39;)" href="https://putian.m.quyiyuan.com">
+<div>莆田</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;350400&#39;)}" ng-click="selectCity(&#39;350400&#39;)" href="https://sanming.m.quyiyuan.com">
+<div>三明</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;350500&#39;)}" ng-click="selectCity(&#39;350500&#39;)" href="https://quanzhou.m.quyiyuan.com">
+<div>泉州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;350600&#39;)}" ng-click="selectCity(&#39;350600&#39;)" href="https://zhangzhou.m.quyiyuan.com">
+<div>漳州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;350700&#39;)}" ng-click="selectCity(&#39;350700&#39;)" href="https://nanping.m.quyiyuan.com">
+<div>南平</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;350800&#39;)}" ng-click="selectCity(&#39;350800&#39;)" href="https://longyan.m.quyiyuan.com">
+<div>龙岩</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;350900&#39;)}" ng-click="selectCity(&#39;350900&#39;)" href="https://ningde.m.quyiyuan.com">
+<div>宁德</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;360000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://jiangxi.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;360100&#39;)}" ng-click="selectCity(&#39;360100&#39;)" href="https://nanchang.m.quyiyuan.com">
+<div>南昌</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;360200&#39;)}" ng-click="selectCity(&#39;360200&#39;)" href="https://jingdezhen.m.quyiyuan.com">
+<div>景德镇</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;360300&#39;)}" ng-click="selectCity(&#39;360300&#39;)" href="https://pingxiang.m.quyiyuan.com">
+<div>萍乡</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;360400&#39;)}" ng-click="selectCity(&#39;360400&#39;)" href="https://jiujiang.m.quyiyuan.com">
+<div>九江</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;360500&#39;)}" ng-click="selectCity(&#39;360500&#39;)" href="https://xinyu.m.quyiyuan.com">
+<div>新余</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;360600&#39;)}" ng-click="selectCity(&#39;360600&#39;)" href="https://yingtan.m.quyiyuan.com">
+<div>鹰潭</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;360700&#39;)}" ng-click="selectCity(&#39;360700&#39;)" href="https://ganzhou.m.quyiyuan.com">
+<div>赣州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;360800&#39;)}" ng-click="selectCity(&#39;360800&#39;)" href="https://jian.m.quyiyuan.com">
+<div>吉安</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;360900&#39;)}" ng-click="selectCity(&#39;360900&#39;)" href="https://yichun.m.quyiyuan.com">
+<div>宜春</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;361000&#39;)}" ng-click="selectCity(&#39;361000&#39;)" href="https://jiangxifuzhou.m.quyiyuan.com">
+<div>抚州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;361100&#39;)}" ng-click="selectCity(&#39;361100&#39;)" href="https://shangrao.m.quyiyuan.com">
+<div>上饶</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;370000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://shandong.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;370100&#39;)}" ng-click="selectCity(&#39;370100&#39;)" href="https://jinan.m.quyiyuan.com">
+<div>济南</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;370200&#39;)}" ng-click="selectCity(&#39;370200&#39;)" href="https://qingdao.m.quyiyuan.com">
+<div>青岛</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;370300&#39;)}" ng-click="selectCity(&#39;370300&#39;)" href="https://zibo.m.quyiyuan.com">
+<div>淄博</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;370400&#39;)}" ng-click="selectCity(&#39;370400&#39;)" href="https://zaozhuang.m.quyiyuan.com">
+<div>枣庄</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;370500&#39;)}" ng-click="selectCity(&#39;370500&#39;)" href="https://dongying.m.quyiyuan.com">
+<div>东营</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;370600&#39;)}" ng-click="selectCity(&#39;370600&#39;)" href="https://yantai.m.quyiyuan.com">
+<div>烟台</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;370700&#39;)}" ng-click="selectCity(&#39;370700&#39;)" href="https://weifang.m.quyiyuan.com">
+<div>潍坊</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;370800&#39;)}" ng-click="selectCity(&#39;370800&#39;)" href="https://jining.m.quyiyuan.com">
+<div>济宁</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;370900&#39;)}" ng-click="selectCity(&#39;370900&#39;)" href="https://taian.m.quyiyuan.com">
+<div>泰安</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;371000&#39;)}" ng-click="selectCity(&#39;371000&#39;)" href="https://weihai.m.quyiyuan.com">
+<div>威海</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;371100&#39;)}" ng-click="selectCity(&#39;371100&#39;)" href="https://rizhao.m.quyiyuan.com">
+<div>日照</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;371200&#39;)}" ng-click="selectCity(&#39;371200&#39;)" href="https://laiwu.m.quyiyuan.com">
+<div>莱芜</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;371300&#39;)}" ng-click="selectCity(&#39;371300&#39;)" href="https://linyi.m.quyiyuan.com">
+<div>临沂</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;371400&#39;)}" ng-click="selectCity(&#39;371400&#39;)" href="https://dezhou.m.quyiyuan.com">
+<div>德州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;371500&#39;)}" ng-click="selectCity(&#39;371500&#39;)" href="https://liaocheng.m.quyiyuan.com">
+<div>聊城</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;371600&#39;)}" ng-click="selectCity(&#39;371600&#39;)" href="https://binzhou.m.quyiyuan.com">
+<div>滨州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;371700&#39;)}" ng-click="selectCity(&#39;371700&#39;)" href="https://heze.m.quyiyuan.com">
+<div>菏泽</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;410000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://henan.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;410100&#39;)}" ng-click="selectCity(&#39;410100&#39;)" href="https://zhengzhou.m.quyiyuan.com">
+<div>郑州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;410200&#39;)}" ng-click="selectCity(&#39;410200&#39;)" href="https://kaifeng.m.quyiyuan.com">
+<div>开封</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;410300&#39;)}" ng-click="selectCity(&#39;410300&#39;)" href="https://henanluoyang.m.quyiyuan.com">
+<div>洛阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;410400&#39;)}" ng-click="selectCity(&#39;410400&#39;)" href="https://pingdingshan.m.quyiyuan.com">
+<div>平顶山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;410500&#39;)}" ng-click="selectCity(&#39;410500&#39;)" href="https://anyang.m.quyiyuan.com">
+<div>安阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;410600&#39;)}" ng-click="selectCity(&#39;410600&#39;)" href="https://hebi.m.quyiyuan.com">
+<div>鹤壁</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;410700&#39;)}" ng-click="selectCity(&#39;410700&#39;)" href="https://xinxiang.m.quyiyuan.com">
+<div>新乡</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;410800&#39;)}" ng-click="selectCity(&#39;410800&#39;)" href="https://jiaozuo.m.quyiyuan.com">
+<div>焦作</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;410900&#39;)}" ng-click="selectCity(&#39;410900&#39;)" href="https://puyang.m.quyiyuan.com">
+<div>濮阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;411000&#39;)}" ng-click="selectCity(&#39;411000&#39;)" href="https://xuchang.m.quyiyuan.com">
+<div>许昌</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;411100&#39;)}" ng-click="selectCity(&#39;411100&#39;)" href="https://luohe.m.quyiyuan.com">
+<div>漯河</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;411200&#39;)}" ng-click="selectCity(&#39;411200&#39;)" href="https://sanmenxia.m.quyiyuan.com">
+<div>三门峡</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;411300&#39;)}" ng-click="selectCity(&#39;411300&#39;)" href="https://nanyang.m.quyiyuan.com">
+<div>南阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;411400&#39;)}" ng-click="selectCity(&#39;411400&#39;)" href="https://shangqiu.m.quyiyuan.com">
+<div>商丘</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;411500&#39;)}" ng-click="selectCity(&#39;411500&#39;)" href="https://xinyang.m.quyiyuan.com">
+<div>信阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;411600&#39;)}" ng-click="selectCity(&#39;411600&#39;)" href="https://zhoukou.m.quyiyuan.com">
+<div>周口</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;411700&#39;)}" ng-click="selectCity(&#39;411700&#39;)" href="https://zhumadian.m.quyiyuan.com">
+<div>驻马店</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;419000&#39;)}" ng-click="selectCity(&#39;419000&#39;)" href="https://shengzhixia.m.quyiyuan.com">
+<div>省直辖</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;420000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://hubei.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;420100&#39;)}" ng-click="selectCity(&#39;420100&#39;)" href="https://wuhan.m.quyiyuan.com">
+<div>武汉</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;420200&#39;)}" ng-click="selectCity(&#39;420200&#39;)" href="https://huangshi.m.quyiyuan.com">
+<div>黄石</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;420300&#39;)}" ng-click="selectCity(&#39;420300&#39;)" href="https://shiyan.m.quyiyuan.com">
+<div>十堰</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;420500&#39;)}" ng-click="selectCity(&#39;420500&#39;)" href="https://yichang.m.quyiyuan.com">
+<div>宜昌</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;420600&#39;)}" ng-click="selectCity(&#39;420600&#39;)" href="https://xiangyang.m.quyiyuan.com">
+<div>襄阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;420700&#39;)}" ng-click="selectCity(&#39;420700&#39;)" href="https://ezhou.m.quyiyuan.com">
+<div>鄂州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;420800&#39;)}" ng-click="selectCity(&#39;420800&#39;)" href="https://jingmen.m.quyiyuan.com">
+<div>荆门</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;420900&#39;)}" ng-click="selectCity(&#39;420900&#39;)" href="https://xiaogan.m.quyiyuan.com">
+<div>孝感</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;421000&#39;)}" ng-click="selectCity(&#39;421000&#39;)" href="https://jingzhou.m.quyiyuan.com">
+<div>荆州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;421100&#39;)}" ng-click="selectCity(&#39;421100&#39;)" href="https://huanggang.m.quyiyuan.com">
+<div>黄冈</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;421200&#39;)}" ng-click="selectCity(&#39;421200&#39;)" href="https://xianning.m.quyiyuan.com">
+<div>咸宁</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;421300&#39;)}" ng-click="selectCity(&#39;421300&#39;)" href="https://suizhou.m.quyiyuan.com">
+<div>随州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;422800&#39;)}" ng-click="selectCity(&#39;422800&#39;)" href="https://enshi.m.quyiyuan.com">
+<div>恩施</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;429004&#39;)}" ng-click="selectCity(&#39;429004&#39;)" href="https://xiantao.m.quyiyuan.com">
+<div>仙桃</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;429005&#39;)}" ng-click="selectCity(&#39;429005&#39;)" href="https://qianjiang.m.quyiyuan.com">
+<div>潜江</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;429006&#39;)}" ng-click="selectCity(&#39;429006&#39;)" href="https://tianmen.m.quyiyuan.com">
+<div>天门</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;429021&#39;)}" ng-click="selectCity(&#39;429021&#39;)" href="https://shennongjia.m.quyiyuan.com">
+<div>神农架</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;430000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://hunan.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;430100&#39;)}" ng-click="selectCity(&#39;430100&#39;)" href="https://changsha.m.quyiyuan.com">
+<div>长沙</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;430200&#39;)}" ng-click="selectCity(&#39;430200&#39;)" href="https://zhuzhou.m.quyiyuan.com">
+<div>株洲</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;430300&#39;)}" ng-click="selectCity(&#39;430300&#39;)" href="https://xiangtan.m.quyiyuan.com">
+<div>湘潭</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;430400&#39;)}" ng-click="selectCity(&#39;430400&#39;)" href="https://hengyang.m.quyiyuan.com">
+<div>衡阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;430500&#39;)}" ng-click="selectCity(&#39;430500&#39;)" href="https://shaoyang.m.quyiyuan.com">
+<div>邵阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;430600&#39;)}" ng-click="selectCity(&#39;430600&#39;)" href="https://yueyang.m.quyiyuan.com">
+<div>岳阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;430700&#39;)}" ng-click="selectCity(&#39;430700&#39;)" href="https://changde.m.quyiyuan.com">
+<div>常德</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;430800&#39;)}" ng-click="selectCity(&#39;430800&#39;)" href="https://zhangjiajie.m.quyiyuan.com">
+<div>张家界</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;430900&#39;)}" ng-click="selectCity(&#39;430900&#39;)" href="https://yiyang.m.quyiyuan.com">
+<div>益阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;431000&#39;)}" ng-click="selectCity(&#39;431000&#39;)" href="https://chenzhou.m.quyiyuan.com">
+<div>郴州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;431100&#39;)}" ng-click="selectCity(&#39;431100&#39;)" href="https://yongzhou.m.quyiyuan.com">
+<div>永州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;431200&#39;)}" ng-click="selectCity(&#39;431200&#39;)" href="https://huaihua.m.quyiyuan.com">
+<div>怀化</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;431300&#39;)}" ng-click="selectCity(&#39;431300&#39;)" href="https://loudi.m.quyiyuan.com">
+<div>娄底</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;433100&#39;)}" ng-click="selectCity(&#39;433100&#39;)" href="https://xiangxi.m.quyiyuan.com">
+<div>湘西</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;440000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://guangdong.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;440100&#39;)}" ng-click="selectCity(&#39;440100&#39;)" href="https://guangzhou.m.quyiyuan.com">
+<div>广州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;440300&#39;)}" ng-click="selectCity(&#39;440300&#39;)" href="https://shenzhen.m.quyiyuan.com">
+<div>深圳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;440600&#39;)}" ng-click="selectCity(&#39;440600&#39;)" href="https://foshan.m.quyiyuan.com">
+<div>佛山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;440700&#39;)}" ng-click="selectCity(&#39;440700&#39;)" href="https://jiangmen.m.quyiyuan.com">
+<div>江门</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;441300&#39;)}" ng-click="selectCity(&#39;441300&#39;)" href="https://huizhou.m.quyiyuan.com">
+<div>惠州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;441400&#39;)}" ng-click="selectCity(&#39;441400&#39;)" href="https://meizhou.m.quyiyuan.com">
+<div>梅州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;441600&#39;)}" ng-click="selectCity(&#39;441600&#39;)" href="https://heyuan.m.quyiyuan.com">
+<div>河源</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;441700&#39;)}" ng-click="selectCity(&#39;441700&#39;)" href="https://yangjiang.m.quyiyuan.com">
+<div>阳江</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;441800&#39;)}" ng-click="selectCity(&#39;441800&#39;)" href="https://qingyuan.m.quyiyuan.com">
+<div>清远</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;441900&#39;)}" ng-click="selectCity(&#39;441900&#39;)" href="https://dongguan.m.quyiyuan.com">
+<div>东莞</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;450000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://guangxi.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;450100&#39;)}" ng-click="selectCity(&#39;450100&#39;)" href="https://nanning.m.quyiyuan.com">
+<div>南宁</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;450200&#39;)}" ng-click="selectCity(&#39;450200&#39;)" href="https://liuzhou.m.quyiyuan.com">
+<div>柳州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;450300&#39;)}" ng-click="selectCity(&#39;450300&#39;)" href="https://guilin.m.quyiyuan.com">
+<div>桂林</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;450400&#39;)}" ng-click="selectCity(&#39;450400&#39;)" href="https://wuzhou.m.quyiyuan.com">
+<div>梧州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;450500&#39;)}" ng-click="selectCity(&#39;450500&#39;)" href="https://beihai.m.quyiyuan.com">
+<div>北海</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;450600&#39;)}" ng-click="selectCity(&#39;450600&#39;)" href="https://fangchenggang.m.quyiyuan.com">
+<div>防城港</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;450700&#39;)}" ng-click="selectCity(&#39;450700&#39;)" href="https://qinzhou.m.quyiyuan.com">
+<div>钦州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;450800&#39;)}" ng-click="selectCity(&#39;450800&#39;)" href="https://guigang.m.quyiyuan.com">
+<div>贵港</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;451000&#39;)}" ng-click="selectCity(&#39;451000&#39;)" href="https://baise.m.quyiyuan.com">
+<div>百色</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;451200&#39;)}" ng-click="selectCity(&#39;451200&#39;)" href="https://hechi.m.quyiyuan.com">
+<div>河池</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;460000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://hainan.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;469007&#39;)}" ng-click="selectCity(&#39;469007&#39;)" href="https://dongfang.m.quyiyuan.com">
+<div>东方</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;500000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="">
+<div>不限</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;510000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://sichuan.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;510100&#39;)}" ng-click="selectCity(&#39;510100&#39;)" href="https://chengdu.m.quyiyuan.com">
+<div>成都</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;510300&#39;)}" ng-click="selectCity(&#39;510300&#39;)" href="https://zigong.m.quyiyuan.com">
+<div>自贡</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;510500&#39;)}" ng-click="selectCity(&#39;510500&#39;)" href="https://luzhou.m.quyiyuan.com">
+<div>泸州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;510600&#39;)}" ng-click="selectCity(&#39;510600&#39;)" href="https://deyang.m.quyiyuan.com">
+<div>德阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;510700&#39;)}" ng-click="selectCity(&#39;510700&#39;)" href="https://mianyang.m.quyiyuan.com">
+<div>绵阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;510800&#39;)}" ng-click="selectCity(&#39;510800&#39;)" href="https://guangyuan.m.quyiyuan.com">
+<div>广元</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;510900&#39;)}" ng-click="selectCity(&#39;510900&#39;)" href="https://suining.m.quyiyuan.com">
+<div>遂宁</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;511000&#39;)}" ng-click="selectCity(&#39;511000&#39;)" href="https://neijiang.m.quyiyuan.com">
+<div>内江</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;511100&#39;)}" ng-click="selectCity(&#39;511100&#39;)" href="https://leshan.m.quyiyuan.com">
+<div>乐山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;511300&#39;)}" ng-click="selectCity(&#39;511300&#39;)" href="https://nanchong.m.quyiyuan.com">
+<div>南充</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;511400&#39;)}" ng-click="selectCity(&#39;511400&#39;)" href="https://meishan.m.quyiyuan.com">
+<div>眉山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;511500&#39;)}" ng-click="selectCity(&#39;511500&#39;)" href="https://yibin.m.quyiyuan.com">
+<div>宜宾</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;511600&#39;)}" ng-click="selectCity(&#39;511600&#39;)" href="https://guangan.m.quyiyuan.com">
+<div>广安</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;511700&#39;)}" ng-click="selectCity(&#39;511700&#39;)" href="https://dazhou.m.quyiyuan.com">
+<div>达州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;511800&#39;)}" ng-click="selectCity(&#39;511800&#39;)" href="https://yaan.m.quyiyuan.com">
+<div>雅安</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;511900&#39;)}" ng-click="selectCity(&#39;511900&#39;)" href="https://bazhong.m.quyiyuan.com">
+<div>巴中</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;512000&#39;)}" ng-click="selectCity(&#39;512000&#39;)" href="https://ziyang.m.quyiyuan.com">
+<div>资阳</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;520000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://guizhou.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;520100&#39;)}" ng-click="selectCity(&#39;520100&#39;)" href="https://guiyang.m.quyiyuan.com">
+<div>贵阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;520200&#39;)}" ng-click="selectCity(&#39;520200&#39;)" href="https://liupanshui.m.quyiyuan.com">
+<div>六盘水</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;520300&#39;)}" ng-click="selectCity(&#39;520300&#39;)" href="https://zunyi.m.quyiyuan.com">
+<div>遵义</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;520382&#39;)}" ng-click="selectCity(&#39;520382&#39;)" href="https://renhuai.m.quyiyuan.com">
+<div>仁怀</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;520400&#39;)}" ng-click="selectCity(&#39;520400&#39;)" href="https://anshun.m.quyiyuan.com">
+<div>安顺</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;522200&#39;)}" ng-click="selectCity(&#39;522200&#39;)" href="https://tongren.m.quyiyuan.com">
+<div>铜仁</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;530000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://yunnan.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;530100&#39;)}" ng-click="selectCity(&#39;530100&#39;)" href="https://kunming.m.quyiyuan.com">
+<div>昆明</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;530300&#39;)}" ng-click="selectCity(&#39;530300&#39;)" href="https://qujing.m.quyiyuan.com">
+<div>曲靖</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;530400&#39;)}" ng-click="selectCity(&#39;530400&#39;)" href="https://yuxi.m.quyiyuan.com">
+<div>玉溪</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;530900&#39;)}" ng-click="selectCity(&#39;530900&#39;)" href="https://lincang.m.quyiyuan.com">
+<div>临沧</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;532301&#39;)}" ng-click="selectCity(&#39;532301&#39;)" href="https://chuxiong.m.quyiyuan.com">
+<div>楚雄</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;532500&#39;)}" ng-click="selectCity(&#39;532500&#39;)" href="https://honghe.m.quyiyuan.com">
+<div>红河</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;540000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://xizang.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;540100&#39;)}" ng-click="selectCity(&#39;540100&#39;)" href="https://lasa.m.quyiyuan.com">
+<div>拉萨</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;610000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://shaanxi.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;610100&#39;)}" ng-click="selectCity(&#39;610100&#39;)" href="https://xian.m.quyiyuan.com">
+<div>西安</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;610300&#39;)}" ng-click="selectCity(&#39;610300&#39;)" href="https://baoji.m.quyiyuan.com">
+<div>宝鸡</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;610800&#39;)}" ng-click="selectCity(&#39;610800&#39;)" href="https://yulin.m.quyiyuan.com">
+<div>榆林</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;610900&#39;)}" ng-click="selectCity(&#39;610900&#39;)" href="https://ankang.m.quyiyuan.com">
+<div>安康</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;611000&#39;)}" ng-click="selectCity(&#39;611000&#39;)" href="https://shangluo.m.quyiyuan.com">
+<div>商洛</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;611100&#39;)}" ng-click="selectCity(&#39;611100&#39;)" href="https://yangling.m.quyiyuan.com">
+<div>杨凌</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;620000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://gansu.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;620100&#39;)}" ng-click="selectCity(&#39;620100&#39;)" href="https://lanzhou.m.quyiyuan.com">
+<div>兰州</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;620200&#39;)}" ng-click="selectCity(&#39;620200&#39;)" href="https://jiayuguan.m.quyiyuan.com">
+<div>嘉峪关</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;620300&#39;)}" ng-click="selectCity(&#39;620300&#39;)" href="https://jinchang.m.quyiyuan.com">
+<div>金昌</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;620400&#39;)}" ng-click="selectCity(&#39;620400&#39;)" href="https://baiyin.m.quyiyuan.com">
+<div>白银</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;620500&#39;)}" ng-click="selectCity(&#39;620500&#39;)" href="https://tianshui.m.quyiyuan.com">
+<div>天水</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;620600&#39;)}" ng-click="selectCity(&#39;620600&#39;)" href="https://wuwei.m.quyiyuan.com">
+<div>武威</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;620700&#39;)}" ng-click="selectCity(&#39;620700&#39;)" href="https://zhangye.m.quyiyuan.com">
+<div>张掖</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;620800&#39;)}" ng-click="selectCity(&#39;620800&#39;)" href="https://pingliang.m.quyiyuan.com">
+<div>平凉</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;620900&#39;)}" ng-click="selectCity(&#39;620900&#39;)" href="https://jiuquan.m.quyiyuan.com">
+<div>酒泉</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;621000&#39;)}" ng-click="selectCity(&#39;621000&#39;)" href="https://qingyang.m.quyiyuan.com">
+<div>庆阳</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;621100&#39;)}" ng-click="selectCity(&#39;621100&#39;)" href="https://dingxi.m.quyiyuan.com">
+<div>定西</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;621200&#39;)}" ng-click="selectCity(&#39;621200&#39;)" href="https://longnan.m.quyiyuan.com">
+<div>陇南</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;622900&#39;)}" ng-click="selectCity(&#39;622900&#39;)" href="https://linxia.m.quyiyuan.com">
+<div>临夏</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;623000&#39;)}" ng-click="selectCity(&#39;623000&#39;)" href="https://gannan.m.quyiyuan.com">
+<div>甘南</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;630000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://qinghai.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;630100&#39;)}" ng-click="selectCity(&#39;630100&#39;)" href="https://xining.m.quyiyuan.com">
+<div>西宁</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;632100&#39;)}" ng-click="selectCity(&#39;632100&#39;)" href="https://haidong.m.quyiyuan.com">
+<div>海东</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;640000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://ningxia.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;640100&#39;)}" ng-click="selectCity(&#39;640100&#39;)" href="https://yinchuan.m.quyiyuan.com">
+<div>银川</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;640200&#39;)}" ng-click="selectCity(&#39;640200&#39;)" href="https://shizuishan.m.quyiyuan.com">
+<div>石嘴山</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;640300&#39;)}" ng-click="selectCity(&#39;640300&#39;)" href="https://wuzhong.m.quyiyuan.com">
+<div>吴忠</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;640500&#39;)}" ng-click="selectCity(&#39;640500&#39;)" href="https://zhongwei.m.quyiyuan.com">
+<div>中卫</div>
+</a>
+</li>
+</ul>
+<ul class="city-list home-city-list" ng-show="isSelectedProvince(&#39;650000&#39;)" ng-class="{&#39;show-city-list&#39;: isSelectedProvince(&#39;0000000&#39;)}">
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;0000000&#39;)}" ng-click="selectCity(&#39;0000000&#39;)" href="https://xinjiang.m.quyiyuan.com">
+<div>不限</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;650100&#39;)}" ng-click="selectCity(&#39;650100&#39;)" href="https://wulumuqi.m.quyiyuan.com">
+<div>乌鲁木齐</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;652101&#39;)}" ng-click="selectCity(&#39;652101&#39;)" href="https://tulufan.m.quyiyuan.com">
+<div>吐鲁番</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;652201&#39;)}" ng-click="selectCity(&#39;652201&#39;)" href="https://hami.m.quyiyuan.com">
+<div>哈密</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;652300&#39;)}" ng-click="selectCity(&#39;652300&#39;)" href="https://changji.m.quyiyuan.com">
+<div>昌吉</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;652700&#39;)}" ng-click="selectCity(&#39;652700&#39;)" href="https://boertala.m.quyiyuan.com">
+<div>博尔塔拉</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;652800&#39;)}" ng-click="selectCity(&#39;652800&#39;)" href="https://bayinguoleng.m.quyiyuan.com">
+<div>巴音郭楞</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;652900&#39;)}" ng-click="selectCity(&#39;652900&#39;)" href="https://akesu.m.quyiyuan.com">
+<div>阿克苏</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;653000&#39;)}" ng-click="selectCity(&#39;653000&#39;)" href="https://kezilesu.m.quyiyuan.com">
+<div>克孜勒苏</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;653100&#39;)}" ng-click="selectCity(&#39;653100&#39;)" href="https://kashen.m.quyiyuan.com">
+<div>喀什</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;653200&#39;)}" ng-click="selectCity(&#39;653200&#39;)" href="https://hetian.m.quyiyuan.com">
+<div>和田</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;654000&#39;)}" ng-click="selectCity(&#39;654000&#39;)" href="https://yili.m.quyiyuan.com">
+<div>伊犁</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;654300&#39;)}" ng-click="selectCity(&#39;654300&#39;)" href="https://aletai.m.quyiyuan.com">
+<div>阿勒泰</div>
+</a>
+</li>
+<li>
+<a class="city-item" nav-go-brother="" ng-class="{&#39;active-city&#39;: isSelectedCity(&#39;659004&#39;)}" ng-click="selectCity(&#39;659004&#39;)" href="https://wujiaqu.m.quyiyuan.com">
+<div>五家渠</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="home-banner" id="home-banner">
+<div class="home-focus" id="focus">
+<div class="home-banner-list">
+<ul>
+<li><a href="https://m.quyiyuan.com/misc/puerperium/"><img src="//img-cdn.quyiyuan.com/website/mobile/home/banner/puerperiumBanner.jpg" /></a></li>
+<li ng-cloak=""><a href="https://m.quyiyuan.com/misc/kidney/"><img src="//img-cdn.quyiyuan.com/website/mobile/home/banner/kidneyBanner.jpg" /></a></li>
+<li ng-cloak=""><a href="https://m.quyiyuan.com/misc/contraception/"><img src="//img-cdn.quyiyuan.com/website/mobile/home/banner/contraceptionBanner.jpg" /></a></li>
+<li ng-cloak=""><a href="https://m.quyiyuan.com/hospitals/"><img src="//img-cdn.quyiyuan.com/website/mobile/home/banner/registerBanner.jpg" /></a></li>
+</ul>
+</div>
+<div class="home-banner-point-list">
+<ol></ol>
+</div>
+</div>
+</div>
+<div>
+<div class="home-menus">
+<a class="findHospitals" href="https://m.quyiyuan.com/hospitals/">
+<em></em>
+<span>找医院</span>
+</a>
+<a class="findDeparments" href="https://m.quyiyuan.com/departments/">
+<em></em>
+<span>找科室</span>
+</a>
+<a class="findDoctors" href="https://m.quyiyuan.com/doctors/">
+<em></em>
+<span>找医生</span>
+</a>
+<a class="findDiseases" href="https://m.quyiyuan.com/diseases/">
+<em></em>
+<span>查疾病</span>
+</a>
+</div>
+<div class="home-depart-pane">
+<h3 class="header-item">热门科室<a class="load-more" href="https://m.quyiyuan.com/departments/">更多<i class="iconfont icon-arrow-right"></i></a></h3>
+<div class="depart-pane">
+<a class=" text-center  disease-item" href="https://m.quyiyuan.com/departments/fuchanke--all-0000000-0000000/">
+<em class="black-icon home-icon01"><i class="iconfont icon-obstetrics"></i></em>
+<span class="black-text">妇产科</span>
+</a>
+<a class=" text-center disease-item " href="https://m.quyiyuan.com/departments/shengzhizhongxin-nk-all-0000000-0000000/">
+<em class="black-icon home-icon02"><i class="iconfont icon-andrology"></i></em>
+<span class="black-text">男科</span>
+</a>
+<a class=" text-center disease-item" href="https://m.quyiyuan.com/departments/waike--all-0000000-0000000/">
+<em class="black-icon home-icon03"><i class="iconfont icon-surgery"></i></em>
+<span class="black-text">外科</span>
+</a>
+<a class=" text-center disease-item" href="https://m.quyiyuan.com/departments/pifuxingbingke-pfk-all-0000000-0000000/">
+<em class="black-icon home-icon04"><i class="iconfont icon-dermatology"></i></em>
+<span class="black-text">皮肤科</span>
+</a>
+</div>
+<div class="depart-pane">
+<a class=" text-center disease-item" href="https://m.quyiyuan.com/departments/guke--all-0000000-0000000/">
+<em class="black-icon home-icon05"><i class="iconfont icon-orthopedics"></i></em>
+<span class="black-text">骨科</span>
+</a>
+<a class=" text-center home-black-btn disease-item rxzs-item" href="https://m.quyiyuan.com/departments/neike--all-0000000-0000000/">
+<em class="black-icon home-icon06"><i class="iconfont icon-internal-medicine"></i></em>
+<span class="black-text">内科</span>
+</a>
+<a class=" text-center disease-item" href="https://m.quyiyuan.com/departments/erke--all-0000000-0000000/">
+<em class="black-icon home-icon07"><i class="iconfont icon-paediatrics"></i></em>
+<span class="black-text">儿科</span>
+</a>
+<a class=" text-center disease-item" href="https://m.quyiyuan.com/departments/kouqiangke--all-0000000-0000000/">
+<em class="black-icon home-icon08"><i class="iconfont icon-stomatology"></i></em>
+<span class="black-text">口腔科</span>
+</a>
+</div>
+</div>
+<div class="home-disease-pane">
+<h3 class="header-item">常见疾病<a class="load-more" href="https://m.quyiyuan.com/diseases/">更多<i class="iconfont icon-arrow-right"></i></a></h3>
+<div class="disease-container">
+<a href="https://m.quyiyuan.com/diseases/644/">前列腺炎</a>
+<a href="https://m.quyiyuan.com/diseases/161/">月经失调</a>
+<a href="https://m.quyiyuan.com/diseases/1230/">高血压</a>
+<a href="https://m.quyiyuan.com/diseases/1336/">鼻炎</a>
+<a href="https://m.quyiyuan.com/diseases/337/">颈椎病</a>
+<a href="https://m.quyiyuan.com/diseases/1050/">糖尿病</a>
+<a href="https://m.quyiyuan.com/diseases/402/">冠心病</a>
+<a href="https://m.quyiyuan.com/diseases/48/">肝硬化</a>
+</div>
+</div>
+<div class="hospital-position">
+<h3 class="header-item">推荐医院<a class="load-more" href="https://m.quyiyuan.com/hospitals/">更多<i class="iconfont icon-arrow-right"></i></a></h3>
+<div class="hospital-position-container">
+<a class="hospital-item-a" href="https://m.quyiyuan.com/hospital/210004/">
+<div class="hospital-list-in">
+<div class="hospital-img hospital-active-op">
+<img class="hospital-list-container-list-img search-hospital-photo  on-mouse-hand" onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-hospital.png&#39;" data-echo="//hospitalimg.quyiyuan.com/Images/210004/picture/default.jpg@!mwebsite" alt="上海长海医院" />
+<span><span class="hospital-level-tip">三甲</span><i></i></span>
+</div>
+<div class="hospital-info-item hospital-active-op ellipsis hospital-name">
+<span>上海长海医院</span>
+</div>
+<div class="hospital-info-item hospital-active-op ellipsis hospital-location">
+<span><i class="iconfont icon-location"></i><span>杨浦区长海路168号(近中原路)</span></span>
+</div>
+<p class="hospital-info-item ellipsis special-dep">
+<span>特色:</span>
+<span class="special-dep-name">
+<span class="presentation">泌尿外科门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">消化科门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">中医外科门诊(新)</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">烧伤科门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">中医内科门诊(新)</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">中医肿瘤科门诊(新) </span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">胸心外科门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">皮肤科门诊</span>
+</span>
+</p>
+</div>
+</a>
+<a class="hospital-item-a" href="https://m.quyiyuan.com/hospital/210017/">
+<div class="hospital-list-in">
+<div class="hospital-img hospital-active-op">
+<img class="hospital-list-container-list-img search-hospital-photo  on-mouse-hand" onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-hospital.png&#39;" data-echo="//hospitalimg.quyiyuan.com/Images/210017/picture/default.jpg@!mwebsite" alt="复旦大学附属华山医院" />
+<span><span class="hospital-level-tip">三甲</span><i></i></span>
+</div>
+<div class="hospital-info-item hospital-active-op ellipsis hospital-name">
+<span>复旦大学附属华山医院</span>
+</div>
+<div class="hospital-info-item hospital-active-op ellipsis hospital-location">
+<span><i class="iconfont icon-location"></i><span>上海市乌鲁木齐中路12号</span></span>
+</div>
+<p class="hospital-info-item ellipsis special-dep">
+<span>特色:</span>
+<span class="special-dep-name">
+<span class="presentation">神经内科</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">手外科</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">神经外科</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">皮肤科</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">神经内科</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">免疫科</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">心内科</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">消化科</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">肾病科</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">呼吸科</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">血液科</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">感染发热科</span>
+</span>
+</p>
+</div>
+</a>
+<a class="hospital-item-a" href="https://m.quyiyuan.com/hospital/230012/">
+<div class="hospital-list-in">
+<div class="hospital-img hospital-active-op">
+<img class="hospital-list-container-list-img search-hospital-photo  on-mouse-hand" onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-hospital.png&#39;" data-echo="//hospitalimg.quyiyuan.com/Images/230012/picture/default.jpg@!mwebsite" alt="第三军医大学西南医院" />
+<span><span class="hospital-level-tip">三甲</span><i></i></span>
+</div>
+<div class="hospital-info-item hospital-active-op ellipsis hospital-name">
+<span>第三军医大学西南医院</span>
+</div>
+<div class="hospital-info-item hospital-active-op ellipsis hospital-location">
+<span><i class="iconfont icon-location"></i><span>重庆市沙坪坝高滩岩正街30号</span></span>
+</div>
+<p class="hospital-info-item ellipsis special-dep">
+<span>特色:</span>
+<span class="special-dep-name">
+<span class="presentation">肿瘤科专家门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">感染科（肝病中心）</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">消化内科门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">整形科名医门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">烧伤科门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">眼科门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">感染病科专家门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">肿瘤科门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">产科助产门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">产前诊断专家门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">母乳喂养指导门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">产科门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">产前诊断中心门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">妇科名医门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">妇科专家门诊</span>
+</span>
+<span class="special-dep-name">
+<span class="presentation">妇科门诊</span>
+</span>
+</p>
+</div>
+</a>
+</div>
+</div>
+<div class="home-doctor">
+<h3 class="header-item">推荐医生<a class="load-more" href="https://m.quyiyuan.com/doctors/">更多<i class="iconfont icon-arrow-right"></i></a></h3>
+<div class="home-doctor-title">
+<ul class="home-doctor-tab">
+<li class="title-item selected">妇产科</li>
+<li class="title-item">内科</li>
+<li class="title-item">儿科</li>
+<li class="title-item">外科</li>
+<li class="title-item">骨科</li>
+<li class="title-item">皮肤性病科</li>
+<li class="title-item">耳鼻喉头颈科</li>
+</ul>
+</div>
+<ol class="home-doctor-list">
+<li>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-e4eb0d840d/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/5950071/deptDoctor201506030136490.jpg" alt="黄双英" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-e4eb0d840d/">
+<span class="doc-name">黄双英</span>
+<span class="doc-title">主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/5950071/">福建医科大学附属第二医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/ffec85f83d/">妇产(鲤城)</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-2e4c0a0d92/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/8330006/deptDoctor201605121140320.jpg" alt="何爱琴" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-2e4c0a0d92/">
+<span class="doc-name">何爱琴</span>
+<span class="doc-title">主治医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/8330006/">洪雅县中医医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/ee2cf91e76/">中医妇科</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-bcd25b38d1/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/4310006/deptDoctor201611011057260.png" alt="付雪梅" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-bcd25b38d1/">
+<span class="doc-name">付雪梅</span>
+<span class="doc-title">副主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/4310006/">吉林省妇幼保健院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/f37a0aaafb/">产科门诊</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-3234c8ccb6/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/7500001/deptDoctor201606051044220.jpg" alt="陈和兴" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-3234c8ccb6/">
+<span class="doc-name">陈和兴</span>
+<span class="doc-title">住院医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/7500001/">江门市新会区第二人民医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/e5715fc2bb/">内科门诊</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-7f094eb879/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/7720001/deptDoctor201604111705030.jpg" alt="安红伟" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-7f094eb879/">
+<span class="doc-name">安红伟</span>
+<span class="doc-title">主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/7720001/">柳州市中医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/27435b04d0/">脑病科门诊</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-a1d3c6cc58/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/9120001/deptDoctor201512190942140.jpg" alt="高世平" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-a1d3c6cc58/">
+<span class="doc-name">高世平</span>
+<span class="doc-title">副主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/9120001/">府谷县人民医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/b5175d25af/">综合内科门诊</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-db933b5d22/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/7970006/deptDoctor201604061707070.jpg" alt="徐显玉" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-db933b5d22/">
+<span class="doc-name">徐显玉</span>
+<span class="doc-title">主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/7970006/">赣州市妇幼保健院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/53e9a8cd8b/">儿内急诊科</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-4f20711968/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/4310008/deptDoctor20160824152037.jpg" alt="金学林" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-4f20711968/">
+<span class="doc-name">金学林</span>
+<span class="doc-title">副主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/4310008/">德惠市人民医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/d5a6ff6c2a/">儿科门诊</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-755c275eae/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/4310006/deptDoctor201611011053220.png" alt="王  敏" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-755c275eae/">
+<span class="doc-name">王 敏</span>
+<span class="doc-title">主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/4310006/">吉林省妇幼保健院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/798450a48e/">儿童疾病门诊</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-279beeb872/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/8740003/deptDoctor201603311601070.jpg" alt="李奎" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-279beeb872/">
+<span class="doc-name">李奎</span>
+<span class="doc-title">副主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/8740003/">曲靖市第二人民医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/00d7eeaeea/">普通外科门诊</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-8a339cf5b9/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://img-cdn.quyiyuan.com/website/desktop/common/default/default-doctor.png" alt="于　力" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-8a339cf5b9/">
+<span class="doc-name">于　力</span>
+<span class="doc-title">主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/10825/">中日友好医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/62d1e60bea/">泌外科门诊</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-5067a45016/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/5160006/deptDoctor201512250755560.jpg" alt="温泉" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-5067a45016/">
+<span class="doc-name">温泉</span>
+<span class="doc-title">副主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/5160006/">徐州医学院附属医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/341861e3e5/">普外科</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-78c970d2bb/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/1002/deptDoctor201501280217220.jpg" alt="刘庆宽" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-78c970d2bb/">
+<span class="doc-name">刘庆宽</span>
+<span class="doc-title">副主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/1002/">济宁医学院附属医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/18cf71cdd0/">关节与运动</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-344bd8606a/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/210012/deptDoctor201511111022530.JPG" alt="尹峰" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-344bd8606a/">
+<span class="doc-name">尹峰</span>
+<span class="doc-title">主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/210012/">上海市东方医院(北院)</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/81fc5f0a51/">关节与骨病专科</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-5e5491f1fc/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/5160006/deptDoctor201512250852130.jpg" alt="赵凤朝" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-5e5491f1fc/">
+<span class="doc-name">赵凤朝</span>
+<span class="doc-title">副主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/5160006/">徐州医学院附属医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/047a7899c3/">骨科</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-cdca1e5846/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/9060002/deptDoctor201606031734340.jpg" alt="刘晓红" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-cdca1e5846/">
+<span class="doc-name">刘晓红</span>
+<span class="doc-title">副主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/9060002/">新疆阿勒泰地区人民医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/7ad5124b9e/">皮肤科门诊</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-9843e93f89/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/7320001/deptDoctor201606282243010.jpg" alt="杨康宁" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-9843e93f89/">
+<span class="doc-name">杨康宁</span>
+<span class="doc-title">副主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/7320001/">湘潭市中心医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/efa98d785b/">皮肤与性传播疾病科</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-4d1a99404f/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/12513/deptDoctor201603021054240.jpg" alt="肖文" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-4d1a99404f/">
+<span class="doc-name">肖文</span>
+<span class="doc-title">主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/12513/">柳州市工人医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/b0af188758/">皮肤性病科</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-b0f11e1fd0/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/5620001/deptDoctor201510270231330.jpg" alt="胡春玖" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-b0f11e1fd0/">
+<span class="doc-name">胡春玖</span>
+<span class="doc-title">副主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/5620001/">铜陵市人民医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/5367f900ca/">耳鼻咽喉头颈外科</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-8d2b1c4394/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/8740004/deptDoctor201607051635590.jpg" alt="唐宗林" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-8d2b1c4394/">
+<span class="doc-name">唐宗林</span>
+<span class="doc-title">主任医师 </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/8740004/">曲靖市麒麟区人民医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/122c8670c8/">五官科门诊</a>
+</div>
+</div>
+</div>
+</div>
+<div class="home-doctor-list-box">
+<div class="home-doctor-item" nav-go-child="">
+<div class="home-doctor-list-in">
+<a class="home-doctor-img" href="https://m.quyiyuan.com/doctors/detail-ce53a83fbb/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-doctor.png&#39;" ng-src="//img-cdn.quyiyuan.com/website/mobile/common/default/default-white.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/7310006/deptDoctor201601111051420.jpg" alt="魏冠男" />
+</a>
+<div class="home-doctor-info-inner">
+<a class="ellipsis" href="https://m.quyiyuan.com/doctors/detail-ce53a83fbb/">
+<span class="doc-name">魏冠男</span>
+<span class="doc-title"> </span>
+</a>
+<a class="doc-dep ellipsis" href="https://m.quyiyuan.com/hospital/7310006/">湖南省中医药研究院附属医院</a>
+<a class="doc-hospital ellipsis" href="https://m.quyiyuan.com/departments/ac626ce9b2/">五官科</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="white-background">
+<h3 class="header-item">健康资讯<a class="load-more" href="https://m.quyiyuan.com/healthinfo/">更多<i class="iconfont icon-arrow-right"></i></a></h3>
+<ul class="health-info-ul">
+<li class="first-health-info">
+<a href="https://m.quyiyuan.com/healthinfo/5862a51c0cf2f1858cb0b562/detail/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-health-info.png&#39;" data-echo="http://information-prod.oss-cn-qingdao.aliyuncs.com/prod/information/picture/20161228/20161228033104041.jpg" />
+<div class="first-health-info-title">
+<p class="first-health-title">四季豆的大功效</p>
+</div>
+<div class="health-info-div">
+<p class="health-info-summary">四季豆，也叫豆角，是餐桌上常见的食物之一，价格便宜，美味可口。但是，你可知道四季豆具有极高的营养价值，它更是有美容、消暑、减肥等6大功效。四季豆，在中国北方叫豆角等，是餐桌上的常见蔬菜之一。无论单独清...</p>
+</div>
+</a>
+</li>
+<li class="health-info-item ellipsis">
+<a href="https://m.quyiyuan.com/healthinfo/5862a51c0cf2f1858cb0b561/detail/">
+<div class="health-info-div">
+<em></em>
+<p class="articleid-color">喝蜂蜜水的搭配与禁忌</p>
+</div>
+</a>
+</li>
+<li class="health-info-item ellipsis">
+<a href="https://m.quyiyuan.com/healthinfo/5862a51c0cf2f1858cb0b563/detail/">
+<div class="health-info-div">
+<em></em>
+<p class="articleid-color">香蕉清热解毒还能补充能量</p>
+</div>
+</a>
+</li>
+<li class="health-info-item ellipsis">
+<a href="https://m.quyiyuan.com/healthinfo/5862a51c0cf2f1858cb0b564/detail/">
+<div class="health-info-div">
+<em></em>
+<p class="articleid-color">夏天缺什么补充维生素C是正道</p>
+</div>
+</a>
+</li>
+<li class="health-info-item ellipsis">
+<a href="https://m.quyiyuan.com/healthinfo/5862a51c0cf2f1858cb0b565/detail/">
+<div class="health-info-div">
+<em></em>
+<p class="articleid-color">为你解读吃水果的最佳时间</p>
+</div>
+</a>
+</li>
+<li class="health-info-item ellipsis">
+<a href="https://m.quyiyuan.com/healthinfo/5862a51c0cf2f1858cb0b566/detail/">
+<div class="health-info-div">
+<em></em>
+<p class="articleid-color">皮肤易瘙痒多吃香蕉有奇效</p>
+</div>
+</a>
+</li>
+</ul>
+</div>
+<div class="white-background">
+<h3 class="header-item">趣医新闻<a class="load-more" href="https://m.quyiyuan.com/news/">更多<i class="iconfont icon-arrow-right"></i></a></h3>
+<ul class="health-info-ul">
+<li class="first-health-info">
+<a rel="nofollow" href="https://m.quyiyuan.com/news/58730a0be4b0365c9f6983a6/detail/">
+<img onerror="this.src=&#39;//img-cdn.quyiyuan.com/website/mobile/common/default/default-news.png&#39;" data-echo="http://information-prod.oss-cn-qingdao.aliyuncs.com/prod/information/picture/20170109/20170109115623619.png" />
+<div class="first-health-info-title">
+<p class="first-health-title">隆中智慧医疗高峰论坛 趣医网探索互联网+分级诊疗新路径 合理配置优质资源</p>
+</div>
+<div class="health-info-div">
+<p class="health-info-summary">2016年12月2~3日，由襄阳市中心医院举办的“隆中智慧医疗高峰论坛”成功召开。本次论坛的主题为“智启医疗，云联健康”，得到了湖北省卫生统计与信息学会的大力支持，邀请了各级医疗卫生机构信息化工作主管领导、信息中心主任等嘉宾参与。与会嘉宾深入探讨了互联网+技术对医疗行业的深度影响以及医疗信息化建设的发展趋势。</p>
+</div>
+</a>
+</li>
+<li class="health-info-item">
+<a rel="nofollow" href="https://m.quyiyuan.com/news/583b02eae4b0825eab64c4f1/detail/">
+<div class="health-info-div">
+<em></em>
+<p class="articleid-color">2016中国医院院长大会召开 趣医网持续发力医院端 借助互联网+推动医疗资源深度融合</p>
+</div>
+</a>
+</li>
+<li class="health-info-item">
+<a rel="nofollow" href="https://m.quyiyuan.com/news/583afe1ee4b0825eab64c4ee/detail/">
+<div class="health-info-div">
+<em></em>
+<p class="articleid-color">玉溪市卫生信息技术交流会 趣医网诠释“互联网+分级诊疗”魅力</p>
+</div>
+</a>
+</li>
+<li class="health-info-item">
+<a rel="nofollow" href="https://m.quyiyuan.com/news/58297168e4b03271af57e6d4/detail/">
+<div class="health-info-div">
+<em></em>
+<p class="articleid-color">2016年江西省医学信息学术会成功召开 趣医分级诊疗构建便捷高效的分级诊疗体系</p>
+</div>
+</a>
+</li>
+<li class="health-info-item">
+<a rel="nofollow" href="https://m.quyiyuan.com/news/58296f21e4b03271af57e6d1/detail/">
+<div class="health-info-div">
+<em></em>
+<p class="articleid-color">第三届互联网+健康中国大会成功召开 趣医网构建互联网+分级诊疗体系 创新医疗服务模式</p>
+</div>
+</a>
+</li>
+<li class="health-info-item">
+<a rel="nofollow" href="https://m.quyiyuan.com/news/5829702ee4b03271af57e6d2/detail/">
+<div class="health-info-div">
+<em></em>
+<p class="articleid-color">2016年南湖HIT论坛成功举办 趣医网构建互联网+分级诊疗新模式 推动分级诊疗落地</p>
+</div>
+</a>
+</li>
+</ul>
+</div>
+<div class="white-background" id="mobile-hot-content">
+<h3 class="disease-title">热门推荐</h3>
+<div class="baike-hot-recommend">
+<ul class="hot-title-pane">
+<li class="title-item" ng-class="{'hot-selected': hotTabActive[0]}" ng-click="selectHotTab(0)">
+热门疾病预约挂号</li>
+<li class="title-item" ng-class="{'hot-selected': hotTabActive[1]}" ng-click="selectHotTab(1)">
+热门城市医院</li>
+<li class="title-item" ng-class="{'hot-selected': hotTabActive[2]}" ng-click="selectHotTab(2)">
+热门城市科室医院</li>
+<li class="title-item" ng-class="{'hot-selected': hotTabActive[3]}" ng-click="selectHotTab(3)">
+热门医生</li>
+<li class="title-item" ng-class="{'hot-selected': hotTabActive[4]}" ng-click="selectHotTab(4)">
+热门资讯</li>
+</ul>
+</div>
+<div class="hot-cont" ng-show="hotTabActive[0]">
+<ul class="baike-latest-list-pane">
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/5580/">外阴黏膜白斑网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/2548/">色素痣网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/1166/">重症肌无力网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/1716/">舌扁平苔藓网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/1487/">扁桃体炎网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/4349/">慢性腰背痛网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/833/">包皮过长网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/4385/">肩袖损伤网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/249/">带状疱疹网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/1107/">肺源性心脏病网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/254/">尖锐湿疣网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/diseases/1021/">精神分裂症网上预约挂号</a>
+</li>
+</ul>
+</div>
+<div class="hot-cont" ng-show="hotTabActive[1]">
+<ul class="baike-latest-list-pane">
+<li class="list-item">
+<a href="https://chongqing.m.quyiyuan.com/hospitals/500000-0000000-2-all/">重庆二级医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://nanjing.m.quyiyuan.com/hospitals/320000-320100-3jia-all/">南京三甲医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://lanzhou.m.quyiyuan.com/hospitals/620000-620100-2-all/">兰州二级医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://xuzhou.m.quyiyuan.com/hospitals/320000-320300-3-all/">徐州三级医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://wulumuqi.m.quyiyuan.com/hospitals/650000-650100-3jia-all/">乌鲁木齐三甲医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://xiangyang.m.quyiyuan.com/hospitals/420000-420600-2-all/">襄阳二级医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://lanzhou.m.quyiyuan.com/hospitals/620000-620100-3jia-all/">兰州三甲医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://wenzhou.m.quyiyuan.com/hospitals/330000-330300-2-all/">温州二级医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://dingxi.m.quyiyuan.com/hospitals/620000-621100-2-all/">定西二级医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://zhenjiang.m.quyiyuan.com/hospitals/320000-321100-3-all/">镇江三级医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://gannan.m.quyiyuan.com/hospitals/620000-623000-2-all/">甘南二级医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://nanping.m.quyiyuan.com/hospitals/350000-350700-2-all/">南平二级医院网上预约挂号</a>
+</li>
+</ul>
+</div>
+<div class="hot-cont" ng-show="hotTabActive[2]">
+<ul class="baike-latest-list-pane">
+<li class="list-item">
+<a href="https://zhangzhou.m.quyiyuan.com/departments/yanke--all-350000-350600/">漳州眼科医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://nanping.m.quyiyuan.com/departments/zhongyike--all-350000-350700/">南平中医科医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://ningde.m.quyiyuan.com/departments/kouqiangke--all-350000-350900/">宁德口腔科医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://sanming.m.quyiyuan.com/departments/guke--all-350000-350400/">三明骨科医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://jiangsusuzhou.m.quyiyuan.com/departments/neike--all-320000-320500/">苏州内科医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://qingyang.m.quyiyuan.com/departments/waike--all-620000-621000/">庆阳外科医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://quanzhou.m.quyiyuan.com/departments/waike--all-350000-350500/">泉州外科医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://zhangzhou.m.quyiyuan.com/departments/erke--all-350000-350600/">漳州儿科医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://chongqing.m.quyiyuan.com/departments/zhongliuke--all-500000-0000000/">重庆肿瘤科医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://putian.m.quyiyuan.com/departments/erke--all-350000-350300/">莆田儿科医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://fujianfuzhou.m.quyiyuan.com/departments/neike--all-350000-350100/">福州内科医院网上预约挂号</a>
+</li>
+<li class="list-item">
+<a href="https://chongqing.m.quyiyuan.com/departments/kouqiangke--all-500000-0000000/">重庆口腔科医院网上预约挂号</a>
+</li>
+</ul>
+</div>
+<div class="hot-cont" ng-show="hotTabActive[3]">
+<ul class="hot-doctor-list-pane">
+<li class="list-item">
+<div class="list-item-container">
+<a class="img-box" href="https://m.quyiyuan.com/doctors/detail-efe4a6430a/">
+<img err-src="//img-cdn.quyiyuan.com/website/desktop/common/default/default-doctor.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/5950072/deptDoctor201509221012380.jpg" />
+</a>
+<div class="content-pane">
+<a class="cont-primary ellipsis" href="https://m.quyiyuan.com/doctors/detail-efe4a6430a/">
+<span class="doctor-name cont-doctor-item" title="钟黎鹃网上预约挂号">钟黎鹃</span>
+<span class="doctor-title cont-doctor-item">副主任医师</span>
+<div class="clear"></div>
+</a>
+<a class="cont-detail ellipsis" href="https://m.quyiyuan.com/hospital/5950072/">
+<span class="cont-hospital cont-doctor-item">泉州市正骨医院</span>
+</a>
+<a class="cont-detail ellipsis" href="https://m.quyiyuan.com/departments/09ad59008ea547b0ad3332443f6d10ca/">
+<span class="cont-department cont-doctor-item">小儿骨科</span>
+</a>
+</div>
+</div>
+</li>
+<li class="list-item">
+<div class="list-item-container">
+<a class="img-box" href="https://m.quyiyuan.com/doctors/detail-a6a5438018/">
+<img err-src="//img-cdn.quyiyuan.com/website/desktop/common/default/default-doctor.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/5550003/deptDoctor201606062219520.png" />
+</a>
+<div class="content-pane">
+<a class="cont-primary ellipsis" href="https://m.quyiyuan.com/doctors/detail-a6a5438018/">
+<span class="doctor-name cont-doctor-item" title="陈家祥网上预约挂号">陈家祥</span>
+<span class="doctor-title cont-doctor-item">主任医师</span>
+<div class="clear"></div>
+</a>
+<a class="cont-detail ellipsis" href="https://m.quyiyuan.com/hospital/5550003/">
+<span class="cont-hospital cont-doctor-item">马鞍山市中心医院</span>
+</a>
+<a class="cont-detail ellipsis" href="https://m.quyiyuan.com/departments/c5e31c8964cf4ef28f6095a761e8f38c/">
+<span class="cont-department cont-doctor-item">影像中心专家门诊</span>
+</a>
+</div>
+</div>
+</li>
+<li class="list-item">
+<div class="list-item-container">
+<a class="img-box" href="https://m.quyiyuan.com/doctors/detail-bfa9ae6596/">
+<img err-src="//img-cdn.quyiyuan.com/website/desktop/common/default/default-doctor.png" data-echo="https://doctorimg.quyiyuan.com/prod/doctor/photo/deptimages/210004/deptDoctor201501261141320.jpg" />
+</a>
+<div class="content-pane">
+<a class="cont-primary ellipsis" href="https://m.quyiyuan.com/doctors/detail-bfa9ae6596/">
+<span class="doctor-name cont-doctor-item" title="凌昌全网上预约挂号">凌昌全</span>
+<span class="doctor-title cont-doctor-item">主任医师</span>
+<div class="clear"></div>
+</a>
+<a class="cont-detail ellipsis" href="https://m.quyiyuan.com/hospital/210004/">
+<span class="cont-hospital cont-doctor-item">上海长海医院</span>
+</a>
+<a class="cont-detail ellipsis" href="https://m.quyiyuan.com/departments/232d2cf8297b4cf3b0edbbdd48cd7d0a/">
+<span class="cont-department cont-doctor-item">中医肿瘤科门诊(新) </span>
+</a>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="hot-cont" ng-show="hotTabActive[4]">
+<ul class="baike-latest-list-pane hot-news-list-pane">
+<li class="list-item">
+<a href="https://m.quyiyuan.com/healthinfo/585d5f1c0cf2f1858cb0b13a/detail/">火龙果：预防便秘的好食物</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/healthinfo/585d5f1c0cf2f1858cb0b138/detail/">这六种鱼的忌口人群各不同</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/healthinfo/5862a51c0cf2f1858cb0b571/detail/">可乐口感甜爽但不宜儿童</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/healthinfo/58596a9c0cf2f1858cb0af16/detail/">专家建议蜂蜜水什么时候喝好</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/healthinfo/585d5f1c0cf2f1858cb0b12e/detail/">莴笋有什么样的养生功效</a>
+</li>
+<li class="list-item">
+<a href="https://m.quyiyuan.com/healthinfo/5862a51c0cf2f1858cb0b56e/detail/">冬季吃水果可滋阴润肺</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer">
+<div class="foot-icon-pane">
+<a onclick="downloadApp()">App</a>
+<a class="green" href="#">触屏版</a>
+<a onclick="goToQuyiyuan()">电脑版</a>
+<a href="https://m.quyiyuan.com/encyclopedia/">趣医百科</a>
+<a class="site-map" href="https://m.quyiyuan.com/map/">网站地图</a>
+<a class="about-us" href="https://m.quyiyuan.com/about/introduction/">关于我们</a>
+<a class="topic-link" href="https://m.quyiyuan.com/topic/">热搜词大全</a>
+</div>
+<p class="copyright">Copyright © 2014-2017 趣医网 <span>quyiyuan.com</span> 版权所有</p>
+</div>
+<div class="return-top-icon" id="returnTopIcon">
+<i class="iconfont icon-to-top return-top-icon-inner"></i>
+</div>
+<div>
+<div class="tab-position" id="footTab" ng-controller="SubstationTabCtrl">
+<a class="tab-choice tab-color-green" href="https://m.quyiyuan.com/">
+<em class="tab-icon">
+<i class="iconfont tab-icon-font icon-home-selected"></i>
+</em>
+<span class="tab-text">首页</span>
+</a>
+<a class="tab-choice" href="https://m.quyiyuan.com/healthinfo/">
+<em class="tab-icon">
+<i class="iconfont tab-icon-font icon-news"></i>
+</em>
+<span class="tab-text">资讯</span>
+</a>
+<a class="tab-choice" ng-click="goPersonalCenter()">
+<em class="tab-icon">
+<i class="iconfont tab-icon-font icon-mine"></i>
+</em>
+<span class="tab-text">我</span>
+</a>
+</div>
+</div>
+<script type="text/javascript">
+            TouchSlide({
+                slideCell:"#focus",
+                titCell:".home-banner-point-list ol", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+                mainCell:".home-banner-list ul",
+                effect:"leftLoop",
+                autoPlay:true,//自动播放
+                autoPage:true, //自动分页
+                delayTime:400,
+                interTime:3500
+            });
+        </script>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,19 @@
+#!/usr/bin/evn python
+#-*- coding: utf-8 -*-
+'''
+Created on 2016��9��7��
+
+@author: hstking hstking@hotmail.com
+'''
+
+from selenium import webdriver
+import time
+
+class TestBrowserSpeed(object):
+    def __init__(self, num):
+        self.drivers = ['PhantomJS', 'Chrome', 'FF', 'IE', 'Edge']
+        self.url = 'https://www.baidu.com'
+        
+
+if __name__ == '__main__':
+    pass

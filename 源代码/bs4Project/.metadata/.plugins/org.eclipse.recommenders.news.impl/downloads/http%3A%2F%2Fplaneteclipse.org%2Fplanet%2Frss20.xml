@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+<channel>
+	<title>Planet Eclipse</title>
+	<link>http://planeteclipse.org/planet/</link>
+	<language>en</language>
+	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
+
+<item>
+	<title>Michael Spector: Why we moved from Mesos to Yarn (and from Chronos to Airflow)</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-34385728.post-7215507450748478073</guid>
+	<link>http://spektom.blogspot.com/2016/08/why-we-moved-from-mesos-to-yarn-and.html</link>
+	<description>&lt;div&gt;We run daily Spark jobs that generate various reports: retention, cohorts, user activity, life time value, etc., and recently we've found ourselves in a situation that one person must wear operator's hat for watching this process, and re-starting tasks once they are failed or (which is much worse) are stuck. &lt;/div&gt;&lt;div&gt;Why this happened? There are many reasons for that. If you follow our &lt;a href=&quot;http://developers.appsflyer.com/&quot; style=&quot;color: #8c68cb; text-decoration: none;&quot; target=&quot;_blank&quot;&gt;tech blog&lt;/a&gt; you probably know that we run scheduled Spark jobs in Mesos on data stored in S3 either in SequenceFile or in Parquet format (&lt;a href=&quot;https://www.appsflyer.com/blog/the-bleeding-edge-spark-parquet-and-s3/&quot; style=&quot;color: #8c68cb; text-decoration: none;&quot; target=&quot;_blank&quot;&gt;here's good write-up about our process&lt;/a&gt;). It's funny that Spark was created as a proof of concept framework for Mesos, but it really seemed that these two guys are not playing together well enough. We tried enabling dynamic allocation, but we ended up running important jobs without it as they failed in 50% of cases because of some weird errors regarding lost shuffle blocks.&lt;/div&gt;&lt;div&gt;The most important issue was that sometimes Spark job would stuck on a last phase, and there was no way to revive it but enter the machine running this stuck executor via SSH, and kill the process. And this was part of the &quot;operator&quot; man's work. We suspected that this was related to Mesos somehow, but there was no proof.&lt;/div&gt;&lt;div&gt;Another problematic part in our pipeline was Chronos. Here are some issues that we encountered on daily basis:&lt;/div&gt;&lt;ul&gt;&lt;li style=&quot;line-height: 32px; margin-bottom: 15px; margin-top: 0px;&quot;&gt;Scheduled tasks were not executed. What??? Isn't it a scheduling framework? Right. But, sometimes, jobs depending on some parent task, which has finished successfully didn't run. Not that they didn't run on time - they didn't run at all.&lt;/li&gt;&lt;li style=&quot;line-height: 32px; margin-bottom: 15px; margin-top: 0px;&quot;&gt;The same job was executed twice. This event was rare, but if it happened for some task that wrote to Redshift DB it could lead to really bad user experience to those trying to query at the same time.&lt;/li&gt;&lt;li style=&quot;line-height: 32px; margin-bottom: 15px; margin-top: 0px;&quot;&gt;There is an option to specify multiple parent tasks, but this option simply didn't work.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;And there were tens of other less important, but still annoying issues. Frankly, it looks like Chronos is not in intensive development anymore, or it has reached its level of perfection, but we're not aware of this fact :-)&lt;/div&gt;&lt;div&gt;So, to kill two birds with one stone, we've decided to move to Yarn (as a replacement for Mesos) and to Airflow (as a replacement for Chronos) at once. Configuring Yarn is not a simplest task, especially if your target is having a cluster that runs both Spark and Hadoop jobs on it (Hadoop is still required for indexing data into Druid). But after reading numerous articles, and looking how Amazon EMR is configured we've reached working configuration of Yarn cluster with HA, which allows Spark/Hadoop to utilize resources fully using dynamic allocation. Needless to say that no jobs are stuck anymore.&lt;/div&gt;&lt;div&gt;As for Airflow, the most important advantages over Chronos for us are:&lt;/div&gt;&lt;ul&gt;&lt;li style=&quot;line-height: 32px; margin-bottom: 15px; margin-top: 0px;&quot;&gt;Tasks in Airflow are defined programmatically, so it's easier to generate dynamic workflows when we want to rebuild some data for a given time frame.&lt;/li&gt;&lt;li style=&quot;line-height: 32px; margin-bottom: 15px; margin-top: 0px;&quot;&gt;Airflow written in Python, so it's really easy to hack and adapt it to your needs, or at least understand why something doesn't work as expected.&lt;/li&gt;&lt;li style=&quot;line-height: 32px; margin-bottom: 15px; margin-top: 0px;&quot;&gt;Multiple parents are allowed.&lt;/li&gt;&lt;li style=&quot;line-height: 32px; margin-bottom: 15px; margin-top: 0px;&quot;&gt;It's more stable.&lt;/li&gt;&lt;li style=&quot;line-height: 32px; margin-bottom: 15px; margin-top: 0px;&quot;&gt;It's in active development.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;We are still testing this constellation of Yarn and Airflow, but for now it looks like it works much much better.&lt;/div&gt;&lt;div&gt;Enjoy our production workflow screenshot as a complement to this post :)&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-xgBLYZJBXxI/V6rCjMFs0jI/AAAAAAAAqrE/fhs1dt1p8qoHhOWaY4RJnaNfOxiNz66NgCLcB/s1600/dag.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;362&quot; src=&quot;https://1.bp.blogspot.com/-xgBLYZJBXxI/V6rCjMFs0jI/AAAAAAAAqrE/fhs1dt1p8qoHhOWaY4RJnaNfOxiNz66NgCLcB/s640/dag.png&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 10 Aug 2016 05:59:29 +0000</pubDate>
+	<author>noreply@blogger.com (Michael)</author>
+</item>
+<item>
+	<title>Ian Skerrett: Eclipse IoT Day @ Thingmonk: New speakers</title>
+	<guid isPermaLink="false">http://ianskerrett.wordpress.com/?p=3691</guid>
+	<link>http://feedproxy.google.com/~r/IanSkerrett/~3/9ut0ZNZPzy8/</link>
+	<description>&lt;p&gt;Last month we announced the &lt;a href=&quot;https://ianskerrett.wordpress.com/2016/07/25/eclipse-iot-day-thingmonk/&quot;&gt;Eclipse IoT Day @ Thingmonk&lt;/a&gt; on September 12 in London, UK. We have now added two new speakers:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://thingmonk.com/eclipse-day-talks.html#BorisAdryan&quot;&gt;Boris Adryan&lt;/a&gt; from Zühlke Engineering will be talk about Information Models and Ontologies for IoT. I first met Boris when he was speaking at a previous Thingmonk. Boris is a great speaker and very knowledgeable about ontologies. It will be a great talk.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://thingmonk.com/eclipse-day-talks.html#dangross&quot;&gt;Dan Gross&lt;/a&gt; from Samsung US will be speaking about the new Samsung ARTIK IDE that is based on Eclipse Che. It is exciting to see Samsung taking a serious look at how the developer tool experience needs to be specialized for IoT developers. I am looking forward to seeing how they are using Eclipse Che to make it easier to hack on the ARTIK board.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you are interested in IoT, I highly recommend attending Thingmonk and the Eclipse IoT Day. London has an amazing IoT community so there is also a great opportunity to meet people doing real IoT solutions. To top it off, the registration price for the the Eclipse IoT Day is £50 and a pass that includes Thingmonk is just £200. Eclipse IoT community members can also receive at 25% discount off the 3 day price. E-mail iot@eclipse.org for more details.&lt;/p&gt;
+&lt;p&gt;I hope to see you in London.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/ianskerrett.wordpress.com/3691/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/ianskerrett.wordpress.com/3691/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=ianskerrett.wordpress.com&amp;amp;blog=405862&amp;amp;post=3691&amp;amp;subd=ianskerrett&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/IanSkerrett/~4/9ut0ZNZPzy8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 09 Aug 2016 15:03:58 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: Call for Submissions: Modeling Symposium @ EclipseCon Europe 2016</title>
+	<guid isPermaLink="false">http://eclipsesource.com/blogs/?p=27059</guid>
+	<link>http://eclipsesource.com/blogs/2016/08/09/call-for-submissions-modeling-symposium-eclipsecon-europe-2016/</link>
+	<description>&lt;p&gt;We are happy to announce that Philip, Ed and I are organizing the Modeling Symposium for &lt;a href=&quot;http://eclipsecon.org&quot;&gt;EclipseCon Europe 2016&lt;/a&gt;. Please support us by sharing the call on your communication channels.&lt;/p&gt;
+&lt;p&gt;The symposium aims to provide a forum for community members to present a brief overview of their work. We offer 10 minute lightning slots (including questions) to facilitate a broad range of speakers. The primary goal is to introduce interesting, new, technology and features. We are mainly targeting projects that are not otherwise represented in the conference program.&lt;/p&gt;
+&lt;p&gt;If you are interested in giving a talk, please send a short description (a few sentences) to jhelming@eclipsesource.com. Depending on the number, we might have to select among the submissions. Submission deadline is September 9th.&lt;/p&gt;
+&lt;p&gt;Please adhere to the following guidelines:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Please provide sufficient context. Talks should start with a concise overview of what the presenter plans to demonstrate, or what a certain framework offers. Even more important, explain how and why the topic is relevant.&lt;/li&gt;
+&lt;li&gt;Don’t bore us! Get to the point quickly. You don’t have to use all your allocated time. An interesting 3 minute talk will have a bigger impact than a boring 10 minute talk. We encourage you to plan for a 5 minute talk, leaving room for 5 minutes of discussion.&lt;/li&gt;
+&lt;li&gt;Keep it short and sweet, and focus on the most important aspects. A conference offers the advantage of getting in contact with people who are interested in your work. So consider the talk more as a teaser to prompt follow-up conversations than a forum to demonstrate or discuss technical details in depth.&lt;/li&gt;
+&lt;li&gt;A demo is worth a thousand slides. We prefer to see how your stuff works rather than be told about how it works with illustrative slides. Please restrict the slides to summarize your introduction or conclusion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Looking forward to your submissions!&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block;&quot;&gt;&lt;a href=&quot;https://twitter.com/intent/tweet?source=webclient&amp;amp;text=Call+for+Submissions%3A+Modeling+Symposium+%40+EclipseCon+Europe+2016&amp;amp;via=eclipsesource&amp;amp;url=http://eclipsesource.com/blogs/2016/08/09/call-for-submissions-modeling-symposium-eclipsecon-europe-2016/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on Twitter&quot;&gt;&lt;img alt=&quot;Twitter&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/twitter.png&quot; title=&quot;Twitter&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://plus.google.com/share?url=http://eclipsesource.com/blogs/2016/08/09/call-for-submissions-modeling-symposium-eclipsecon-europe-2016/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;+1&quot;&gt;&lt;img alt=&quot;Google+&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/google_plus.png&quot; title=&quot;Google+&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://www.linkedin.com/cws/share?url=http://eclipsesource.com/blogs/2016/08/09/call-for-submissions-modeling-symposium-eclipsecon-europe-2016/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on LinkedIn&quot;&gt;&lt;img alt=&quot;LinkedIn&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/linkedin.png&quot; title=&quot;LinkedIn&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=http://eclipsesource.com/blogs/2016/08/09/call-for-submissions-modeling-symposium-eclipsecon-europe-2016/&amp;amp;t=Call+for+Submissions%3A+Modeling+Symposium+%40+EclipseCon+Europe+2016&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;&lt;img alt=&quot;Facebook&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/facebook.png&quot; title=&quot;Facebook&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2016/08/09/call-for-submissions-modeling-symposium-eclipsecon-europe-2016/#respond&quot;&gt;Leave a Comment&lt;/a&gt;. Tagged with &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipse/&quot; title=&quot;eclipse Tag&quot;&gt;eclipse&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipsecon/&quot; title=&quot;eclipsecon Tag&quot;&gt;eclipsecon&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/emf/&quot; title=&quot;emf Tag&quot;&gt;emf&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/modeling/&quot; title=&quot;modeling Tag&quot;&gt;modeling&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipse/&quot; title=&quot;eclipse Tag&quot;&gt;eclipse&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipsecon/&quot; title=&quot;eclipsecon Tag&quot;&gt;eclipsecon&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/emf/&quot; title=&quot;emf Tag&quot;&gt;emf&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/modeling/&quot; title=&quot;modeling Tag&quot;&gt;modeling&lt;/a&gt;&lt;p&gt;&lt;/p&gt;</description>
+	<pubDate>Tue, 09 Aug 2016 07:59:55 +0000</pubDate>
+</item>
+<item>
+	<title>Scott Lewis: Avoiding Tragedy of the Commons</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-6071723485841189982</guid>
+	<link>http://eclipseecf.blogspot.com/2016/08/avoiding-tragedy-of-commons.html</link>
+	<description>Open source communities frequently struggle with the famous &lt;a href=&quot;https://en.wikipedia.org/wiki/Tragedy_of_the_commons&quot; target=&quot;_blank&quot;&gt;Tragedy of the Commons&lt;/a&gt; problem.   See the link for a description of the history and links to work.&lt;br /&gt;&lt;br /&gt;There are, however, some recent ideas and associated research that have shown promise:&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Commons-based_peer_production&quot; target=&quot;_blank&quot;&gt;Commons-based peer production&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.nature.com/nature/journal/v415/n6868/abs/415137a.html&quot; target=&quot;_blank&quot;&gt;Altruistic Punishment&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+	<pubDate>Mon, 08 Aug 2016 17:58:57 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
+	<title>Eclipse Announcements: ECE 2016 Program Schedule Announced</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/zzZ38yZ9_BY/2016-10-25</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/zzZ38yZ9_BY/2016-10-25</link>
+	<description>The ECE program schedule is now available on the website. Register early for best pick of the tutorials &amp;amp; lowest price.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/zzZ38yZ9_BY&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 08 Aug 2016 07:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Summit India 2016</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/Yuh45WlrKdY/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/Yuh45WlrKdY/</link>
+	<description>India's premier conference nurturing the Eclipse Ecosystem is just around the corner!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/Yuh45WlrKdY&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 08 Aug 2016 06:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Erdal Karaca: Hi5: Eclipse 4 API for web developers</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-5062989492570016925.post-306757040124016291</guid>
+	<link>http://erdalkaracade.blogspot.com/2016/08/hi5-eclipse-4-api-for-web-developers.html</link>
+	<description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;&lt;h2 style=&quot;text-align: left;&quot;&gt;About&lt;/h2&gt;&lt;div&gt;HTML5/CSS/JavaScript seem to become the primarily stack of technologies to develop UI/frontend applications. The Hi5 project aims at providing an Eclipse 4 API port for web developers.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The following is the architectural overview of the idea behind the project:&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-Mnj0Sf7jKB8/V6TIsH8_sLI/AAAAAAAAAys/v_pjLmMY_GoB9hfVC7tDPn9orn2hfZ6pwCLcB/s1600/hi5-big-picture.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;280&quot; src=&quot;https://4.bp.blogspot.com/-Mnj0Sf7jKB8/V6TIsH8_sLI/AAAAAAAAAys/v_pjLmMY_GoB9hfVC7tDPn9orn2hfZ6pwCLcB/s640/hi5-big-picture.png&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;Picture: overall architecture of the Hi5 idea&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h2 style=&quot;text-align: left;&quot;&gt;Server side&lt;/h2&gt;&lt;div&gt;On the server side (backend) the infrastructure of the Eclipse RCP platform is handling requests that the web client doing. This includes collecting all available E4 fragments and merging them into the application model. Next, the merged application model is transformed into a HTML DOM representation which then sent to the client via HTTP.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;With the Eclipse Communication Framework (ECF) there is also great support for a service driven development approach as OSGi services can serve as web services, for example, using ECF's JAX-RS integration.&lt;/div&gt;&lt;h2 style=&quot;text-align: left;&quot;&gt;Client side&lt;/h2&gt;&lt;div&gt;On the client side you can use your favorite framework/library to provide a smooth and reactive UI. By default, jQuery, jQuery UI and jQuery mobile are used.&lt;/div&gt;&lt;h2 style=&quot;text-align: left;&quot;&gt;Deployment modes&lt;/h2&gt;&lt;div&gt;The application can be deployed in several modes:&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;server/client mode: Eclipse RCP backend runs on a server and the client runs in a web browser&lt;/li&gt;&lt;li&gt;local mode: Eclipse RCP backend runs locally and the client runs in a JavaFX WebView instance&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;h2 style=&quot;text-align: left;&quot;&gt;Demo&lt;/h2&gt;&lt;div&gt;The following screeshot shows a demo application running in the &quot;local mode&quot;, i.e. the client is run using the JavaFX WebView as renderer:&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-Fa5MarpCC-I/V6YZq1M3SJI/AAAAAAAAAy8/2hDHpzbr0GQ3WKPZ_ykBPNPeH4aYXNYgACLcB/s1600/hi5-jquery-widgets-demo.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;640&quot; src=&quot;https://1.bp.blogspot.com/-Fa5MarpCC-I/V6YZq1M3SJI/AAAAAAAAAy8/2hDHpzbr0GQ3WKPZ_ykBPNPeH4aYXNYgACLcB/s640/hi5-jquery-widgets-demo.png&quot; width=&quot;590&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h2 style=&quot;text-align: left;&quot;&gt;Summary&lt;/h2&gt;&lt;div&gt;With HTML5/CSS/JavaScript gaining more and more attraction to developers, this approach makes absolutely sense. It allows for going with the trends of the web developer communities (with regards to UI toolkits) but relying on the Eclipse 4 and OSGi platform as a robust and modular backend.&lt;br /&gt;&lt;br /&gt;&lt;h2 style=&quot;text-align: left;&quot;&gt;Links&lt;/h2&gt;&lt;/div&gt;&lt;div&gt;[1] Hi5 GitHub repository: &lt;a href=&quot;https://github.com/erdalkaraca/hi5&quot;&gt;https://github.com/erdalkaraca/hi5&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Sat, 06 Aug 2016 17:17:10 +0000</pubDate>
+	<author>noreply@blogger.com (Erdal Karaca)</author>
+</item>
+<item>
+	<title>Ian Bull: Branching Without an if, A Java Puzzle</title>
+	<guid isPermaLink="false">http://eclipsesource.com/blogs/?p=27052</guid>
+	<link>http://eclipsesource.com/blogs/2016/08/06/branching-without-an-if-a-java-puzzle/</link>
+	<description>&lt;p&gt;I returned home late the other night, and saw this tweet in my timeline:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Keyboard broken. Write this Java code without using the letter 'f':&lt;/p&gt;
+&lt;p&gt;int bar(Object o) { if (o == null) return 0; else return 1;}&lt;/p&gt;
+&lt;p&gt;Anyone?&lt;/p&gt;
+&lt;p&gt;— Marc Khouzam (@marckhouzam) &lt;a href=&quot;https://twitter.com/marckhouzam/status/761389998788714496&quot;&gt;August 5, 2016&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;He added a clarifying note that said the ‘?’ was also broken.&lt;/p&gt;
+&lt;p&gt;For those of you who don’t know Marc, he is the co-lead of the Eclipse C/C++ Development Tools and all round good guy. I was pretty sure his keyboard wasn’t actually broken and he was basically asking: &lt;strong&gt;How can you write a branch statement in Java without an &lt;em&gt;if&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;My first thought was to use another branching construct, and the &lt;strong&gt;while&lt;/strong&gt; loop was the first one to pop into my head:&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp_syntax&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre class=&quot;java&quot; style=&quot;font-family: monospace;&quot;&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;int&lt;/span&gt; bar&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #003399;&quot;&gt;Object&lt;/span&gt; o&lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;{&lt;/span&gt;
+  &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;while&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;o &lt;span style=&quot;color: #339933;&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;null&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;{&lt;/span&gt;
+    &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  &lt;span style=&quot;color: #009900;&quot;&gt;}&lt;/span&gt;
+  &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+
+
+&lt;p&gt;However, since I couldn’t sleep I started thinking of other ways to solve this. Since it could be solved with a &lt;strong&gt;while&lt;/strong&gt;, what about a &lt;strong&gt;do while&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp_syntax&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre class=&quot;java&quot; style=&quot;font-family: monospace;&quot;&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;int&lt;/span&gt; bar&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #003399;&quot;&gt;Object&lt;/span&gt; o&lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;{&lt;/span&gt;
+  &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;int&lt;/span&gt; counter &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;do&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;{&lt;/span&gt;
+    counter&lt;span style=&quot;color: #339933;&quot;&gt;--;&lt;/span&gt;
+  &lt;span style=&quot;color: #009900;&quot;&gt;}&lt;/span&gt; &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;while&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;o &lt;span style=&quot;color: #339933;&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;null&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; counter &lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;return&lt;/span&gt; counter&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+
+
+&lt;p&gt;You could likely solve it with a &lt;strong&gt;for loop&lt;/strong&gt; too, but that would require an &lt;strong&gt;f.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;case statement&lt;/strong&gt; is the next obvious branching construct. However, you cannot switch on a condition such as &lt;em&gt;does n == null&lt;/em&gt;. But you can switch on integers, and the &lt;tt&gt;identityHashCode&lt;/tt&gt; is good choice because the &lt;tt&gt;identityHashCode&lt;/tt&gt; for null is 0:&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp_syntax&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre class=&quot;java&quot; style=&quot;font-family: monospace;&quot;&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;int&lt;/span&gt; bar&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #003399;&quot;&gt;Object&lt;/span&gt; o&lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;{&lt;/span&gt;
+  &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;int&lt;/span&gt; hash &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #003399;&quot;&gt;System&lt;/span&gt;.&lt;span style=&quot;color: #006633;&quot;&gt;identityHashCode&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;o&lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;switch&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;hash&lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;{&lt;/span&gt;
+    &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;case&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  &lt;span style=&quot;color: #009900;&quot;&gt;}&lt;/span&gt;
+  &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Another conditional construct is the &lt;strong&gt;catch block&lt;/strong&gt;, since it only enters into the catch block if an exception is thrown. It’s pretty easy to raise an exception with a null reference:&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp_syntax&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre class=&quot;java&quot; style=&quot;font-family: monospace;&quot;&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;int&lt;/span&gt; bar&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #003399;&quot;&gt;Object&lt;/span&gt; o&lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;{&lt;/span&gt;
+  &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;try&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;{&lt;/span&gt;
+    o.&lt;span style=&quot;color: #006633;&quot;&gt;equals&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;o&lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+    &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  &lt;span style=&quot;color: #009900;&quot;&gt;}&lt;/span&gt; &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;catch&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #003399;&quot;&gt;NullPointerException&lt;/span&gt; e&lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;{&lt;/span&gt;
+    &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  &lt;span style=&quot;color: #009900;&quot;&gt;}&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Finally, I took the original question literally and wrote the &lt;strong&gt;if&lt;/strong&gt; &lt;strong&gt;statement&lt;/strong&gt; without an &lt;strong&gt;f&lt;/strong&gt;. This can be done by replacing the character with its unicode equivalent. I think this was a little cheeky and not really in the spirit of the question though:&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp_syntax&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre class=&quot;java&quot; style=&quot;font-family: monospace;&quot;&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;int&lt;/span&gt; bar&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #003399;&quot;&gt;Object&lt;/span&gt; o&lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;{&lt;/span&gt;
+  i\u0066&lt;span style=&quot;color: #009900;&quot;&gt;(&lt;/span&gt;o &lt;span style=&quot;color: #339933;&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;null&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;)&lt;/span&gt; 
+    &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;else&lt;/span&gt; 
+    &lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  &lt;span style=&quot;color: #009900;&quot;&gt;}&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Does anyone else have other suggestions for how to solve this? Or maybe Marc should just take Jesper’s advice:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;&lt;a href=&quot;https://twitter.com/irbull&quot;&gt;@irbull&lt;/a&gt; &lt;a href=&quot;https://twitter.com/marckhouzam&quot;&gt;@marckhouzam&lt;/a&gt; If the ?-key is broken as well, he needs a new keyboard.&lt;/p&gt;
+&lt;p&gt;— Jesper Eskilson (@JesperEs) &lt;a href=&quot;https://twitter.com/JesperEs/status/761457229035888640&quot;&gt;August 5, 2016&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block;&quot;&gt;&lt;a href=&quot;https://twitter.com/intent/tweet?source=webclient&amp;amp;text=Branching+Without+an+if%2C+A+Java+Puzzle&amp;amp;via=eclipsesource&amp;amp;url=http://eclipsesource.com/blogs/2016/08/06/branching-without-an-if-a-java-puzzle/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on Twitter&quot;&gt;&lt;img alt=&quot;Twitter&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/twitter.png&quot; title=&quot;Twitter&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://plus.google.com/share?url=http://eclipsesource.com/blogs/2016/08/06/branching-without-an-if-a-java-puzzle/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;+1&quot;&gt;&lt;img alt=&quot;Google+&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/google_plus.png&quot; title=&quot;Google+&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://www.linkedin.com/cws/share?url=http://eclipsesource.com/blogs/2016/08/06/branching-without-an-if-a-java-puzzle/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on LinkedIn&quot;&gt;&lt;img alt=&quot;LinkedIn&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/linkedin.png&quot; title=&quot;LinkedIn&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=http://eclipsesource.com/blogs/2016/08/06/branching-without-an-if-a-java-puzzle/&amp;amp;t=Branching+Without+an+if%2C+A+Java+Puzzle&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;&lt;img alt=&quot;Facebook&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/facebook.png&quot; title=&quot;Facebook&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2016/08/06/branching-without-an-if-a-java-puzzle/#comments&quot;&gt;8 Comments&lt;/a&gt;. Tagged with &lt;a href=&quot;http://eclipsesource.com/blogs/tag/java/&quot; title=&quot;Java Tag&quot;&gt;Java&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/java/&quot; title=&quot;Java Tag&quot;&gt;Java&lt;/a&gt;&lt;p&gt;&lt;/p&gt;</description>
+	<pubDate>Sat, 06 Aug 2016 04:05:13 +0000</pubDate>
+</item>
+<item>
+	<title>Kichwa Coders: Why You Should Send Flowers To Open Source Developers</title>
+	<guid isPermaLink="false">http://kichwacoders.com/?p=888</guid>
+	<link>https://kichwacoders.com/2016/08/05/why-you-should-send-flowers-to-open-source-developers/</link>
+	<description>&lt;p&gt;&lt;img alt=&quot;IMG_1182&quot; class=&quot;alignnone size-full wp-image-889&quot; src=&quot;https://kichwacoders.files.wordpress.com/2016/08/img_1182.jpg?w=840&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You are probably thinking flowers are dumb: they die and they don’t do anything; they are for dates, weddings and funerals. Besides, open source developers do not need flowers, they need money. But nobody wants to pay for software, let alone open source software. Even though today &lt;a href=&quot;http://redmonk.com/jgovernor/2016/07/27/lets-hear-it-for-the-maintainers/&quot;&gt;open source software is as vital as roads and bridges, nobody wants to pay to maintain it&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So by all means let’s figure out a way to get more money for open source developers. But in the meantime, here’s why you should still send flowers.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt; Flowers show appreciation &lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Taskwarrior share some great &lt;a href=&quot;http://taskwarrior.org/docs/advice.html&quot;&gt;lessons learnt for open source maintainers&lt;/a&gt;. This includes cautionary tales like: &lt;em&gt;“People will pick a fight with you about all your incidental choices. Your issue tracker, your branching strategy, your version numbers, the text editor you use, and so on.” &lt;/em&gt;Open source developers are a tough bunch, but are still likely to suffer from &lt;a href=&quot;http://www.snarky.ca/how-i-stay-happy-making-open-source-software&quot;&gt;burnout&lt;/a&gt;. Sending flowers is the ultimate gesture of positivity and understanding. Plus there is all sorts of research out there that suggests flowers &amp;amp; plants improve mood and &lt;a href=&quot;http://www.plantinterscapes.com/2012/06/flowers-and-plants-in-the-workspace-promote-innovation-and-ideas/&quot;&gt;promote creativity in the workplace&lt;/a&gt;.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;strong&gt; People think you are more capable &amp;amp; emotionally intelligent&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If altruistic reasons are not enough, then consider this. The act of giving flowers has benefits for the giver. The act of giving makes people happy. There is also research that says people who send flower are &lt;a href=&quot;http://www.aboutflowers.com/health-benefits-a-research/power-of-giving-flowers-study.html&quot; target=&quot;_blank&quot;&gt;perceived as having higher emotional intelligence, capable and courageous&lt;/a&gt;.&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;&lt;strong&gt; You will be a better leader&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Small things can make all the difference. This idea is partly inspired by my favourite blogger, who wrote about the effect &lt;a href=&quot;http://blog.penelopetrunk.com/2007/07/02/my-run-in-with-marc-benioff-and-tips-to-be-a-star-performer/&quot;&gt;receiving flowers from Marc Benioff, CEO of Salesforce&lt;/a&gt; had on her. Basically really good leaders are always thinking of thoughtful ways to get the best out of everybody.&lt;/p&gt;
+&lt;p&gt;OK so now I have a confession to make. Maybe I am telling you this because Kichwa Coders have recently joined the realm of open source maintainers, heading up and contributing to the&lt;a href=&quot;https://projects.eclipse.org/projects/technology.january&quot;&gt; January project&lt;/a&gt;  (&lt;a href=&quot;https://kichwacoders.com/2016/01/26/introducing-project-january/&quot; target=&quot;_blank&quot;&gt;numpy &amp;amp; datastructures for Java&lt;/a&gt;). And we are gearing up, together with the rest of the &lt;a href=&quot;http://science.eclipse.org/&quot; target=&quot;_blank&quot;&gt;Eclipse Science Working Group,&lt;/a&gt; for our first major &lt;a href=&quot;https://wiki.eclipse.org/Science_WG/2016_Release&quot; target=&quot;_blank&quot;&gt;science release&lt;/a&gt;. It is an amazing project that will provide tool infrastructure for countless scientific projects. So it will be awesome, but there is still some trepidation when you cross the threshold from open source user to open source maintainer. It is a little bit like how when you have your own kids, you finally really appreciate your parents and wonder how they did it. Right now I am in awe of open source leads and maintainers everywhere. So just do it. Send flowers to open source developers. And while you’re at it, send some to your parents too.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kichwacoders.wordpress.com/888/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kichwacoders.wordpress.com/888/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kichwacoders.com&amp;amp;blog=68353182&amp;amp;post=888&amp;amp;subd=kichwacoders&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 05 Aug 2016 12:46:21 +0000</pubDate>
+</item>
+<item>
+	<title>Karsten Thoms: One Xpand user less, one happy Xtend user more</title>
+	<guid isPermaLink="false">http://kthoms.wordpress.com/?p=718</guid>
+	<link>https://kthoms.wordpress.com/2016/08/05/one-xpand-user-less-one-happy-xtend-user-more/</link>
+	<description>&lt;p&gt;This week I am consulting a customer who had introduced a model based development approach based almost 10 years ago and used it with success since then. At the time back then &lt;a href=&quot;https://eclipse.org/modeling/m2t/?project=xpand&quot;&gt;Xpand&lt;/a&gt; was the most powerful code generation engine and UML models were often used to generate code from. Xtext did not even exist at that time. The customer uses Enterprise Architect and the Enterprise Architect exporter from the &lt;a href=&quot;http://components4oaw.sourceforge.net/&quot;&gt;components4oaw&lt;/a&gt;. The last release was in 2011 and the project has not been developed further. For my customer the component just did what it should, so there was no direct need to change anything at the process. The EA exporter has its flaws, especially since it needs an Enterprise Architect installation and this means it only works on Windows machines. For Enterprise Architect users who do model based development, we therefore offer the &lt;a href=&quot;https://marketplace.eclipse.org/content/yakindu-ea-bridge&quot;&gt;YAKINDU Enterprise Architect Bridge&lt;/a&gt;, which scales better and can process .eap models on any platform.&lt;/p&gt;
+&lt;p&gt;My task was to help the customer to modernize their tool chain. To be fair, Xpand is not the right choice anymore. The Xtend Language combines the strengths from Xpand (great templating support, functional programming, static typing, polymorphic dispatch, mature Eclipse tooling) and resolved some weaknesses (performance, compiled code instead of interpreted, Java integration, extensibility of expressions).&lt;/p&gt;
+&lt;p&gt;For the customer who never had used Xtend so far, but was quite familiar with Xpand, it was quite a surprise how close both languages really are. Most of the concepts can be mapped 1:1 from good old Xpand to Xtend. We created a small generator from scratch and copied functions and templates and translated them manually for demonstration. They understood Xtend within minutes then. Most of the work is monkey-see-monkey-do. For such cases I wrote a small migration script which can translate Xpand,Xtend(1) and Check code to Xtend(2) classes. We used that script now for an initial translation.&lt;/p&gt;
+&lt;p&gt;One of the reasons why this migration script is not published is that cannot translate Xpand code completely to Xtend. The tool parses Xpand templates and traverses the AST to transform the expressions to Xtend equivalents. But it does not know about the type system which is used by the generator. &lt;/p&gt;
+&lt;p&gt;And here Xtend is not as powerful as Xpand, especially when using UML. In Xpand, the UML type system adapter analyzed the applied profiles of a model to create virtual types for stereotypes. Elements with stereotypes applied can be processed as if they were of a subtype of the extended type, and tagged values became attributes. In Xtend, there is only the Java type system, and for processing UML models this means that templates have to use the UML metamodel directly. The old “feeling” of a real type system can be simulated with a set of extension functions. I usually introduce an extension class per profile which offers for example a method per tagged value. The creation of such an extension class can again be automated by generating it from a profile .uml model.&lt;/p&gt;
+&lt;p&gt;Another disadvantage against the Xpand framework is that Xtend is not a code generation framework, but a general purpose programming language. How a generator component looks like that invokes the templates, where to produce output to, how to integrate constraint checks, this all is not provided.&lt;/p&gt;
+&lt;p&gt;What I usually do here is to use Xtext’s infrastructure like the &lt;code&gt;IGenerator&lt;/code&gt; interface and validation based on Xtext’s &lt;code&gt;AbstractDeclarativeValidator&lt;/code&gt; and &lt;code&gt;@Check&lt;/code&gt; annotations. I reuse Xtext’s MWE Reader and Generator component. However, this requires some work and advanced knowledge. The basic approach is here to make UML models recognized by Xtext as a generic EMF resource. To actually use the Xtext components, a generator specific Guice module has to be created which extends &lt;code&gt;AbstractGenericResourceRuntimeModule&lt;/code&gt; and satisfy several dependencies which an Xtext language already as configured by default. A good part of the approach was described by Christian Dietrich in his blog posts “&lt;a href=&quot;https://christiandietrich.wordpress.com/2011/07/29/xtend2-code-generators-with-non-xtext-models&quot;&gt;Xtend2 Code Generators with Non-Xtext Models&lt;/a&gt;” and “&lt;a href=&quot;https://christiandietrich.wordpress.com/2011/07/17/xtext-2-0-and-uml/&quot;&gt;Xtext 2.0 and UML&lt;/a&gt;“. I may go into details in a later blog post.&lt;/p&gt;
+&lt;p&gt;Although Xtend is such a natural choice for writing code generators and it is so well-integrated in the Xtext ecosystem, there is framework support missing for non-Xtext models. It is easy to write a trivial framework, but why should everyone start writing their own when good infrastructure already exists in the Xtext framework? From what I experienced again, there is need to have some more framework support for this use case. I doubt that it could be part of Xtext itself, but maybe we will provide a framework for Xtend based code generators in the future.&lt;/p&gt;
+&lt;p&gt;At the end we were able to show and demonstrate a migration path in one single workshop day. The customer was happy to save several days or weeks of time. The workshop costs were compensated by far for them. From a sales perspective it might not be wise to leave a customer in a state where he is not dependent on our services in the next time, but this is not how we work. For me it feels right.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.&lt;/p&gt;&lt;/blockquote&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kthoms.wordpress.com/718/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kthoms.wordpress.com/718/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kthoms.wordpress.com&amp;amp;blog=6829080&amp;amp;post=718&amp;amp;subd=kthoms&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 05 Aug 2016 03:07:28 +0000</pubDate>
+</item>
+<item>
+	<title>RCP Testing Tool: RCPTT RAP</title>
+	<guid isPermaLink="true">https://www.eclipse.org/rcptt/blog/2016/08/05/rap.html</guid>
+	<link>https://www.eclipse.org/rcptt/blog/2016/08/05/rap.html</link>
+	<description>&lt;h3&gt;RCPTT can now test Eclipse RAP applications!&lt;/h3&gt;
+
+&lt;img src=&quot;https://www.eclipse.org/rcptt/shared/img/rap/pasted-image-88.png&quot; width=&quot;600&quot; /&gt;
+
+&lt;h4&gt;Features supported&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt; RAP Recording&lt;/li&gt;
+&lt;li&gt; RAP Replay&lt;/li&gt;
+&lt;li&gt; Folder/ECL/Workbench/Parameters context support&lt;/li&gt;
+&lt;li&gt; Unzipped WAR launching via Launch configurations from RCPTT&lt;/li&gt;
+&lt;li&gt; Capability Context / Convert contexts to Capability context&lt;/li&gt;
+&lt;li&gt; RAP Download/Upload support&lt;/li&gt;
+&lt;li&gt; Extra ECL command for RAP&lt;/li&gt; 
+&lt;/ul&gt;
+
+Find more in &lt;a href=&quot;https://www.eclipse.org/rcptt/documentation/userguide/rap&quot;&gt;RAP documentation&lt;/a&gt;.</description>
+	<pubDate>Fri, 05 Aug 2016 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>RCP Testing Tool: RCPTT 2.1.0 (Neon) Released</title>
+	<guid isPermaLink="true">https://www.eclipse.org/rcptt/blog/2016/08/05/2_1_0-released.html</guid>
+	<link>https://www.eclipse.org/rcptt/blog/2016/08/05/2_1_0-released.html</link>
+	<description>&lt;p&gt;
+On June, 26, we've released Neon-based version of RCP Testing Tool as participants of Simultaneous Neon Release. &lt;br /&gt;
+
+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;RCPTT IDE is migrated from Mars to Neon to allow users to install it into their developer Eclipse installations.&lt;/li&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;li&gt;For RCPTT IDE assertion filtering was introduced helping to search by asserted value or property.&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+The review information is available &lt;a href=&quot;https://projects.eclipse.org/projects/technology.rcptt/reviews/2.1-neon-release-review&quot;&gt;here&lt;/a&gt; and the latest version can be downloaded from &lt;a href=&quot;https://www.eclipse.org/rcptt/download/&quot;&gt;Downloads page&lt;/a&gt;.
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+You can also install RCPTT as an eclipse plugin from an Update Site or from &lt;a href=&quot;https://marketplace.eclipse.org/content/rcptt-eclipse-ui-testing-tool&quot;&gt;Eclipse Marketplace&lt;/a&gt;. 
+&lt;/p&gt;</description>
+	<pubDate>Fri, 05 Aug 2016 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Melanie Bats: UML Designer 7.0</title>
+	<guid isPermaLink="false">http://melb.enix.org/?p=366</guid>
+	<link>http://melb.enix.org/modeling/uml-designer-7-0/</link>
+	<description>&lt;p&gt;&lt;a href=&quot;http://umldesigner.org&quot;&gt;UML Designer&lt;/a&gt; 7.0 is out. This new release is based on Eclipse &lt;a href=&quot;https://www.eclipse.org/sirius/doc/Release_Notes.html#sirius4.0.0&quot;&gt;Sirius 4.0&lt;/a&gt; and Eclipse &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.6/&quot;&gt;Neon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It provides plenty of brand new features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bi-directional link with editor (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/523&quot;&gt;#523&lt;/a&gt;)&lt;br /&gt;
+&lt;a href=&quot;https://cloud.githubusercontent.com/assets/1185863/17333487/e78d98f2-58d2-11e6-977f-329b1fa0eed1.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;image&quot; src=&quot;https://cloud.githubusercontent.com/assets/1185863/17333487/e78d98f2-58d2-11e6-977f-329b1fa0eed1.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New dashboard based on the Activity Explorer from Amalgam (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/827&quot;&gt;#827&lt;/a&gt;)&lt;br /&gt;
+&lt;a href=&quot;https://cloud.githubusercontent.com/assets/1185863/17333707/ab47b49e-58d3-11e6-87a0-673bf27980d7.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;image&quot; src=&quot;https://cloud.githubusercontent.com/assets/1185863/17333707/ab47b49e-58d3-11e6-87a0-673bf27980d7.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://cloud.githubusercontent.com/assets/1185863/17333694/9d0d8fb6-58d3-11e6-99ba-1ce0b91e8e08.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;image&quot; src=&quot;https://cloud.githubusercontent.com/assets/1185863/17333694/9d0d8fb6-58d3-11e6-99ba-1ce0b91e8e08.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Class diagram:
+&lt;ul&gt;
+&lt;li&gt;represent abstract element in italic (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/758&quot;&gt;#758&lt;/a&gt;)&lt;br /&gt;
+&lt;a href=&quot;https://cloud.githubusercontent.com/assets/1185863/17334951/7d2a9b80-58d8-11e6-9619-78144d8e2253.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;image&quot; src=&quot;https://cloud.githubusercontent.com/assets/1185863/17334951/7d2a9b80-58d8-11e6-9619-78144d8e2253.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;represent static element underlined (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/363&quot;&gt;#363&lt;/a&gt;)&lt;br /&gt;
+&lt;a href=&quot;https://cloud.githubusercontent.com/assets/1185863/17335040/d60349f0-58d8-11e6-910b-bf25be8c4334.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;image&quot; src=&quot;https://cloud.githubusercontent.com/assets/1185863/17335040/d60349f0-58d8-11e6-910b-bf25be8c4334.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;view the qualified name of a class in the tooltip (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/851&quot;&gt;#851&lt;/a&gt;)&lt;br /&gt;
+&lt;a href=&quot;https://cloud.githubusercontent.com/assets/1185863/17368966/a236cf34-5996-11e6-86de-fe9e1e3867b2.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;image&quot; src=&quot;https://cloud.githubusercontent.com/assets/1185863/17368966/a236cf34-5996-11e6-86de-fe9e1e3867b2.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;stabilize association class (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/856&quot;&gt;#856&lt;/a&gt;, &lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/854&quot;&gt;#854&lt;/a&gt;, &lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/857&quot;&gt;#857&lt;/a&gt;),&lt;/li&gt;
+&lt;li&gt;support N-ary association (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/850&quot;&gt;#850&lt;/a&gt;, &lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/855&quot;&gt;#855&lt;/a&gt;, &lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/853&quot;&gt;#853&lt;/a&gt;)&lt;br /&gt;
+&lt;a href=&quot;https://cloud.githubusercontent.com/assets/1185863/17369172/85d9527a-5997-11e6-95b2-8ca33ee8733b.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;image&quot; src=&quot;https://cloud.githubusercontent.com/assets/1185863/17369172/85d9527a-5997-11e6-95b2-8ca33ee8733b.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;support qualifiers on association ends (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/434&quot;&gt;#434&lt;/a&gt;)&lt;br /&gt;
+&lt;a href=&quot;https://cloud.githubusercontent.com/assets/1185863/17369717/aa841d1a-5999-11e6-860e-eeaa12dd01da.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;image&quot; src=&quot;https://cloud.githubusercontent.com/assets/1185863/17369717/aa841d1a-5999-11e6-860e-eeaa12dd01da.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;State machine diagram: orthogonal regions re-implemented by using the Sirius compartment feature (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/125&quot;&gt;#125&lt;/a&gt;)&lt;br /&gt;
+&lt;a href=&quot;https://cloud.githubusercontent.com/assets/1185863/17334050/184c1390-58d5-11e6-921f-b631a0739413.png&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;image&quot; src=&quot;https://cloud.githubusercontent.com/assets/1185863/17334050/184c1390-58d5-11e6-921f-b631a0739413.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Activity diagram: optional body layer (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/757&quot;&gt;#757&lt;/a&gt;, &lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/846&quot;&gt;#846&lt;/a&gt;) and some bug fixes (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/865&quot;&gt;#865&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Sequence diagram: clean &amp;amp; reorder the palette (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/858&quot;&gt;#858&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Use case diagram: handle non human actor (&lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues/46&quot;&gt;#46&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All closed issues are available on &lt;a href=&quot;https://github.com/ObeoNetwork/UML-Designer/issues?q=milestone%3A7.0.0+is%3Aclosed&quot;&gt;https://github.com/ObeoNetwork/UML-Designer/milestones/7.0.0&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Try it and download it on: &lt;a href=&quot;http://www.umldesigner.org/download/&quot;&gt;http://www.umldesigner.org/download/&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Thu, 04 Aug 2016 15:18:36 +0000</pubDate>
+</item>
+<item>
+	<title>Chris Aniszczyk: Improved GitHub Code Review Tools</title>
+	<guid isPermaLink="false">http://aniszczyk.org/?p=4098</guid>
+	<link>http://aniszczyk.org/2016/08/04/improved-github-code-review-tools/</link>
+	<description>&lt;p&gt;The default GitHub code review experience has always been lacking for me, especially when it comes to code review enforcement. I definitely admit to my bias of being a &lt;a href=&quot;https://www.gerritcodereview.com/&quot;&gt;Gerrit&lt;/a&gt; code review fan but at least GitHub is moving in the right direction with recent code review &lt;a href=&quot;https://github.com/blog/2123-more-code-review-tools&quot;&gt;improvements&lt;/a&gt; earlier this year.&lt;/p&gt;
+&lt;p&gt;On the bright side, GitHub has a fairly open API and there’s been a great ecosystem of tools that have popped up that help deal with some of the shortcomings in my opinion. Even more so after GitHub opened up the &lt;a href=&quot;https://developer.github.com/changes/2014-03-27-combined-status-api/&quot;&gt;commit status API&lt;/a&gt;, it’s definitely enabled some interesting workflows.&lt;/p&gt;
+&lt;h5 style=&quot;text-align: left;&quot;&gt;PullApprove&lt;/h5&gt;
+&lt;p&gt;One interesting code review workflow involves enforcing that changes must be reviewed by certain team members (which is a fairly common code review practice). In my opinion, the best tool that I’ve come across that handle this scenario is &lt;a href=&quot;https://pullapprove.com/&quot;&gt;PullApprove&lt;/a&gt;. All you need is a simple metadata file that formalizes your requirements, and you’re good to go, here’s an example of what we use in the &lt;a href=&quot;https://github.com/opencontainers/image-spec/blob/master/.pullapprove.yml&quot;&gt;OCI project&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;approve_by_comment: true&lt;br /&gt;
+approve_regex: '^(Approved|lgtm|LGTM|:shipit:|:star:|:\+1:|:ship:)'&lt;br /&gt;
+reject_regex: ^Rejected&lt;br /&gt;
+reset_on_push: true&lt;br /&gt;
+signed_off_by:&lt;br /&gt;
+required: true&lt;br /&gt;
+reviewers:&lt;br /&gt;
+teams:&lt;br /&gt;
+- image-spec-maintainers&lt;br /&gt;
+name: default&lt;br /&gt;
+required: 2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The important pieces here are the approve/reject regexes which dictate what terms will be used to approve and reject changes:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/opencontainers/runtime-spec/pull/526&quot;&gt;&lt;img alt=&quot;PullApprove&quot; class=&quot;aligncenter wp-image-4107&quot; height=&quot;384&quot; src=&quot;http://aniszczyk.org/wp-content/uploads/2016/08/Screen-Shot-2016-08-04-at-9.46.27-AM-300x230.png&quot; width=&quot;500&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As a bonus, the “signed_off_by” setting can be used to enforce &lt;a href=&quot;http://developercertificate.org/&quot;&gt;DCO&lt;/a&gt; which is to make sure your commits are properly signed off for DCO purposes.&lt;/p&gt;
+&lt;h5 style=&quot;text-align: left;&quot;&gt;LGTM&lt;/h5&gt;
+&lt;p&gt;I also want to give an honorable mention to &lt;a href=&quot;https://github.com/lgtmco/lgtm&quot;&gt;LGTM&lt;/a&gt; which is a simple pull request approval system that is open source but not as configurable as PullApprove IMHO.&lt;/p&gt;
+&lt;h5 style=&quot;text-align: left;&quot;&gt;Reviewable.io&lt;/h5&gt;
+&lt;p&gt;For any large scale and high velocity projects on GitHub, managing what you need to review can be a daunting task. I’ve personally found &lt;a href=&quot;https://reviewable.io/reviews/Reviewable/demo/1&quot;&gt;Reviewable.io&lt;/a&gt; as an interesting tool that helps address the problem of managing the context of what you looked last and what’s on your queue.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;lightbox&quot; href=&quot;https://reviewable.io/reviews/Reviewable/demo/1&quot;&gt;&lt;img alt=&quot;Screen Shot 2016-08-04 at 9.49.55 AM&quot; class=&quot;aligncenter size-large wp-image-4109&quot; height=&quot;530&quot; src=&quot;http://aniszczyk.org/wp-content/uploads/2016/08/Screen-Shot-2016-08-04-at-9.49.55-AM-1024x786.png&quot; width=&quot;690&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anyways, hope this helps and happy code reviewing! If you’re interested in more integrated GitHub code review tools, I highly recommend checking out the GitHub &lt;a href=&quot;https://github.com/integrations&quot;&gt;integration directory&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Thu, 04 Aug 2016 14:56:16 +0000</pubDate>
+</item>
+<item>
+	<title>Christian Pontesegger: Regular Expression Tester</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-3460102793186140898.post-3003179168853817689</guid>
+	<link>http://codeandme.blogspot.com/2016/08/regular-expression-tester.html</link>
+	<description>There are quite a lot regular expression tester utilities available for Eclipse. While all of them do a good job my favorite is &lt;a href=&quot;https://github.com/sbrosinski/RegexTester&quot; target=&quot;_blank&quot;&gt;RegExTester&lt;/a&gt;.&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-zWSQz21hMKU/V6MFYg7KFsI/AAAAAAAAArc/uhpKSOZomEYGu5htXllgh95cBC5crClVQCLcB/s1600/regex.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://4.bp.blogspot.com/-zWSQz21hMKU/V6MFYg7KFsI/AAAAAAAAArc/uhpKSOZomEYGu5htXllgh95cBC5crClVQCLcB/s1600/regex.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;This project has not seen any updates for more than 2 years now, so some of you might consider it discontinued, I call it rock stable!&lt;br /&gt;&lt;br /&gt;While working on my Oomph tutorials I found it really annoying that this little tool does not come with a p2 update site, so I created one and put it online. Feel free to use it for your own installations.&lt;br /&gt;&lt;br /&gt;&lt;u&gt;&lt;b&gt;P2 site:&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;https://dl.bintray.com/pontesegger/regextester/</description>
+	<pubDate>Thu, 04 Aug 2016 09:06:01 +0000</pubDate>
+	<author>noreply@blogger.com (Christian Pontesegger)</author>
+</item>
+<item>
+	<title>typefox.io: Xtext Core – Less is More</title>
+	<guid isPermaLink="false">http://typefox.io/?p=13814</guid>
+	<link>http://typefox.io/xtext-core-less-is-more</link>
+	<description>&lt;p&gt;In this post I want to give a short update of what we’ve been doing in Xtext and what the future plans are. As you probably know, Xtext has been around for a couple of years growing into a very mature framework for implementing full blown programming languages like Xtend as well as simpler more focussed domain specific languages. One of the big features is the additional tool support that the framework provides. We started out with Eclipse support and now added support for IntelliJ IDEA and the web editors Ace, CodeMirror and Orion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Divide &amp;amp; Conquer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As you can imagine supporting a full language development framework with tool support for different editors and IDEs means we need to maintain a lot of code and dependencies. Also, the different IDEs use different build systems which doesn’t make it easier. So far everything was developed in one gigantic repository. For collaborators and users it was very hard to get into it and identify the different parts.&lt;/p&gt;
+&lt;p&gt;To ensure a more sustainable future for Xtext and especially the core component, which is platform (editor/IDE) independent, we have split up the repository into individual ones and reimplemented the build system. The goal was to end up with coherent, easy to understand sub projects. Xtext Core now contains only the basic framework for both runtime and tool support, but without any tool specific dependencies. It uses Gradle as the build system, which we tried to use where possible (only the Eclipse bundles are built with Tycho). So you simply checkout and call&lt;/p&gt;&lt;pre class=&quot;crayon-plain-tag&quot;&gt;./gradlew clean build&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_13815&quot; style=&quot;width: 679px;&quot;&gt;&lt;img alt=&quot;xtext_2_11&quot; class=&quot;wp-image-13815 size-large&quot; height=&quot;502&quot; src=&quot;http://typefox.io/wp-content/uploads/2016/08/architecture.002-1024x768.png&quot; width=&quot;669&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;A simplified overview of Xtext’s components&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Language Server Protocol&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you follow this blog or other public activities from us, you might have noticed that we are actively pushing the &lt;a href=&quot;https://github.com/Microsoft/language-server-protocol&quot;&gt;Language Server Protocol&lt;/a&gt; initiative. So in addition to the restructuring this is the second ingredient to a smaller more coherent Xtext. The LSP is an editor and language agnostic protocol that can be used between any editor and any language for advanced language support like content assist, find references and so on.&lt;/p&gt;
+&lt;p&gt;The LSP is the perfect match for Xtext, and the support of it will be the main new feature in the upcoming version (2.11). For the future this means that we are not going to add more sub projects like “&lt;em&gt;xtext-coolneweditor&lt;/em&gt;” but focus on the core and let the tools focus on the proper implementation of LSP. I see this as a very important scope adjustment for a sustainable life of the project.&lt;/p&gt;
+&lt;p&gt;Today, VSCode is the only editor that fully supports the protocol, but other teams are working on support for further platforms, too! Especially in the Eclipse community &lt;a href=&quot;http://che.eclipse.org/press-release-red-hat-codenvy-microsoft-collaborate-language-server-protocol/&quot;&gt;Che&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=A-jnqySRA50&quot;&gt;Orion&lt;/a&gt; and the classic &lt;a href=&quot;https://github.com/eclipselabs/eclipse-language-service&quot;&gt;Eclipse IDE&lt;/a&gt; are adopting it. By supporting the LSP your Xtext language will run in these editors without further ado. It will take some time until the LSP support in Eclipse catches up with the native Eclipse integration of Xtext. Until then (and probably beyond) we will maintain the specific platform support.&lt;/p&gt;
+&lt;p&gt;So if you are nearly as excited about this as I am, you could try it out today already (there is still work ahead of us). Miro published &lt;a href=&quot;http://typefox.io/building-a-vs-code-extension-with-xtext-and-the-language-server-protocol&quot;&gt;a tutorial&lt;/a&gt; about it a couple of days ago.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Release in October&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Xtext 2.11 is going to be released on October 18, right before EclipseCon Europe. It will be fully API compatible to earlier versions, it is just built with Gradle and developed in smaller more cleanly separated modules. And of course you only need the &lt;em&gt;Core&lt;/em&gt; to run in VSCode and other tools through the Language Server Protocol!&lt;/p&gt;
+&lt;p&gt;P.S: I will give two sessions at EclipseCon Europe related to this. One is about the &lt;a href=&quot;https://www.eclipsecon.org/europe2016/session/language-server-protocol-explained&quot;&gt;LSP&lt;/a&gt; and the other is about &lt;a href=&quot;https://www.eclipsecon.org/europe2016/session/introducing-xtext-core&quot;&gt;Xtext Core&lt;/a&gt; and the vision behind it. Looking forward to see many of you in Ludwigsburg!&lt;/p&gt;</description>
+	<pubDate>Tue, 02 Aug 2016 11:22:09 +0000</pubDate>
+</item>
+<item>
+	<title>Philip Wenig: OpenChrom 1.1.0 “Diels”</title>
+	<guid isPermaLink="false">http://openchrom.wordpress.com/?p=469</guid>
+	<link>https://openchrom.wordpress.com/2016/08/01/openchrom-1-1-0-diels/</link>
+	<description>&lt;p&gt;I proudly announce the official release of &lt;strong&gt;OpenChrom 1.1.0 “Diels”&lt;/strong&gt;:&lt;br /&gt;
+&lt;a href=&quot;https://www.openchrom.net/download&quot; target=&quot;_blank&quot;&gt;https://www.openchrom.net/download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Have a look at our blog!&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;http://spectrometrylab.wordpress.com&quot; target=&quot;_blank&quot;&gt;http://spectrometrylab.wordpress.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://openchrom.files.wordpress.com/2016/08/openchromsnapshot.png&quot;&gt;&lt;img alt=&quot;OpenChrom 1.1.0 (Diels)&quot; class=&quot;alignnone size-large wp-image-470&quot; height=&quot;360&quot; src=&quot;https://openchrom.files.wordpress.com/2016/08/openchromsnapshot.png?w=640&amp;amp;h=360&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=openchrom.wordpress.com&amp;amp;blog=25006439&amp;amp;post=469&amp;amp;subd=openchrom&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 01 Aug 2016 15:10:50 +0000</pubDate>
+</item>
+<item>
+	<title>Kim Moir: Eclipse Committer Emeritus</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-25023280.post-5155097520029709680</guid>
+	<link>http://relengofthenerds.blogspot.com/2016/07/eclipse-committer-emeritus.html</link>
+	<description>I received this very kind email in my inbox this morning. &lt;br /&gt;&lt;br /&gt;&quot;David Williams has expired your commit rights to the&lt;br /&gt;eclipse.platform.releng project.  The reason for this change is:&lt;br /&gt;&lt;br /&gt;We have all known this day would come, but it does not make it any easier.&lt;br /&gt;It has taken me four years to accept that Kim is no longer helping us with&lt;br /&gt;Eclipse. That is how large her impact was, both on myself and Eclipse as a&lt;br /&gt;whole. And that is just the beginning of why I am designating her as&lt;br /&gt;&quot;Committer Emeritus&quot;. Without her, I humbly suggest that Eclipse would not&lt;br /&gt;have gone very far. Git shows her active from 2003 to 2012 -- longer than&lt;br /&gt;most! She is (still!) user number one on the build machine. (In Unix terms,&lt;br /&gt;that is UID 500). The original admin, when &quot;Eclipse&quot; was just the Eclipse&lt;br /&gt;Project.&lt;br /&gt;&lt;br /&gt;She was not only dedicated to her job as a release engineer she was&lt;br /&gt;passionate about doing all she could to make other committer's jobs easier&lt;br /&gt;so they could focus on their code and specialties. She did (and still does)&lt;br /&gt;know that release engineering is a field of its own; a specialized&lt;br /&gt;profession (not something to &quot;tack on&quot; at the end) that just anyone can do)&lt;br /&gt; and good, committed release engineers are critical to the success of any&lt;br /&gt;project.&lt;br /&gt;&lt;br /&gt;For anyone reading this that did not know Kim, it is not too late: you can&lt;br /&gt;follow her blog at&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://relengofthenerds.blogspot.com/&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot;&gt;http://relengofthenerds.blogspot.com/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;You will see that she is still passionate about release engineering and&lt;br /&gt;influential in her field.&lt;br /&gt;&lt;br /&gt;And, besides all that, she was (I assume still is :) a well-rounded, nice&lt;br /&gt;person, that was easy to work with! (Well, except she likes running for&lt;br /&gt;exercise. :)&lt;br /&gt;&lt;br /&gt;Thanks, Kim, for all that you gave to Eclipse and my personal thanks for&lt;br /&gt;all that you taught me over the years (and I mean before I even tried to&lt;br /&gt;fill your shoes in the Platform).&lt;br /&gt;&lt;br /&gt;We all appreciate your enormous contribution to the success of Eclipse and&lt;br /&gt;happy to see your successes continuing.&lt;br /&gt;&lt;br /&gt;To honor your contributions to the project, David Williams has nominated&lt;br /&gt;you for Committer Emeritus status.&quot;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Thank you David! I really appreciate your kind words.  I learned so much working with everyone in the Eclipse community.  I had the intention to contribute to Eclipse when I left IBM but really felt that I have given all I had to give.  Few people have the chance to contribute to two fantastic open source communities during their career.  I'm lucky to have that opportunity. &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-m6O4qaEXPzQ/V5t6xG_umJI/AAAAAAAAEs0/vfdNVZq2WsstqfqdeaepFr8GphvoNkV7ACLcB/s1600/IMG_0501.JPG&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;480&quot; src=&quot;https://3.bp.blogspot.com/-m6O4qaEXPzQ/V5t6xG_umJI/AAAAAAAAEs0/vfdNVZq2WsstqfqdeaepFr8GphvoNkV7ACLcB/s640/IMG_0501.JPG&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;My IBM friends made this neat Eclipse poster when I left.  The Mozilla dino displays my IRC handle.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;</description>
+	<pubDate>Fri, 29 Jul 2016 19:06:32 +0000</pubDate>
+	<author>noreply@blogger.com (Kim Moir)</author>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools AM2 for Eclipse Neon</title>
+	<guid isPermaLink="true">http://tools.jboss.org/blog/am2-for-neon.html</guid>
+	<link>http://tools.jboss.org/blog/am2-for-neon.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Happy to announce AM2 (Developer Milestone 2) build for Eclipse Neon.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Downloads available at &lt;a href=&quot;http://tools.jboss.org/downloads/jbosstools/neon/4.4.1.AM2.html&quot;&gt;JBoss Tools 4.4.1 AM2&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Full info is at &lt;a href=&quot;http://tools.jboss.org/documentation/whatsnew/jbosstools/4.4.1.AM2.html&quot;&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;openshift-3&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-3&quot;&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Although our main focus is bug fixes, we continue to work on providing better experience for container based development in JBoss Tools and Developer Studio. Let’s go through a few interesting updates here and you can find more details on &lt;a href=&quot;http://tools.jboss.org/documentation/whatsnew/jbosstools/4.4.1.AM2.html&quot;&gt;the What’s New page&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;server-templates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#server-templates&quot;&gt;&lt;/a&gt;Server templates&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Server templates are now displayed in the property view under the Templates tab:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Property view&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/openshift/images/property-view-template.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;forge&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#forge&quot;&gt;&lt;/a&gt;Forge&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;forge-runtime-updated-to-3-2-3-final&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#forge-runtime-updated-to-3-2-3-final&quot;&gt;&lt;/a&gt;Forge Runtime updated to 3.2.3.Final&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The included Forge runtime is now 3.2.3.Final. Read the official announcement &lt;a href=&quot;http://forge.jboss.org/news/jboss-forge-3.2.3.final-is-here&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;startup&quot; src=&quot;http://tools.jboss.org/documentation/whatsnew/forge/images/4.4.1.AM2/startup.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;freemarker&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#freemarker&quot;&gt;&lt;/a&gt;Freemarker&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;freemarker-2-3-25&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#freemarker-2-3-25&quot;&gt;&lt;/a&gt;Freemarker 2.3.25&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Freemarker library included in the Freemarker IDE was updated to latest available version 2.3.25.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;p&gt;Related JIRA: &lt;a href=&quot;https://issues.jboss.org/browse/JBIDE-22700&quot;&gt;JBIDE-22700&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;flth-fltx-file-extensions-added&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#flth-fltx-file-extensions-added&quot;&gt;&lt;/a&gt;flth / fltx file extensions added&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The new flth and fltx extensions have been added and associated with Freemarker IDE. &lt;code&gt;flth&lt;/code&gt; stands for HTML content whereas &lt;code&gt;fltx&lt;/code&gt; stands for XML content.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;p&gt;Related JIRA: &lt;a href=&quot;https://issues.jboss.org/browse/JBIDE-22636&quot;&gt;JBIDE-22636&lt;/a&gt;&lt;/p&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 29 Jul 2016 17:22:08 +0000</pubDate>
+</item>
+<item>
+	<title>Stefan Winkler: Disabling time synchronization in VirtualBox + Ubuntu 16.04</title>
+	<guid isPermaLink="true">https://www.winklerweb.net/index.php/blog/11-tools/25-disabling-time-synchronization-in-virtualbox-ubuntu-16-04</guid>
+	<link>https://www.winklerweb.net/index.php/blog/11-tools/25-disabling-time-synchronization-in-virtualbox-ubuntu-16-04</link>
+	<description>&lt;p&gt;Sometimes I need to test something in a VM which has an independent system time. Usually, this has to do with server applications which react time-based (think of a system in which users may enter information until a certain day is reached, after which only read-only is allowed). &lt;/p&gt;
+&lt;p&gt;On a standard installation of VirtualBox and Ubuntu 16.04, the system time is automatically synced to the host. When trying to change the date using &lt;code&gt;date -s 2015-01-01&lt;/code&gt; the date will be updated but will revert to the host's date after a few seconds.&lt;/p&gt;
+&lt;p&gt;Since I end up googling the correct way to disable the time synchronization in an Ubuntu VirtualBox client every time I set up my VM from scratch, I am posting the steps here as my personal reminder (it is always nice to get one's own article in a google result because one has forgotten ;)) - and maybe someone else also finds this useful:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Disable host time access (this is mentioned &lt;a href=&quot;http://stackoverflow.com/questions/25041213/how-to-disable-virtualbox-time-sync-from-within-the-guest-at-runtime&quot; rel=&quot;bookmark&quot;&gt;here&lt;/a&gt; - no idea if this is really required...):&lt;br /&gt;On the host, execute: &lt;br /&gt;&lt;code&gt;VBoxManage setextradata &quot;vm-name&quot; &quot;VBoxInternal/Devices/VMMDev/0/Config/GetHostTimeDisabled&quot; 1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Disable client time sync:&lt;br /&gt;On the client, edit &lt;code&gt;/opt/VBoxGuestAdditions-5.1.2/init/vboxadd-service&lt;/code&gt;  and in &lt;code&gt;start()&lt;/code&gt; replace&lt;br /&gt;&lt;code&gt;daemon $binary --pidfile $PIDFILE &amp;gt; /dev/null&lt;/code&gt;&lt;br /&gt;with&lt;br /&gt;&lt;code&gt;daemon $binary --disable-timesync --pidfile $PIDFILE &amp;gt; /dev/null&lt;br /&gt;&lt;/code&gt;&lt;br /&gt;and also look for the definition of &lt;code&gt;daemon()&lt;/code&gt; and add the fourth argument&lt;br /&gt;&lt;code&gt;if which start-stop-daemon &amp;gt;/dev/null 2&amp;gt;&amp;amp;1; then&lt;br /&gt;  daemon() {&lt;br /&gt;    start-stop-daemon --start --exec $1 -- $2 $3 $4&lt;br /&gt;  }&lt;br /&gt;...&lt;br /&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Just to be sure, remove the Ubuntu timesyncd as well:&lt;br /&gt;On the client, execute:&lt;br /&gt;&lt;code&gt;rm /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Reboot and from now on, changed system dates stay as intended.&lt;/p&gt;
+&lt;p&gt;BTW, I would like to be able to decouple the system time in docker as well, but from my understanding this is not possible because docker uses the host RTC directly and the only way to differ here is to set a different timezone, which has its limitations. But if someone knows a way to simulate a different system time in docker, I would love to hear about it!&lt;/p&gt;
+
+&lt;p&gt;{jcomments on}&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description>
+	<pubDate>Fri, 29 Jul 2016 08:01:54 +0000</pubDate>
+</item>
+
+</channel>
+</rss>

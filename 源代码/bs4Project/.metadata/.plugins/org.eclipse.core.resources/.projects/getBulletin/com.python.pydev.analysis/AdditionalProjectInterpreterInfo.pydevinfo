@@ -1,0 +1,46 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\save\sync\code\crawler\bs4Project\.metadata\.plugins\org.eclipse.core.resources\.projects\getBulletin\com.python.pydev.analysis\v2_indexcache
+mylog|1471355356561000000|E:\save\sync\code\crawler\bs4Project\getBulletin\mylog.py
+getYinyuetaiBulletin|1472740177313600000|E:\save\sync\code\crawler\bs4Project\getBulletin\getYinyuetaiBulletin.py
+getHeadersFromFile|1472726818003200000|E:\save\sync\code\crawler\bs4Project\getBulletin\getHeadersFromFile.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+3=mylog
+4=GetBulletin
+8=GetBulletin.__init__
+6=Item
+1=getYinyuetaiBulletin
+2=getHeadersFromFile
+7=MyLog.__init__
+5=MyLog
+-- END DICTIONARY
+-- START TREE 1
+5
+GB|1|GB!11@
+get|2|GetBulletin!9@getHeaders!18@
+hea|1|headers!19@
+ite|1|Item!9@
+myl|2|mylog!27@MyLog!25@
+-- END TREE
+-- START TREE 2
+17
+__i|2|__init__!4&10@__init__!5&26@
+con|1|content!6&11@
+cri|1|critical!5&26@
+deb|1|debug!5&26@
+err|1|error!5&26@
+for|1|formatter!7&27@
+get|1|getResponseContent!4&10@
+hea|1|headersFile!8&11@
+inf|1|info!5&26@
+log|5|logHandSt!7&27@logFile!7&27@logger!7&27@logHand!7&27@log!8&11@
+out|1|outFile!8&11@
+pip|1|pipelines!4&10@
+spi|1|spider!4&10@
+tit|1|title!6&11@
+url|1|url!8&11@
+use|1|user!7&27@
+war|1|warn!5&26@
+-- END TREE
