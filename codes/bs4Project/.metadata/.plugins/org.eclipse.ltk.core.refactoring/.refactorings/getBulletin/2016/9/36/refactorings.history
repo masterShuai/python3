@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;getBulletin/1.txt&apos; to &apos;headersRaw.txt&apos;" description="Rename resource &apos;1.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="1.txt" name="headersRaw.txt" stamp="1472726551161" updateReferences="true"/>
+</session>
