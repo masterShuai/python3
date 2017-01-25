@@ -1,0 +1,42 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\save\sync\code\crawler\bs4Project\.metadata\.plugins\org.eclipse.core.resources\.projects\moiveBS4\com.python.pydev.analysis\v2_indexcache
+mylog|1471355356561000000|E:\save\sync\code\crawler\bs4Project\moiveBS4\mylog.py
+get2016movie|1471627916965352000|E:\save\sync\code\crawler\bs4Project\moiveBS4\get2016movie.py
+-- END DISKCACHE
+-- START DICTIONARY
+7
+2=mylog
+7=MovieItem
+3=GetMovie
+5=MyLog.__init__
+1=get2016movie
+4=MyLog
+6=GetMovie.__init__
+-- END DICTIONARY
+-- START TREE 1
+4
+GM|1|GM!11@
+get|1|GetMovie!9@
+mov|1|MovieItem!9@
+myl|2|mylog!19@MyLog!17@
+-- END TREE
+-- START TREE 2
+16
+__i|2|__init__!3&10@__init__!4&18@
+cri|1|critical!4&18@
+deb|1|debug!4&18@
+err|1|error!4&18@
+for|1|formatter!5&19@
+get|3|getPages!3&10@getUrls!3&10@getResponseContent!3&10@
+inf|1|info!4&18@
+ite|1|items!6&11@
+log|5|log!6&11@logHandSt!5&19@logFile!5&19@logger!5&19@logHand!5&19@
+mov|3|movieScore!7&11@movieName!7&11@movieStarring!7&11@
+pag|1|pages!6&11@
+pip|1|pipelines!3&10@
+spi|1|spider!3&10@
+url|2|urls!6&11@urlBase!6&11@
+use|1|user!5&19@
+war|1|warn!4&18@
+-- END TREE
