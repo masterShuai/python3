@@ -18,6 +18,16 @@ NEWSPIDER_MODULE = 'simpleMovieCrawler.spiders'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'simpleMovieCrawler (+http://www.yourdomain.com)'
 
+
+### user define
+DOWNLOADER_MIDDLEWARES = {
+    'simpleMovieCrawler.middlewares.customMiddlewares.CustomUserAgent':3,
+    'crapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware':None
+}
+ITEM_PIPELINES = {'simpleMovieCrawler.pipelines.SimplemoviecrawlerPipeline':300}
+LOG_FILE  = "movieLogging.txt"
+
+
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 

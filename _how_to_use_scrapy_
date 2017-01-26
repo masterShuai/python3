@@ -1,0 +1,39 @@
+1.安装Scrapy 爬虫框架
+    先安装wheel ：
+        pip install wheel
+    验证：
+        wheel
+    安装相关依赖包：
+        pip install parsel
+        pip install w3lib
+        pip install cryptography
+        pip install pyOpenSSL
+    lxml和twisted可以在如下网站下载whl文件，之后在安装：http://www.lfd.uci.edu/~gohlke/pythonlibs/
+    安装相关依赖包：
+        pip install package/lxml-3.6.4-cp35-cp35m-win32.whl #cp35对应python3.5 win32对应32bit
+        pip install package/Twisted-16.6.0-cp35-cp35m-win32.whl
+    安装scrapy：
+        pip install scrapy
+
+2.使用Scrapy抓取
+    创建项目：
+        scrapy startproject simpleMovieCrawler
+        #[setting.py:配置文件] [__init__.py:无作用，将上级目录变为一个模块] [items.py:定义爬虫需要爬取的项][pipelines.py:处理爬取到的内容]
+    建立爬虫：
+        scrapy genspider [baiduMovie] https://dianying.nuomi.com/ #在spiders目录下生成[baiduMovie].py文件
+    选择爬取项目
+        修改items,py
+    定义爬取方式
+        修改baiduMovie.py
+    测试链接是否有效
+        scrapy shell https://dianying.nuomi.com    #建议换个网站，百度会返回http://mdianying.baidu.com/
+
+        #若报错 No module named 'win32api' 到上面网站下载pywin32‑220.1‑cp35‑cp35m‑win32.whl
+        #然后 pip install package/pywin32-220.1-cp35-cp35m-win32.whl
+        #然后将python安装目录下的"\Lib\site-packages\pywin32_system32"中两个.dll文件，复制到到"\Lib\site-packages\win32"
+    保存爬取内容
+        修改pipelines.py
+    运行爬虫
+        scrapy crawl baiduMovie
+
+
