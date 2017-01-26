@@ -1,0 +1,20 @@
+需要安装:
+1.Scrapy 爬虫框架
+    先安装wheel ：
+        pip install wheel
+    验证：
+        wheel
+    安装相关依赖包：
+        pip install parsel
+        pip install w3lib
+        pip install cryptography
+        pip install pyOpenSSL
+    lxml和twisted可以在如下网站下载whl文件，之后在安装：http://www.lfd.uci.edu/~gohlke/pythonlibs/
+    安装相关依赖包：
+        pip install package/lxml-3.6.4-cp35-cp35m-win32.whl #cp35对应python3.5 win32对应32bit
+        pip install package/Twisted-16.6.0-cp35-cp35m-win32.whl
+    安装scrapy：
+        pip install scrapy
+
+    创建项目：
+        scrapy startproject simpleMovieCrawler
